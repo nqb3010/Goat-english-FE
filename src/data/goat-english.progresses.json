@@ -1,0 +1,840 @@
+[{
+  "_id": {
+    "$oid": "67b5e96ec75bc0549b98571e"
+  },
+  "name": "Người vừa mới bắt đầu",
+  "description": "Theo dõi tiến độ của bạn theo cấp độ và giai đoạn - giành điểm cho mỗi từ bạn học, mỗi video bạn xem và mỗi cuộc trò chuyện cùng MemBot để tiếp tục lên cấp!",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' xmlns='http: //www.w3.org/2000/svg' data-v-inspector='src/views/Progress.vue:40:15'><path d='M4.516 21a.583.583 0 0 0 .44-.186.583.583 0 0 0 .187-.442v-5.258c.138-.045.419-.127.844-.245.425-.124.984-.186 1.677-.186.857 0 1.645.085 2.364.255.72.163 1.416.356 2.09.579.673.215 1.36.408 2.06.578.7.17 1.455.255 2.266.255.712 0 1.249-.039 1.608-.117.367-.079.72-.193 1.06-.344.307-.143.552-.336.735-.578.19-.242.285-.56.285-.952V5.021a.644.644 0 0 0-.265-.55.999.999 0 0 0-.628-.196c-.229 0-.572.066-1.03.196-.451.131-1.075.197-1.873.197-.811 0-1.57-.082-2.276-.246-.7-.17-1.386-.363-2.06-.578a25.03 25.03 0 0 0-2.09-.589C9.192 3.085 8.404 3 7.548 3c-.707 0-1.24.04-1.6.118-.359.078-.712.193-1.059.343a2.01 2.01 0 0 0-.745.579c-.183.235-.275.55-.275.941v15.391c0 .17.062.317.186.442.131.124.285.186.462.186Z' fill='currentColor' data-v-inspector='src/views/Progress.vue:47:17'></path></svg>",
+  "order": 1,
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:23:42.271Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T16:40:41.549Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e9bdc75bc0549b985720"
+  },
+  "name": "Người mới bắt đầu",
+  "description": "Thu lượm những thành tố quan trọng của ngôn ngữ đang học, như từ vựng, các mẫu câu thiết yếu, và các kỹ năng giao tiếp cơ bản phục vụ việc hiểu và thể hiện suy nghĩ.",
+  "icon": "",
+  "order": 2,
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:01.782Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:01.782Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e9cbc75bc0549b985722"
+  },
+  "name": "Sơ cấp",
+  "description": "Tiến tới sự giao tiếp trôi chảy bằng cách tinh chỉnh từ vựng và các kỹ năng nghe/nói để giao tiếp hiệu quả.",
+  "icon": "",
+  "order": 3,
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:15.661Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:15.661Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e9f4c75bc0549b985724"
+  },
+  "name": "Trung cấp",
+  "description": "Vươn tới khả năng giao tiếp trôi chảy mà không cần nhiều nỗ lực, cho bạn tự tin ở mọi tình huống khác nhau.",
+  "icon": "",
+  "order": 4,
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:56.698Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:56.698Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5ea0fc75bc0549b985726"
+  },
+  "name": "Hơi nâng cao",
+  "description": "Phát triển tới cấp độ khá nâng cao của ngoại ngữ đang học, thể hiện khả năng hiểu và giao tiếp thành thạo trong những tình huống phức tạp.",
+  "icon": "",
+  "order": 5,
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:26:23.906Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:26:23.906Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5ea24c75bc0549b985728"
+  },
+  "name": "Nâng cao",
+  "description": "Đạt trình độ gần bằng người bản ngữ, có vốn hiểu thông thấu và khả năng giao tiếp dễ dàng, với độ chính xác tuyệt vời.",
+  "icon": "",
+  "order": 6,
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:26:44.274Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:26:44.274Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5ea36c75bc0549b98572a"
+  },
+  "name": "Thành thạo",
+  "description": "Hành trình ngoại ngữ là vô tận! Hãy tiếp tục trau dồi kỹ năng của bạn để trở thành một bậc thầy ngoại ngữ.",
+  "icon": "",
+  "order": 7,
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:27:02.209Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-25T14:12:00.681Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e96ec75bc0549b985710"
+  },
+  "name": "Người vừa mới bắt đầu",
+  "description": "Theo dõi tiến độ của bạn theo cấp độ và giai đoạn - giành điểm cho mỗi từ bạn học, mỗi video bạn xem và mỗi cuộc trò chuyện cùng MemBot để tiếp tục lên cấp!",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' xmlns='http: //www.w3.org/2000/svg' data-v-inspector='src/views/Progress.vue:40:15'><path d='M4.516 21a.583.583 0 0 0 .44-.186.583.583 0 0 0 .187-.442v-5.258c.138-.045.419-.127.844-.245.425-.124.984-.186 1.677-.186.857 0 1.645.085 2.364.255.72.163 1.416.356 2.09.579.673.215 1.36.408 2.06.578.7.17 1.455.255 2.266.255.712 0 1.249-.039 1.608-.117.367-.079.72-.193 1.06-.344.307-.143.552-.336.735-.578.19-.242.285-.56.285-.952V5.021a.644.644 0 0 0-.265-.55.999.999 0 0 0-.628-.196c-.229 0-.572.066-1.03.196-.451.131-1.075.197-1.873.197-.811 0-1.57-.082-2.276-.246-.7-.17-1.386-.363-2.06-.578a25.03 25.03 0 0 0-2.09-.589C9.192 3.085 8.404 3 7.548 3c-.707 0-1.24.04-1.6.118-.359.078-.712.193-1.059.343a2.01 2.01 0 0 0-.745.579c-.183.235-.275.55-.275.941v15.391c0 .17.062.317.186.442.131.124.285.186.462.186Z' fill='currentColor' data-v-inspector='src/views/Progress.vue:47:17'></path></svg>",
+  "order": 1,
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:23:42.271Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T16:40:41.549Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e9bdc75bc0549b985721"
+  },
+  "name": "Người mới bắt đầu",
+  "description": "Thu lượm những thành tố quan trọng của ngôn ngữ đang học, như từ vựng, các mẫu câu thiết yếu, và các kỹ năng giao tiếp cơ bản phục vụ việc hiểu và thể hiện suy nghĩ.",
+  "icon": "",
+  "order": 2,
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:01.782Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:01.782Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e9cbc75bc0549b985727"
+  },
+  "name": "Sơ cấp",
+  "description": "Tiến tới sự giao tiếp trôi chảy bằng cách tinh chỉnh từ vựng và các kỹ năng nghe/nói để giao tiếp hiệu quả.",
+  "icon": "",
+  "order": 3,
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:15.661Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:15.661Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e9f4c75bc0549b985719"
+  },
+  "name": "Trung cấp",
+  "description": "Vươn tới khả năng giao tiếp trôi chảy mà không cần nhiều nỗ lực, cho bạn tự tin ở mọi tình huống khác nhau.",
+  "icon": "",
+  "order": 4,
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:56.698Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:56.698Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5ea0fc75bc0549b985741"
+  },
+  "name": "Hơi nâng cao",
+  "description": "Phát triển tới cấp độ khá nâng cao của ngoại ngữ đang học, thể hiện khả năng hiểu và giao tiếp thành thạo trong những tình huống phức tạp.",
+  "icon": "",
+  "order": 5,
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:26:23.906Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:26:23.906Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5ea24c75bc0549b985794"
+  },
+  "name": "Nâng cao",
+  "description": "Đạt trình độ gần bằng người bản ngữ, có vốn hiểu thông thấu và khả năng giao tiếp dễ dàng, với độ chính xác tuyệt vời.",
+  "icon": "",
+  "order": 6,
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:26:44.274Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:26:44.274Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5ea36c75bc0549b985720"
+  },
+  "name": "Thành thạo",
+  "description": "Hành trình ngoại ngữ là vô tận! Hãy tiếp tục trau dồi kỹ năng của bạn để trở thành một bậc thầy ngoại ngữ.",
+  "icon": "",
+  "order": 7,
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:27:02.209Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-13T15:09:42.845Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e96ec75bc0549b985716"
+  },
+  "name": "Người vừa mới bắt đầu",
+  "description": "Theo dõi tiến độ của bạn theo cấp độ và giai đoạn - giành điểm cho mỗi từ bạn học, mỗi video bạn xem và mỗi cuộc trò chuyện cùng MemBot để tiếp tục lên cấp!",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' xmlns='http: //www.w3.org/2000/svg' data-v-inspector='src/views/Progress.vue:40:15'><path d='M4.516 21a.583.583 0 0 0 .44-.186.583.583 0 0 0 .187-.442v-5.258c.138-.045.419-.127.844-.245.425-.124.984-.186 1.677-.186.857 0 1.645.085 2.364.255.72.163 1.416.356 2.09.579.673.215 1.36.408 2.06.578.7.17 1.455.255 2.266.255.712 0 1.249-.039 1.608-.117.367-.079.72-.193 1.06-.344.307-.143.552-.336.735-.578.19-.242.285-.56.285-.952V5.021a.644.644 0 0 0-.265-.55.999.999 0 0 0-.628-.196c-.229 0-.572.066-1.03.196-.451.131-1.075.197-1.873.197-.811 0-1.57-.082-2.276-.246-.7-.17-1.386-.363-2.06-.578a25.03 25.03 0 0 0-2.09-.589C9.192 3.085 8.404 3 7.548 3c-.707 0-1.24.04-1.6.118-.359.078-.712.193-1.059.343a2.01 2.01 0 0 0-.745.579c-.183.235-.275.55-.275.941v15.391c0 .17.062.317.186.442.131.124.285.186.462.186Z' fill='currentColor' data-v-inspector='src/views/Progress.vue:47:17'></path></svg>",
+  "order": 1,
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:23:42.271Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T16:40:41.549Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e9bdc75bc0549b985761"
+  },
+  "name": "Người mới bắt đầu",
+  "description": "Thu lượm những thành tố quan trọng của ngôn ngữ đang học, như từ vựng, các mẫu câu thiết yếu, và các kỹ năng giao tiếp cơ bản phục vụ việc hiểu và thể hiện suy nghĩ.",
+  "icon": "",
+  "order": 2,
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:01.782Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:01.782Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e9cbc75bc0549b985741"
+  },
+  "name": "Sơ cấp",
+  "description": "Tiến tới sự giao tiếp trôi chảy bằng cách tinh chỉnh từ vựng và các kỹ năng nghe/nói để giao tiếp hiệu quả.",
+  "icon": "",
+  "order": 3,
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:15.661Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:15.661Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e9f4c75bc0549b985754"
+  },
+  "name": "Trung cấp",
+  "description": "Vươn tới khả năng giao tiếp trôi chảy mà không cần nhiều nỗ lực, cho bạn tự tin ở mọi tình huống khác nhau.",
+  "icon": "",
+  "order": 4,
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:56.698Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:56.698Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5ea0fc75bc0549b985799"
+  },
+  "name": "Hơi nâng cao",
+  "description": "Phát triển tới cấp độ khá nâng cao của ngoại ngữ đang học, thể hiện khả năng hiểu và giao tiếp thành thạo trong những tình huống phức tạp.",
+  "icon": "",
+  "order": 5,
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:26:23.906Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:26:23.906Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5ea24c75bc0549b985793"
+  },
+  "name": "Nâng cao",
+  "description": "Đạt trình độ gần bằng người bản ngữ, có vốn hiểu thông thấu và khả năng giao tiếp dễ dàng, với độ chính xác tuyệt vời.",
+  "icon": "",
+  "order": 6,
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:26:44.274Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:26:44.274Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5ea36c75bc0549b985736"
+  },
+  "name": "Thành thạo",
+  "description": "Hành trình ngoại ngữ là vô tận! Hãy tiếp tục trau dồi kỹ năng của bạn để trở thành một bậc thầy ngoại ngữ.",
+  "icon": "",
+  "order": 7,
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:27:02.209Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-13T15:09:42.845Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e96ec75bc0549b985789"
+  },
+  "name": "Người vừa mới bắt đầu",
+  "description": "Theo dõi tiến độ của bạn theo cấp độ và giai đoạn - giành điểm cho mỗi từ bạn học, mỗi video bạn xem và mỗi cuộc trò chuyện cùng MemBot để tiếp tục lên cấp!",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' xmlns='http: //www.w3.org/2000/svg' data-v-inspector='src/views/Progress.vue:40:15'><path d='M4.516 21a.583.583 0 0 0 .44-.186.583.583 0 0 0 .187-.442v-5.258c.138-.045.419-.127.844-.245.425-.124.984-.186 1.677-.186.857 0 1.645.085 2.364.255.72.163 1.416.356 2.09.579.673.215 1.36.408 2.06.578.7.17 1.455.255 2.266.255.712 0 1.249-.039 1.608-.117.367-.079.72-.193 1.06-.344.307-.143.552-.336.735-.578.19-.242.285-.56.285-.952V5.021a.644.644 0 0 0-.265-.55.999.999 0 0 0-.628-.196c-.229 0-.572.066-1.03.196-.451.131-1.075.197-1.873.197-.811 0-1.57-.082-2.276-.246-.7-.17-1.386-.363-2.06-.578a25.03 25.03 0 0 0-2.09-.589C9.192 3.085 8.404 3 7.548 3c-.707 0-1.24.04-1.6.118-.359.078-.712.193-1.059.343a2.01 2.01 0 0 0-.745.579c-.183.235-.275.55-.275.941v15.391c0 .17.062.317.186.442.131.124.285.186.462.186Z' fill='currentColor' data-v-inspector='src/views/Progress.vue:47:17'></path></svg>",
+  "order": 1,
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:23:42.271Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T16:40:41.549Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e9bdc75bc0549b985788"
+  },
+  "name": "Người mới bắt đầu",
+  "description": "Thu lượm những thành tố quan trọng của ngôn ngữ đang học, như từ vựng, các mẫu câu thiết yếu, và các kỹ năng giao tiếp cơ bản phục vụ việc hiểu và thể hiện suy nghĩ.",
+  "icon": "",
+  "order": 2,
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:01.782Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:01.782Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e9cbc75bc0549b985787"
+  },
+  "name": "Sơ cấp",
+  "description": "Tiến tới sự giao tiếp trôi chảy bằng cách tinh chỉnh từ vựng và các kỹ năng nghe/nói để giao tiếp hiệu quả.",
+  "icon": "",
+  "order": 3,
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:15.661Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:15.661Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e9f4c75bc0549b985786"
+  },
+  "name": "Trung cấp",
+  "description": "Vươn tới khả năng giao tiếp trôi chảy mà không cần nhiều nỗ lực, cho bạn tự tin ở mọi tình huống khác nhau.",
+  "icon": "",
+  "order": 4,
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:56.698Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:56.698Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5ea0fc75bc0549b985785"
+  },
+  "name": "Hơi nâng cao",
+  "description": "Phát triển tới cấp độ khá nâng cao của ngoại ngữ đang học, thể hiện khả năng hiểu và giao tiếp thành thạo trong những tình huống phức tạp.",
+  "icon": "",
+  "order": 5,
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:26:23.906Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:26:23.906Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5ea24c75bc0549b985784"
+  },
+  "name": "Nâng cao",
+  "description": "Đạt trình độ gần bằng người bản ngữ, có vốn hiểu thông thấu và khả năng giao tiếp dễ dàng, với độ chính xác tuyệt vời.",
+  "icon": "",
+  "order": 6,
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:26:44.274Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:26:44.274Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5ea36c75bc0549b985783"
+  },
+  "name": "Thành thạo",
+  "description": "Hành trình ngoại ngữ là vô tận! Hãy tiếp tục trau dồi kỹ năng của bạn để trở thành một bậc thầy ngoại ngữ.",
+  "icon": "",
+  "order": 7,
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:27:02.209Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-13T15:09:42.845Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e96ec75bc0549b985779"
+  },
+  "name": "Người vừa mới bắt đầu",
+  "description": "Theo dõi tiến độ của bạn theo cấp độ và giai đoạn - giành điểm cho mỗi từ bạn học, mỗi video bạn xem và mỗi cuộc trò chuyện cùng MemBot để tiếp tục lên cấp!",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' xmlns='http: //www.w3.org/2000/svg' data-v-inspector='src/views/Progress.vue:40:15'><path d='M4.516 21a.583.583 0 0 0 .44-.186.583.583 0 0 0 .187-.442v-5.258c.138-.045.419-.127.844-.245.425-.124.984-.186 1.677-.186.857 0 1.645.085 2.364.255.72.163 1.416.356 2.09.579.673.215 1.36.408 2.06.578.7.17 1.455.255 2.266.255.712 0 1.249-.039 1.608-.117.367-.079.72-.193 1.06-.344.307-.143.552-.336.735-.578.19-.242.285-.56.285-.952V5.021a.644.644 0 0 0-.265-.55.999.999 0 0 0-.628-.196c-.229 0-.572.066-1.03.196-.451.131-1.075.197-1.873.197-.811 0-1.57-.082-2.276-.246-.7-.17-1.386-.363-2.06-.578a25.03 25.03 0 0 0-2.09-.589C9.192 3.085 8.404 3 7.548 3c-.707 0-1.24.04-1.6.118-.359.078-.712.193-1.059.343a2.01 2.01 0 0 0-.745.579c-.183.235-.275.55-.275.941v15.391c0 .17.062.317.186.442.131.124.285.186.462.186Z' fill='currentColor' data-v-inspector='src/views/Progress.vue:47:17'></path></svg>",
+  "order": 1,
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:23:42.271Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T16:40:41.549Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e9bdc75bc0549b985778"
+  },
+  "name": "Người mới bắt đầu",
+  "description": "Thu lượm những thành tố quan trọng của ngôn ngữ đang học, như từ vựng, các mẫu câu thiết yếu, và các kỹ năng giao tiếp cơ bản phục vụ việc hiểu và thể hiện suy nghĩ.",
+  "icon": "",
+  "order": 2,
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:01.782Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:01.782Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e9cbc75bc0549b985777"
+  },
+  "name": "Sơ cấp",
+  "description": "Tiến tới sự giao tiếp trôi chảy bằng cách tinh chỉnh từ vựng và các kỹ năng nghe/nói để giao tiếp hiệu quả.",
+  "icon": "",
+  "order": 3,
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:15.661Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:15.661Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e9f4c75bc0549b985776"
+  },
+  "name": "Trung cấp",
+  "description": "Vươn tới khả năng giao tiếp trôi chảy mà không cần nhiều nỗ lực, cho bạn tự tin ở mọi tình huống khác nhau.",
+  "icon": "",
+  "order": 4,
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:56.698Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:56.698Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5ea0fc75bc0549b985775"
+  },
+  "name": "Hơi nâng cao",
+  "description": "Phát triển tới cấp độ khá nâng cao của ngoại ngữ đang học, thể hiện khả năng hiểu và giao tiếp thành thạo trong những tình huống phức tạp.",
+  "icon": "",
+  "order": 5,
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:26:23.906Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:26:23.906Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5ea24c75bc0549b985774"
+  },
+  "name": "Nâng cao",
+  "description": "Đạt trình độ gần bằng người bản ngữ, có vốn hiểu thông thấu và khả năng giao tiếp dễ dàng, với độ chính xác tuyệt vời.",
+  "icon": "",
+  "order": 6,
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:26:44.274Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:26:44.274Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5ea36c75bc0549b985773"
+  },
+  "name": "Thành thạo",
+  "description": "Hành trình ngoại ngữ là vô tận! Hãy tiếp tục trau dồi kỹ năng của bạn để trở thành một bậc thầy ngoại ngữ.",
+  "icon": "",
+  "order": 7,
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:27:02.209Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-13T15:09:42.845Z"
+  },
+  "__v": 0,
+  "is_delete": false
+},
+{
+  "_id": {
+    "$oid": "67b5e96ec75bc0549b985769"
+  },
+  "name": "Người vừa mới bắt đầu",
+  "description": "Theo dõi tiến độ của bạn theo cấp độ và giai đoạn - giành điểm cho mỗi từ bạn học, mỗi video bạn xem và mỗi cuộc trò chuyện cùng MemBot để tiếp tục lên cấp!",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' xmlns='http: //www.w3.org/2000/svg' data-v-inspector='src/views/Progress.vue:40:15'><path d='M4.516 21a.583.583 0 0 0 .44-.186.583.583 0 0 0 .187-.442v-5.258c.138-.045.419-.127.844-.245.425-.124.984-.186 1.677-.186.857 0 1.645.085 2.364.255.72.163 1.416.356 2.09.579.673.215 1.36.408 2.06.578.7.17 1.455.255 2.266.255.712 0 1.249-.039 1.608-.117.367-.079.72-.193 1.06-.344.307-.143.552-.336.735-.578.19-.242.285-.56.285-.952V5.021a.644.644 0 0 0-.265-.55.999.999 0 0 0-.628-.196c-.229 0-.572.066-1.03.196-.451.131-1.075.197-1.873.197-.811 0-1.57-.082-2.276-.246-.7-.17-1.386-.363-2.06-.578a25.03 25.03 0 0 0-2.09-.589C9.192 3.085 8.404 3 7.548 3c-.707 0-1.24.04-1.6.118-.359.078-.712.193-1.059.343a2.01 2.01 0 0 0-.745.579c-.183.235-.275.55-.275.941v15.391c0 .17.062.317.186.442.131.124.285.186.462.186Z' fill='currentColor' data-v-inspector='src/views/Progress.vue:47:17'></path></svg>",
+  "order": 1,
+  "topic_id": {
+    "$oid": "67c35076b88211e1765b02af"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:23:42.271Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T16:40:41.549Z"
+  },
+  "__v": 0,
+  "is_delete": true
+},
+{
+  "_id": {
+    "$oid": "67b5e9bdc75bc0549b985768"
+  },
+  "name": "Người mới bắt đầu",
+  "description": "Thu lượm những thành tố quan trọng của ngôn ngữ đang học, như từ vựng, các mẫu câu thiết yếu, và các kỹ năng giao tiếp cơ bản phục vụ việc hiểu và thể hiện suy nghĩ.",
+  "icon": "",
+  "order": 2,
+  "topic_id": {
+    "$oid": "67c35076b88211e1765b02af"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:01.782Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:01.782Z"
+  },
+  "__v": 0,
+  "is_delete": true
+},
+{
+  "_id": {
+    "$oid": "67b5e9cbc75bc0549b985767"
+  },
+  "name": "Sơ cấp",
+  "description": "Tiến tới sự giao tiếp trôi chảy bằng cách tinh chỉnh từ vựng và các kỹ năng nghe/nói để giao tiếp hiệu quả.",
+  "icon": "",
+  "order": 3,
+  "topic_id": {
+    "$oid": "67c35076b88211e1765b02af"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:15.661Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:15.661Z"
+  },
+  "__v": 0,
+  "is_delete": true
+},
+{
+  "_id": {
+    "$oid": "67b5e9f4c75bc0549b985766"
+  },
+  "name": "Trung cấp",
+  "description": "Vươn tới khả năng giao tiếp trôi chảy mà không cần nhiều nỗ lực, cho bạn tự tin ở mọi tình huống khác nhau.",
+  "icon": "",
+  "order": 4,
+  "topic_id": {
+    "$oid": "67c35076b88211e1765b02af"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:25:56.698Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:25:56.698Z"
+  },
+  "__v": 0,
+  "is_delete": true
+},
+{
+  "_id": {
+    "$oid": "67b5ea0fc75bc0549b985765"
+  },
+  "name": "Hơi nâng cao",
+  "description": "Phát triển tới cấp độ khá nâng cao của ngoại ngữ đang học, thể hiện khả năng hiểu và giao tiếp thành thạo trong những tình huống phức tạp.",
+  "icon": "",
+  "order": 5,
+  "topic_id": {
+    "$oid": "67c35076b88211e1765b02af"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:26:23.906Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:26:23.906Z"
+  },
+  "__v": 0,
+  "is_delete": true
+},
+{
+  "_id": {
+    "$oid": "67b5ea24c75bc0549b985764"
+  },
+  "name": "Nâng cao",
+  "description": "Đạt trình độ gần bằng người bản ngữ, có vốn hiểu thông thấu và khả năng giao tiếp dễ dàng, với độ chính xác tuyệt vời.",
+  "icon": "",
+  "order": 6,
+  "topic_id": {
+    "$oid": "67c35076b88211e1765b02af"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:26:44.274Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-19T14:26:44.274Z"
+  },
+  "__v": 0,
+  "is_delete": true
+},
+{
+  "_id": {
+    "$oid": "67b5ea36c75bc0549b985763"
+  },
+  "name": "Thành thạo",
+  "description": "Hành trình ngoại ngữ là vô tận! Hãy tiếp tục trau dồi kỹ năng của bạn để trở thành một bậc thầy ngoại ngữ.",
+  "icon": "",
+  "order": 7,
+  "topic_id": {
+    "$oid": "67c35076b88211e1765b02af"
+  },
+  "createdAt": {
+    "$date": "2025-02-19T14:27:02.209Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-13T15:09:42.845Z"
+  },
+  "__v": 0,
+  "is_delete": true
+}]

@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "67b73cfff5413b7b57caee89"
+  },
+  "ma_muc": "01",
+  "ten_muc": "Điền chỗ trống",
+  "createdAt": {
+    "$date": "2025-02-20T14:32:31.500Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T14:32:31.500Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b73d0ef5413b7b57caee8b"
+  },
+  "ma_muc": "02",
+  "ten_muc": "Chọn đáp án đúng",
+  "createdAt": {
+    "$date": "2025-02-20T14:32:46.039Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T14:32:46.039Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b73d18f5413b7b57caee8d"
+  },
+  "ma_muc": "03",
+  "ten_muc": "Nghe và ghép thành câu đúng",
+  "createdAt": {
+    "$date": "2025-02-20T14:32:56.580Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T14:32:56.580Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b73d4df5413b7b57caee8f"
+  },
+  "ma_muc": "04",
+  "ten_muc": "Nhập từ còn thiếu",
+  "createdAt": {
+    "$date": "2025-02-20T14:33:49.114Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T14:33:49.114Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b73d70f5413b7b57caee91"
+  },
+  "ma_muc": "05",
+  "ten_muc": "Viết lại bằng tiếng Anh",
+  "createdAt": {
+    "$date": "2025-02-20T14:34:24.864Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T14:34:24.864Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b73d85f5413b7b57caee93"
+  },
+  "ma_muc": "06",
+  "ten_muc": "Nhập lại nội dung bạn vừa nghe",
+  "createdAt": {
+    "$date": "2025-02-20T14:34:45.885Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T14:34:45.885Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b73d85f5413b7b57caee95"
+  },
+  "ma_muc": "07",
+  "ten_muc": "Ghép thành câu hoàn chỉnh",
+  "createdAt": {
+    "$date": "2025-02-20T14:34:45.885Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T14:34:45.885Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f649d432f7eea330079621"
+  },
+  "ma_muc": "08",
+  "ten_muc": "Nghe và chọn đáp án đúng"
+}]

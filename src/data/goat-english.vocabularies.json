@@ -1,0 +1,5252 @@
+[{
+  "_id": {
+    "$oid": "67e411772b97232faaea0794"
+  },
+  "word": "HTML",
+  "meaning": "A markup language for creating web pages.",
+  "phonetic": "/ˌeɪtʃ.tiː.ɛmˈel/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "HTML is commonly used in web development.",
+      "translation": "HTML thường được sử dụng trong phát triển web.",
+      "_id": "67d6db326c1d1055c1004101"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:00:00Z",
+  "updatedAt": "2025-03-16T12:10:00Z",
+  "is_delete": false,
+  "vietnamese": "Ngôn ngữ đánh dấu siêu văn bản"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea0795"
+  },
+  "word": "CSS",
+  "meaning": "A stylesheet language for designing web pages.",
+  "phonetic": "/siː.es.es/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "CSS is used to style web pages.",
+      "translation": "CSS được sử dụng để định kiểu trang web.",
+      "_id": "67d6db326c1d1055c1004102"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:05:00Z",
+  "updatedAt": "2025-03-16T12:15:00Z",
+  "is_delete": false,
+  "vietnamese": "Ngôn ngữ định kiểu"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea0796"
+  },
+  "word": "JavaScript",
+  "meaning": "A programming language for the web.",
+  "phonetic": "/ˈdʒɑː.və.skrɪpt/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "JavaScript is used to create interactive web pages.",
+      "translation": "JavaScript được sử dụng để tạo trang web tương tác.",
+      "_id": "67d6db326c1d1055c1004103"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:10:00Z",
+  "updatedAt": "2025-03-16T12:20:00Z",
+  "is_delete": false,
+  "vietnamese": "Ngôn ngữ lập trình JavaScript"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea0797"
+  },
+  "word": "React",
+  "meaning": "A JavaScript library for building UIs.",
+  "phonetic": "/riːækt/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "React is widely used in modern web development.",
+      "translation": "React được sử dụng rộng rãi trong phát triển web hiện đại.",
+      "_id": "67d6db326c1d1055c1004104"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Thư viện JavaScript React"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea0798"
+  },
+  "word": "Vue",
+  "meaning": "A progressive JavaScript framework.",
+  "phonetic": "/vjuː/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "Vue is known for its simplicity and flexibility.",
+      "translation": "Vue được biết đến với sự đơn giản và linh hoạt.",
+      "_id": "67d6db326c1d1055c1004105"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:20:00Z",
+  "updatedAt": "2025-03-16T12:30:00Z",
+  "is_delete": false,
+  "vietnamese": "Framework JavaScript Vue.js"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea0799"
+  },
+  "word": "Node.js",
+  "meaning": "A runtime environment for JavaScript.",
+  "phonetic": "/noʊd/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "Node.js allows developers to run JavaScript on the server.",
+      "translation": "Node.js cho phép lập trình viên chạy JavaScript trên máy chủ.",
+      "_id": "67d6db326c1d1055c1004107"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:30:00Z",
+  "updatedAt": "2025-03-16T12:40:00Z",
+  "is_delete": false,
+  "vietnamese": "Môi trường chạy Node.js"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea079a"
+  },
+  "word": "API",
+  "meaning": "A set of rules that allows different software entities to communicate.",
+  "phonetic": "/ˌeɪ.piːˈaɪ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "The developer integrated a payment API into the website.",
+      "translation": "Nhà phát triển đã tích hợp API thanh toán vào trang web.",
+      "_id": "67d6db326c1d1055c1004108"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:35:00Z",
+  "updatedAt": "2025-03-16T12:45:00Z",
+  "is_delete": false,
+  "vietnamese": "Giao diện lập trình ứng dụng"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea079b"
+  },
+  "word": "Database",
+  "meaning": "A structured set of data stored electronically.",
+  "phonetic": "/ˈdeɪ.tə.beɪs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "The website stores user information in a database.",
+      "translation": "Trang web lưu trữ thông tin người dùng trong cơ sở dữ liệu.",
+      "_id": "67d6db326c1d1055c1004109"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:40:00Z",
+  "updatedAt": "2025-03-16T12:50:00Z",
+  "is_delete": false,
+  "vietnamese": "Cơ sở dữ liệu"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea079c"
+  },
+  "word": "Backend",
+  "meaning": "The server-side part of a website.",
+  "phonetic": "/ˈbæk.end/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "The backend processes user requests and database queries.",
+      "translation": "Backend xử lý yêu cầu của người dùng và truy vấn cơ sở dữ liệu.",
+      "_id": "67d6db326c1d1055c1004110"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:45:00Z",
+  "updatedAt": "2025-03-16T12:55:00Z",
+  "is_delete": false,
+  "vietnamese": "Phần phụ trợ"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea079d"
+  },
+  "word": "Frontend",
+  "meaning": "The client-side part of a website.",
+  "phonetic": "/ˈfrʌnt.end/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "A good frontend improves user experience.",
+      "translation": "Một giao diện frontend tốt cải thiện trải nghiệm người dùng.",
+      "_id": "67d6db326c1d1055c1004111"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:50:00Z",
+  "updatedAt": "2025-03-16T13:00:00Z",
+  "is_delete": false,
+  "vietnamese": "Phần giao diện"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea079e"
+  },
+  "word": "Full Stack",
+  "meaning": "A developer skilled in both frontend and backend development.",
+  "phonetic": "/fʊl stæk/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "She works as a full-stack developer.",
+      "translation": "Cô ấy làm việc như một lập trình viên full-stack.",
+      "_id": "67d6db326c1d1055c1004112"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:55:00Z",
+  "updatedAt": "2025-03-16T13:05:00Z",
+  "is_delete": false,
+  "vietnamese": "Lập trình viên Full Stack"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea079f"
+  },
+  "word": "RESTful API",
+  "meaning": "An API that follows REST principles for communication between systems.",
+  "phonetic": "/rɛst.fʊl eɪ.piː.aɪ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "RESTful APIs are commonly used for web services.",
+      "translation": "RESTful API thường được sử dụng cho các dịch vụ web.",
+      "_id": "67d6db326c1d1055c1004122"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T14:00:00Z",
+  "updatedAt": "2025-03-16T14:05:00Z",
+  "is_delete": false,
+  "vietnamese": "Giao diện lập trình ứng dụng theo REST"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07a0"
+  },
+  "word": "Framework",
+  "meaning": "A pre-built set of tools and libraries that help in web development.",
+  "phonetic": "/ˈfreɪm.wɜːk/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "React is a popular JavaScript framework.",
+      "translation": "React là một framework JavaScript phổ biến.",
+      "_id": "67d6db326c1d1055c1004126"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T14:25:00Z",
+  "updatedAt": "2025-03-16T14:30:00Z",
+  "is_delete": false,
+  "vietnamese": "Bộ khung phát triển"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07a1"
+  },
+  "word": "Responsive Design",
+  "meaning": "A web design approach that ensures websites work well on different devices.",
+  "phonetic": "/rɪˈspɒn.sɪv dɪˈzaɪn/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "Responsive design improves user experience on mobile devices.",
+      "translation": "Thiết kế đáp ứng cải thiện trải nghiệm người dùng trên thiết bị di động.",
+      "_id": "67d6db326c1d1055c1004127"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T14:30:00Z",
+  "updatedAt": "2025-03-16T14:35:00Z",
+  "is_delete": false,
+  "vietnamese": "Thiết kế đáp ứng"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07a2"
+  },
+  "word": "SEO",
+  "meaning": "The practice of optimizing a website to rank higher in search engine results.",
+  "phonetic": "/ˌes.iːˈoʊ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "Good SEO improves a website's visibility on Google.",
+      "translation": "SEO tốt giúp cải thiện khả năng hiển thị của trang web trên Google.",
+      "_id": "67d6db326c1d1055c1004132"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T15:00:00Z",
+  "updatedAt": "2025-03-16T15:05:00Z",
+  "is_delete": false,
+  "vietnamese": "Tối ưu hóa công cụ tìm kiếm (SEO)"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07a3"
+  },
+  "word": "Cache",
+  "meaning": "A storage layer that helps speed up data retrieval by keeping frequently used information.",
+  "phonetic": "/kæʃ/",
+  "type": [
+    "noun",
+    "verb"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "The browser cache stores images for faster loading.",
+      "translation": "Bộ nhớ cache của trình duyệt lưu trữ hình ảnh để tải nhanh hơn.",
+      "_id": "67d6db326c1d1055c1004133"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T15:10:00Z",
+  "updatedAt": "2025-03-16T15:15:00Z",
+  "is_delete": false,
+  "vietnamese": "Bộ nhớ đệm"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07a4"
+  },
+  "word": "CDN",
+  "meaning": "A network of servers that deliver web content quickly by caching it in multiple locations.",
+  "phonetic": "/ˌsiː.diːˈen/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "A CDN helps reduce website load times by serving content from nearby servers.",
+      "translation": "CDN giúp giảm thời gian tải trang web bằng cách cung cấp nội dung từ các máy chủ gần nhất.",
+      "_id": "67d6db326c1d1055c1004135"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T15:20:00Z",
+  "updatedAt": "2025-03-16T15:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Mạng phân phối nội dung (CDN)"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07a5"
+  },
+  "word": "WebSocket",
+  "meaning": "A protocol that enables real-time communication between a client and a server.",
+  "phonetic": "/ˈwɛbˌsɒkɪt/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "WebSockets allow real-time chat applications to work efficiently.",
+      "translation": "WebSockets giúp các ứng dụng chat thời gian thực hoạt động hiệu quả.",
+      "_id": "67d6db326c1d1055c1004136"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T15:25:00Z",
+  "updatedAt": "2025-03-16T15:30:00Z",
+  "is_delete": false,
+  "vietnamese": "Giao thức WebSocket"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07a6"
+  },
+  "word": "AJAX",
+  "meaning": "A technique that allows web pages to update asynchronously without reloading the entire page.",
+  "phonetic": "/ˈeɪ.dʒæks/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "AJAX helps create smooth and fast web applications.",
+      "translation": "AJAX giúp tạo các ứng dụng web mượt mà và nhanh chóng.",
+      "_id": "67d6db326c1d1055c1004139"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T15:45:00Z",
+  "updatedAt": "2025-03-16T15:50:00Z",
+  "is_delete": false,
+  "vietnamese": "Kỹ thuật AJAX"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07a7"
+  },
+  "word": "JSON",
+  "meaning": "A lightweight data-interchange format that is easy to read and write for both humans and machines.",
+  "phonetic": "/ˈdʒeɪ.sən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "JSON is commonly used for sending data between a client and a server.",
+      "translation": "JSON thường được sử dụng để gửi dữ liệu giữa client và server.",
+      "_id": "67d6db326c1d1055c1004142"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T16:00:00Z",
+  "updatedAt": "2025-03-16T16:05:00Z",
+  "is_delete": false,
+  "vietnamese": "Định dạng JSON"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07a8"
+  },
+  "word": "Website",
+  "meaning": "A collection of related web pages.",
+  "phonetic": "/ˈwɛb.saɪt/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "The company launched a new website.",
+      "translation": "Công ty đã ra mắt một trang web mới.",
+      "_id": "67d6db326c1d1055c1004105"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:15:00Z",
+  "updatedAt": "2025-03-26T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Trang web"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07a9"
+  },
+  "word": "Web Browser",
+  "meaning": "A software application for accessing websites.",
+  "phonetic": "/wɛb ˈbraʊzər/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "Google Chrome is a popular web browser.",
+      "translation": "Google Chrome là một trình duyệt web phổ biến.",
+      "_id": "67d6db326c1d1055c1004106"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:16:00Z",
+  "updatedAt": "2025-03-26T12:26:00Z",
+  "is_delete": false,
+  "vietnamese": "Trình duyệt web"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07aa"
+  },
+  "word": "URL",
+  "meaning": "The address of a web page.",
+  "phonetic": "/ˌjuː ɑːr ˈɛl/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "Enter the URL in the address bar.",
+      "translation": "Nhập URL vào thanh địa chỉ.",
+      "_id": "67d6db326c1d1055c1004107"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:17:00Z",
+  "updatedAt": "2025-03-26T12:27:00Z",
+  "is_delete": false,
+  "vietnamese": "Địa chỉ trang web"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07ab"
+  },
+  "word": "Domain Name",
+  "meaning": "A human-readable address used to access a website.",
+  "phonetic": "/dəˈmeɪn neɪm/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "Google.com is a domain name.",
+      "translation": "Google.com là một tên miền.",
+      "_id": "67d6db326c1d1055c1004108"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:18:00Z",
+  "updatedAt": "2025-03-26T12:28:00Z",
+  "is_delete": false,
+  "vietnamese": "Tên miền"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07ac"
+  },
+  "word": "Hosting",
+  "meaning": "A service that stores website files and makes them accessible online.",
+  "phonetic": "/ˈhoʊstɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "You need a hosting service to run a website.",
+      "translation": "Bạn cần một dịch vụ lưu trữ để chạy trang web.",
+      "_id": "67d6db326c1d1055c1004109"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:19:00Z",
+  "updatedAt": "2025-03-26T12:29:00Z",
+  "is_delete": false,
+  "vietnamese": "Dịch vụ lưu trữ web"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07ad"
+  },
+  "word": "GraphQL",
+  "meaning": "A query language for APIs that allows clients to request specific data.",
+  "phonetic": "/ˈɡræf.kjuːˌɛl/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "GraphQL enables efficient data fetching.",
+      "translation": "GraphQL giúp truy xuất dữ liệu hiệu quả.",
+      "_id": "67d6db326c1d1055c1004201"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:00:00Z",
+  "updatedAt": "2025-03-26T13:10:00Z",
+  "is_delete": false,
+  "vietnamese": "Ngôn ngữ truy vấn cho API"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07ae"
+  },
+  "word": "SQL",
+  "meaning": "A language used for managing relational databases.",
+  "phonetic": "/ˌɛsˌkjuːˈɛl/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "SQL is widely used in database management.",
+      "translation": "SQL được sử dụng rộng rãi trong quản lý cơ sở dữ liệu.",
+      "_id": "67d6db326c1d1055c1004202"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:01:00Z",
+  "updatedAt": "2025-03-26T13:11:00Z",
+  "is_delete": false,
+  "vietnamese": "Ngôn ngữ truy vấn có cấu trúc"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07af"
+  },
+  "word": "NoSQL",
+  "meaning": "A type of database that does not use SQL for data storage.",
+  "phonetic": "/ˌnəʊˈɛsˌkjuːˈɛl/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "NoSQL databases are useful for big data applications.",
+      "translation": "Cơ sở dữ liệu NoSQL hữu ích cho các ứng dụng dữ liệu lớn.",
+      "_id": "67d6db326c1d1055c1004203"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:02:00Z",
+  "updatedAt": "2025-03-26T13:12:00Z",
+  "is_delete": false,
+  "vietnamese": "Cơ sở dữ liệu không dùng SQL"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07b0"
+  },
+  "word": "ORM",
+  "meaning": "A technique for converting data between a relational database and object-oriented programming languages.",
+  "phonetic": "/ˌoʊˌɑːrˈɛm/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "ORM simplifies database interactions in applications.",
+      "translation": "ORM giúp đơn giản hóa việc tương tác với cơ sở dữ liệu trong ứng dụng.",
+      "_id": "67d6db326c1d1055c1004204"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:03:00Z",
+  "updatedAt": "2025-03-26T13:13:00Z",
+  "is_delete": false,
+  "vietnamese": "Kỹ thuật ánh xạ quan hệ đối tượng"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07b1"
+  },
+  "word": "Version Control",
+  "meaning": "A system for tracking changes in code, such as Git.",
+  "phonetic": "/ˈvɜːr.ʒən kənˈtroʊl/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "Git is a popular version control system.",
+      "translation": "Git là một hệ thống kiểm soát phiên bản phổ biến.",
+      "_id": "67d6db326c1d1055c1004205"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:04:00Z",
+  "updatedAt": "2025-03-26T13:14:00Z",
+  "is_delete": false,
+  "vietnamese": "Hệ thống kiểm soát phiên bản"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07b2"
+  },
+  "word": "CI/CD",
+  "meaning": "A practice in software development for continuous integration and continuous deployment.",
+  "phonetic": "/ˌsiː.aɪ ˌsiː.diː/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "CI/CD automates software testing and deployment.",
+      "translation": "CI/CD tự động hóa kiểm thử và triển khai phần mềm.",
+      "_id": "67d6db326c1d1055c1004206"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:05:00Z",
+  "updatedAt": "2025-03-26T13:15:00Z",
+  "is_delete": false,
+  "vietnamese": "Tích hợp liên tục & Triển khai liên tục"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07b3"
+  },
+  "word": "Docker",
+  "meaning": "A platform for containerizing applications.",
+  "phonetic": "/ˈdɒk.ər/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "Docker helps developers build and deploy applications quickly.",
+      "translation": "Docker giúp các nhà phát triển xây dựng và triển khai ứng dụng nhanh chóng.",
+      "_id": "67d6db326c1d1055c1004207"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:06:00Z",
+  "updatedAt": "2025-03-26T13:16:00Z",
+  "is_delete": false,
+  "vietnamese": "Nền tảng container hóa ứng dụng"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07b4"
+  },
+  "word": "Serverless Computing",
+  "meaning": "A cloud computing model where the cloud provider dynamically manages the server resources.",
+  "phonetic": "/ˈsɜːr.vɚ.ləs kəmˈpjuː.tɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "Serverless computing allows developers to focus on writing code without managing infrastructure.",
+      "translation": "Điện toán không máy chủ cho phép lập trình viên tập trung vào viết mã mà không phải quản lý hạ tầng.",
+      "_id": "67d6db326c1d1055c1004208"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:07:00Z",
+  "updatedAt": "2025-03-26T13:17:00Z",
+  "is_delete": false,
+  "vietnamese": "Điện toán không máy chủ"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07b5"
+  },
+  "word": "Cloud Computing",
+  "meaning": "The delivery of computing services over the internet.",
+  "phonetic": "/klaʊd kəmˈpjuː.tɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "Cloud computing provides on-demand access to computing resources.",
+      "translation": "Điện toán đám mây cung cấp quyền truy cập tài nguyên máy tính theo yêu cầu.",
+      "_id": "67d6db326c1d1055c1004209"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:08:00Z",
+  "updatedAt": "2025-03-26T13:18:00Z",
+  "is_delete": false,
+  "vietnamese": "Điện toán đám mây"
+},
+{
+  "_id": {
+    "$oid": "67e411772b97232faaea07b6"
+  },
+  "word": "Load Balancing",
+  "meaning": "The process of distributing network traffic across multiple servers to ensure reliability and performance.",
+  "phonetic": "/loʊd ˈbæl.ənsɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "examples": [
+    {
+      "sentence": "Load balancing prevents server overload by distributing traffic efficiently.",
+      "translation": "Cân bằng tải giúp ngăn chặn tình trạng quá tải máy chủ bằng cách phân phối lưu lượng hiệu quả.",
+      "_id": "67d6db326c1d1055c1004210"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:09:00Z",
+  "updatedAt": "2025-03-26T13:19:00Z",
+  "is_delete": false,
+  "vietnamese": "Cân bằng tải"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07b7"
+  },
+  "word": "Algorithm",
+  "meaning": "A step-by-step procedure for solving a problem.",
+  "phonetic": "/ˈælɡəˌrɪðəm/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "The sorting algorithm improves performance significantly.",
+      "translation": "Thuật toán sắp xếp cải thiện hiệu suất đáng kể.",
+      "_id": "67d6db326c1d1055c1004101"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Thuật toán"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07b8"
+  },
+  "word": "Bug",
+  "meaning": "An error or flaw in a software program.",
+  "phonetic": "/bʌɡ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "The developer fixed the critical bug in the system.",
+      "translation": "Nhà phát triển đã sửa lỗi nghiêm trọng trong hệ thống.",
+      "_id": "67d6db326c1d1055c1004102"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Lỗi phần mềm"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07b9"
+  },
+  "word": "Debugging",
+  "meaning": "The process of identifying and fixing software errors.",
+  "phonetic": "/diˈbʌɡɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Debugging is an essential skill for software engineers.",
+      "translation": "Quá trình sửa lỗi là kỹ năng cần thiết đối với kỹ sư phần mềm.",
+      "_id": "67d6db326c1d1055c1004103"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Quá trình sửa lỗi"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07ba"
+  },
+  "word": "Function",
+  "meaning": "A reusable block of code designed to perform a task.",
+  "phonetic": "/ˈfʌŋkʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "The function returns the sum of two numbers.",
+      "translation": "Hàm trả về tổng của hai số.",
+      "_id": "67d6db326c1d1055c1004104"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Hàm"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07bb"
+  },
+  "word": "Variable",
+  "meaning": "A symbolic name for a value in programming.",
+  "phonetic": "/ˈvɛriəb(ə)l/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Declare a variable before using it.",
+      "translation": "Khai báo một biến trước khi sử dụng nó.",
+      "_id": "67d6db326c1d1055c1004105"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Biến"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07bc"
+  },
+  "word": "Constant",
+  "meaning": "A fixed value that does not change during program execution.",
+  "phonetic": "/ˈkɒnstənt/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "A constant stores a value that cannot be modified.",
+      "translation": "Một hằng số lưu trữ một giá trị không thể thay đổi.",
+      "_id": "67d6db326c1d1055c1004106"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Hằng số"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07bd"
+  },
+  "word": "Loop",
+  "meaning": "A sequence of instructions that repeats until a condition is met.",
+  "phonetic": "/luːp/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "A loop iterates over an array.",
+      "translation": "Vòng lặp duyệt qua một mảng.",
+      "_id": "67d6db326c1d1055c1004107"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Vòng lặp"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07be"
+  },
+  "word": "Condition",
+  "meaning": "A statement that controls the execution of code based on a condition.",
+  "phonetic": "/kənˈdɪʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "The if statement checks a condition before executing the block of code.",
+      "translation": "Câu lệnh if kiểm tra một điều kiện trước khi thực thi khối mã.",
+      "_id": "67d6db326c1d1055c1004108"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Điều kiện"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07bf"
+  },
+  "word": "Recursion",
+  "meaning": "A technique in programming where a function calls itself.",
+  "phonetic": "/rɪˈkɜːʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Recursion is commonly used in tree traversal algorithms.",
+      "translation": "Đệ quy thường được sử dụng trong các thuật toán duyệt cây.",
+      "_id": "67d6db326c1d1055c1004109"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Đệ quy"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07c0"
+  },
+  "word": "Array",
+  "meaning": "A data structure that stores multiple values in a single variable.",
+  "phonetic": "/əˈreɪ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "An array can hold multiple elements of the same type.",
+      "translation": "Một mảng có thể chứa nhiều phần tử cùng kiểu.",
+      "_id": "67d6db326c1d1055c1004110"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Mảng"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07c1"
+  },
+  "word": "Object",
+  "meaning": "An instance of a class that contains properties and behaviors.",
+  "phonetic": "/ˈɒbdʒɪkt/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "In JavaScript, everything is an object.",
+      "translation": "Trong JavaScript, mọi thứ đều là đối tượng.",
+      "_id": "67d6db326c1d1055c1004111"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Đối tượng"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07c2"
+  },
+  "word": "Class",
+  "meaning": "A blueprint for creating objects in object-oriented programming.",
+  "phonetic": "/klɑːs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "A class defines the structure and behavior of objects.",
+      "translation": "Một lớp định nghĩa cấu trúc và hành vi của đối tượng.",
+      "_id": "67d6db326c1d1055c1004112"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Lớp"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07c3"
+  },
+  "word": "Inheritance",
+  "meaning": "A mechanism where a class can inherit properties and methods from another class.",
+  "phonetic": "/ɪnˈhɛrɪtəns/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Inheritance allows code reuse in object-oriented programming.",
+      "translation": "Kế thừa cho phép tái sử dụng mã trong lập trình hướng đối tượng.",
+      "_id": "67d6db326c1d1055c1004113"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Kế thừa"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07c4"
+  },
+  "word": "Encapsulation",
+  "meaning": "The principle of restricting access to certain details of an object to protect data integrity.",
+  "phonetic": "/ɪnˌkæpsjuˈleɪʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Encapsulation helps to protect object data from external modification.",
+      "translation": "Đóng gói giúp bảo vệ dữ liệu đối tượng khỏi sự thay đổi từ bên ngoài.",
+      "_id": "67d6db326c1d1055c1004114"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Đóng gói"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07c5"
+  },
+  "word": "Polymorphism",
+  "meaning": "The ability of a function or object to take on multiple forms.",
+  "phonetic": "/ˌpɒlɪˈmɔːfɪzəm/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Polymorphism allows different classes to be treated as instances of the same class.",
+      "translation": "Đa hình cho phép các lớp khác nhau được xử lý như là các thể hiện của cùng một lớp.",
+      "_id": "67d6db326c1d1055c1004115"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Đa hình"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07c6"
+  },
+  "word": "Abstraction",
+  "meaning": "A principle in OOP that hides implementation details and only shows essential features.",
+  "phonetic": "/æbˈstrækʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Abstraction helps reduce complexity in software design.",
+      "translation": "Trừu tượng hóa giúp giảm bớt sự phức tạp trong thiết kế phần mềm.",
+      "_id": "67d6db326c1d1055c1004116"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Trừu tượng hóa"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07c7"
+  },
+  "word": "Exception Handling",
+  "meaning": "A mechanism to handle runtime errors and prevent program crashes.",
+  "phonetic": "/ɪkˈsɛpʃən ˈhændlɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Exception handling is crucial for building robust applications.",
+      "translation": "Xử lý ngoại lệ rất quan trọng để xây dựng ứng dụng ổn định.",
+      "_id": "67d6db326c1d1055c1004117"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Xử lý ngoại lệ"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07c9"
+  },
+  "word": "Library",
+  "meaning": "A collection of prewritten code that can be used to simplify development.",
+  "phonetic": "/ˈlaɪbrəri/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Lodash is a JavaScript library that provides utility functions.",
+      "translation": "Lodash là một thư viện JavaScript cung cấp các hàm tiện ích.",
+      "_id": "67d6db326c1d1055c1004119"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Thư viện"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07ca"
+  },
+  "word": "API (Application Programming Interface)",
+  "meaning": "A set of rules and tools for building software applications.",
+  "phonetic": "/ˌeɪ piː ˈaɪ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "The REST API allows developers to interact with the system easily.",
+      "translation": "Giao diện lập trình ứng dụng REST giúp các lập trình viên tương tác với hệ thống dễ dàng.",
+      "_id": "67d6db326c1d1055c1004120"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Giao diện lập trình ứng dụng"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07cb"
+  },
+  "word": "SDK (Software Development Kit)",
+  "meaning": "A collection of tools, libraries, and documentation for software development.",
+  "phonetic": "/ˌɛs diː ˈkeɪ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "The Android SDK is essential for building Android applications.",
+      "translation": "Bộ công cụ phát triển phần mềm Android là cần thiết để xây dựng ứng dụng Android.",
+      "_id": "67d6db326c1d1055c1004121"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Bộ công cụ phát triển phần mềm"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07cc"
+  },
+  "word": "SQL (Structured Query Language)",
+  "meaning": "A programming language used to manage and manipulate relational databases.",
+  "phonetic": "/ˌɛs kjuː ˈɛl/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "SQL is used to retrieve and manipulate data in relational databases.",
+      "translation": "SQL được sử dụng để truy xuất và thao tác dữ liệu trong cơ sở dữ liệu quan hệ.",
+      "_id": "67d6db326c1d1055c1004123"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Ngôn ngữ truy vấn có cấu trúc"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07cd"
+  },
+  "word": "NoSQL (Not Only SQL)",
+  "meaning": "A type of database that allows flexible, scalable, and non-relational data storage.",
+  "phonetic": "/ˌnəʊ ˌɛs kjuː ˈɛl/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "NoSQL databases like MongoDB store data in JSON-like format.",
+      "translation": "Cơ sở dữ liệu NoSQL như MongoDB lưu trữ dữ liệu theo định dạng giống JSON.",
+      "_id": "67d6db326c1d1055c1004124"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Cơ sở dữ liệu phi quan hệ"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07ce"
+  },
+  "word": "ORM (Object-Relational Mapping)",
+  "meaning": "A technique that allows developers to interact with databases using object-oriented programming.",
+  "phonetic": "/ˌoʊ ɑːr ˈɛm/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "ORM frameworks like Hibernate simplify database interactions.",
+      "translation": "Các framework ORM như Hibernate giúp đơn giản hóa tương tác với cơ sở dữ liệu.",
+      "_id": "67d6db326c1d1055c1004125"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Ánh xạ quan hệ đối tượng"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07cf"
+  },
+  "word": "Git",
+  "meaning": "A distributed version control system used to track changes in source code.",
+  "phonetic": "/ɡɪt/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Git helps developers collaborate on projects efficiently.",
+      "translation": "Git giúp các nhà phát triển hợp tác hiệu quả trong các dự án.",
+      "_id": "67d6db326c1d1055c1004131"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Hệ thống quản lý phiên bản"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07d0"
+  },
+  "word": "GitHub/GitLab/Bitbucket",
+  "meaning": "Web-based platforms for hosting and collaborating on Git repositories.",
+  "phonetic": "/ˈɡɪt.hʌb/, /ˈɡɪt.læb/, /ˈbɪt.bʌkɪt/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Developers use GitHub, GitLab, and Bitbucket to manage their code repositories.",
+      "translation": "Các lập trình viên sử dụng GitHub, GitLab và Bitbucket để quản lý kho mã nguồn của họ.",
+      "_id": "67d6db326c1d1055c1004132"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Nền tảng lưu trữ mã nguồn"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07d1"
+  },
+  "word": "Package Manager",
+  "meaning": "A tool that automates the installation, upgrading, configuration, and removal of software packages.",
+  "phonetic": "/ˈpækɪdʒ ˈmænɪdʒər/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Package managers simplify software dependency management.",
+      "translation": "Trình quản lý gói giúp đơn giản hóa việc quản lý phụ thuộc phần mềm.",
+      "_id": "67d6db326c1d1055c1004133"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Trình quản lý gói"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07d2"
+  },
+  "word": "npm/yarn/pnpm",
+  "meaning": "JavaScript package managers used for managing project dependencies.",
+  "phonetic": "/ɛn piː ɛm/, /jɑːrn/, /piː ɛn piː ɛm/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Developers use npm, yarn, and pnpm to install JavaScript libraries.",
+      "translation": "Các lập trình viên sử dụng npm, yarn và pnpm để cài đặt thư viện JavaScript.",
+      "_id": "67d6db326c1d1055c1004134"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Công cụ quản lý gói cho JavaScript"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07d3"
+  },
+  "word": "CI/CD (Continuous Integration/Continuous Deployment)",
+  "meaning": "A software development practice that automates the integration and deployment process.",
+  "phonetic": "/siː aɪ siː diː/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "CI/CD pipelines streamline the software release process.",
+      "translation": "Các pipeline CI/CD giúp tối ưu hóa quy trình phát hành phần mềm.",
+      "_id": "67d6db326c1d1055c1004135"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Tích hợp và triển khai liên tục"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07d5"
+  },
+  "word": "Microservices",
+  "meaning": "An architectural style that structures an application as a collection of small, loosely coupled services.",
+  "phonetic": "/ˈmaɪ.krəʊˌsɜː.vɪ.sɪz/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Many modern applications are built using microservices architecture.",
+      "translation": "Nhiều ứng dụng hiện đại được xây dựng theo kiến trúc vi dịch vụ.",
+      "_id": "67d6db326c1d1055c1004201"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Kiến trúc vi dịch vụ"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07d6"
+  },
+  "word": "Monolithic Architecture",
+  "meaning": "A software architecture where all components are tightly integrated into a single unit.",
+  "phonetic": "/ˌmɒn.əˈlɪθ.ɪk ˈɑː.kɪ.tek.tʃər/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Traditional applications often use a monolithic architecture.",
+      "translation": "Các ứng dụng truyền thống thường sử dụng kiến trúc đơn khối.",
+      "_id": "67d6db326c1d1055c1004202"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Kiến trúc đơn khối"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07d7"
+  },
+  "word": "Authentication",
+  "meaning": "The process of verifying the identity of a user or system.",
+  "phonetic": "/ɔːˌθen.tɪˈkeɪ.ʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Authentication is required before accessing sensitive data.",
+      "translation": "Xác thực là bắt buộc trước khi truy cập dữ liệu nhạy cảm.",
+      "_id": "67d6db326c1d1055c1004203"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Xác thực"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07d8"
+  },
+  "word": "Authorization",
+  "meaning": "The process of granting or denying access to resources based on user permissions.",
+  "phonetic": "/ˌɔː.θə.raɪˈzeɪ.ʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Authorization determines what actions a user is allowed to perform.",
+      "translation": "Phân quyền xác định những hành động mà người dùng có thể thực hiện.",
+      "_id": "67d6db326c1d1055c1004204"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Phân quyền"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07d9"
+  },
+  "word": "Encryption",
+  "meaning": "The process of encoding information to prevent unauthorized access.",
+  "phonetic": "/ɪnˈkrɪp.ʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Encryption ensures that data remains secure during transmission.",
+      "translation": "Mã hóa giúp dữ liệu luôn được bảo mật trong quá trình truyền tải.",
+      "_id": "67d6db326c1d1055c1004205"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Mã hóa"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07da"
+  },
+  "word": "Data Structure",
+  "meaning": "A way of organizing and storing data for efficient access and modification.",
+  "phonetic": "/ˈdeɪ.tə ˈstrʌk.tʃər/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Choosing the right data structure is crucial for performance.",
+      "translation": "Việc chọn đúng cấu trúc dữ liệu rất quan trọng để tối ưu hiệu suất.",
+      "_id": "67d6db326c1d1055c1004206"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Cấu trúc dữ liệu"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07db"
+  },
+  "word": "Big O Notation",
+  "meaning": "A mathematical notation that describes the complexity of an algorithm.",
+  "phonetic": "/bɪɡ oʊ noʊˈteɪ.ʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Big O Notation helps developers analyze algorithm efficiency.",
+      "translation": "Ký hiệu độ phức tạp thuật toán giúp lập trình viên phân tích hiệu suất thuật toán.",
+      "_id": "67d6db326c1d1055c1004207"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Ký hiệu độ phức tạp thuật toán"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07dc"
+  },
+  "word": "Software Testing",
+  "meaning": "The process of evaluating software to identify bugs and ensure it meets requirements.",
+  "phonetic": "/ˈsɒft.weər ˈtes.tɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Software testing is essential to ensure product quality.",
+      "translation": "Kiểm thử phần mềm là cần thiết để đảm bảo chất lượng sản phẩm.",
+      "_id": "67d6db326c1d1055c1004208"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Kiểm thử phần mềm"
+},
+{
+  "_id": {
+    "$oid": "67e4117c2b97232faaea07dd"
+  },
+  "word": "Unit Test",
+  "meaning": "A type of software testing that focuses on testing individual components of a program.",
+  "phonetic": "/ˈjuː.nɪt tɛst/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "examples": [
+    {
+      "sentence": "Unit tests help ensure each function works correctly.",
+      "translation": "Kiểm thử đơn vị giúp đảm bảo mỗi hàm hoạt động chính xác.",
+      "_id": "67d6db326c1d1055c1004209"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-16T12:15:00Z",
+  "updatedAt": "2025-03-16T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Kiểm thử đơn vị"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07de"
+  },
+  "word": "Operating System (OS)",
+  "meaning": "A software that manages hardware and software resources of a computer.",
+  "phonetic": "/ˈɒpərˌeɪtɪŋ ˈsɪstəm/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Windows, macOS, and Linux are popular operating systems.",
+      "translation": "Windows, macOS và Linux là những hệ điều hành phổ biến.",
+      "_id": "67d6db326c1d1055c1004101"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:15:00Z",
+  "updatedAt": "2025-03-26T12:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Hệ điều hành"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07df"
+  },
+  "word": "Kernel",
+  "meaning": "The core part of an operating system that manages system resources.",
+  "phonetic": "/ˈkɜːrnəl/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "The Linux kernel is open-source and widely used.",
+      "translation": "Nhân Linux là mã nguồn mở và được sử dụng rộng rãi.",
+      "_id": "67d6db326c1d1055c1004102"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:16:00Z",
+  "updatedAt": "2025-03-26T12:26:00Z",
+  "is_delete": false,
+  "vietnamese": "Nhân hệ điều hành"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07e0"
+  },
+  "word": "Boot Process",
+  "meaning": "The sequence of events that occur when a computer is powered on and starts up.",
+  "phonetic": "/buːt ˈprəʊsɛs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "The BIOS is responsible for the initial boot process.",
+      "translation": "BIOS chịu trách nhiệm cho quá trình khởi động ban đầu.",
+      "_id": "67d6db326c1d1055c1004103"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:17:00Z",
+  "updatedAt": "2025-03-26T12:27:00Z",
+  "is_delete": false,
+  "vietnamese": "Quá trình khởi động"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07e1"
+  },
+  "word": "Firmware",
+  "meaning": "A type of software that is embedded in hardware devices.",
+  "phonetic": "/ˈfɜːrmwɛr/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Firmware updates can improve device performance.",
+      "translation": "Cập nhật firmware có thể cải thiện hiệu suất thiết bị.",
+      "_id": "67d6db326c1d1055c1004104"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:18:00Z",
+  "updatedAt": "2025-03-26T12:28:00Z",
+  "is_delete": false,
+  "vietnamese": "Phần mềm hệ thống (Firmware)"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07e2"
+  },
+  "word": "Shell",
+  "meaning": "A user interface for accessing an operating system's services.",
+  "phonetic": "/ʃɛl/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Bash is a popular shell used in Linux.",
+      "translation": "Bash là một shell phổ biến được sử dụng trong Linux.",
+      "_id": "67d6db326c1d1055c1004105"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:19:00Z",
+  "updatedAt": "2025-03-26T12:29:00Z",
+  "is_delete": false,
+  "vietnamese": "Trình thông dịch lệnh"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07e3"
+  },
+  "word": "Command Line Interface (CLI)",
+  "meaning": "A text-based interface used to interact with a computer system.",
+  "phonetic": "/kəˈmænd laɪn ˈɪntərfeɪs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Many developers prefer using the CLI for better control.",
+      "translation": "Nhiều lập trình viên thích sử dụng giao diện dòng lệnh để kiểm soát tốt hơn.",
+      "_id": "67d6db326c1d1055c1004106"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:20:00Z",
+  "updatedAt": "2025-03-26T12:30:00Z",
+  "is_delete": false,
+  "vietnamese": "Giao diện dòng lệnh"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07e4"
+  },
+  "word": "Graphical User Interface (GUI)",
+  "meaning": "A visual way of interacting with a computer using icons and windows.",
+  "phonetic": "/ˈɡræfɪkəl ˈjuːzər ˈɪntərfeɪs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Most modern operating systems use a graphical user interface.",
+      "translation": "Hầu hết các hệ điều hành hiện đại đều sử dụng giao diện đồ họa.",
+      "_id": "67d6db326c1d1055c1004107"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:31:00Z",
+  "updatedAt": "2025-03-26T12:41:00Z",
+  "is_delete": false,
+  "vietnamese": "Giao diện đồ họa"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07e5"
+  },
+  "word": "Driver",
+  "meaning": "A program that controls a particular type of hardware device attached to a computer.",
+  "phonetic": "/ˈdraɪvər/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "You need to install a driver for your printer to work properly.",
+      "translation": "Bạn cần cài đặt trình điều khiển để máy in hoạt động đúng cách.",
+      "_id": "67d6db326c1d1055c1004108"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:32:00Z",
+  "updatedAt": "2025-03-26T12:42:00Z",
+  "is_delete": false,
+  "vietnamese": "Trình điều khiển"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07e6"
+  },
+  "word": "Virtual Memory",
+  "meaning": "A memory management capability that uses disk storage to extend RAM.",
+  "phonetic": "/ˈvɜːrtʃuəl ˈmɛməri/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Virtual memory helps a computer run multiple programs smoothly.",
+      "translation": "Bộ nhớ ảo giúp máy tính chạy nhiều chương trình mượt mà hơn.",
+      "_id": "67d6db326c1d1055c1004109"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:33:00Z",
+  "updatedAt": "2025-03-26T12:43:00Z",
+  "is_delete": false,
+  "vietnamese": "Bộ nhớ ảo"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07e7"
+  },
+  "word": "Paging",
+  "meaning": "A memory management scheme that eliminates the need for contiguous memory allocation.",
+  "phonetic": "/ˈpeɪdʒɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Paging allows a computer to use disk space as an extension of RAM.",
+      "translation": "Phân trang bộ nhớ cho phép máy tính sử dụng không gian đĩa như một phần mở rộng của RAM.",
+      "_id": "67d6db326c1d1055c1004110"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:34:00Z",
+  "updatedAt": "2025-03-26T12:44:00Z",
+  "is_delete": false,
+  "vietnamese": "Phân trang bộ nhớ"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07e8"
+  },
+  "word": "Segmentation",
+  "meaning": "A memory management technique that divides a process into different segments.",
+  "phonetic": "/ˌsɛɡmənˈteɪʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Segmentation provides better flexibility in memory allocation.",
+      "translation": "Phân đoạn bộ nhớ cung cấp sự linh hoạt hơn trong phân bổ bộ nhớ.",
+      "_id": "67d6db326c1d1055c1004111"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:35:00Z",
+  "updatedAt": "2025-03-26T12:45:00Z",
+  "is_delete": false,
+  "vietnamese": "Phân đoạn bộ nhớ"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07e9"
+  },
+  "word": "Swapping",
+  "meaning": "A process in which a page or process is temporarily moved from RAM to disk storage.",
+  "phonetic": "/ˈswɒpɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Swapping allows more processes to run than the available physical memory.",
+      "translation": "Hoán đổi bộ nhớ cho phép nhiều tiến trình chạy hơn so với bộ nhớ vật lý có sẵn.",
+      "_id": "67d6db326c1d1055c1004112"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:36:00Z",
+  "updatedAt": "2025-03-26T12:46:00Z",
+  "is_delete": false,
+  "vietnamese": "Hoán đổi bộ nhớ"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07ea"
+  },
+  "word": "Cache Memory",
+  "meaning": "A small-sized type of volatile computer memory that provides high-speed data access to a processor.",
+  "phonetic": "/kæʃ ˈmɛməri/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Cache memory speeds up data retrieval.",
+      "translation": "Bộ nhớ đệm giúp tăng tốc truy xuất dữ liệu.",
+      "_id": "67d6db326c1d1055c1004113"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:50:00Z",
+  "updatedAt": "2025-03-26T12:55:00Z",
+  "is_delete": false,
+  "vietnamese": "Bộ nhớ đệm"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07eb"
+  },
+  "word": "RAM (Random Access Memory)",
+  "meaning": "A type of computer memory that can be accessed randomly and is volatile.",
+  "phonetic": "/ræm/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Upgrading your RAM improves system performance.",
+      "translation": "Nâng cấp RAM giúp cải thiện hiệu suất hệ thống.",
+      "_id": "67d6db326c1d1055c1004114"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:51:00Z",
+  "updatedAt": "2025-03-26T12:56:00Z",
+  "is_delete": false,
+  "vietnamese": "Bộ nhớ truy xuất ngẫu nhiên"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07ec"
+  },
+  "word": "ROM (Read-Only Memory)",
+  "meaning": "A type of non-volatile memory used in computers and electronic devices.",
+  "phonetic": "/rɒm/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "ROM stores firmware that is essential for booting a computer.",
+      "translation": "Bộ nhớ chỉ đọc lưu trữ phần mềm hệ thống quan trọng để khởi động máy tính.",
+      "_id": "67d6db326c1d1055c1004115"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:52:00Z",
+  "updatedAt": "2025-03-26T12:57:00Z",
+  "is_delete": false,
+  "vietnamese": "Bộ nhớ chỉ đọc"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07ed"
+  },
+  "word": "Process",
+  "meaning": "An instance of a program that is being executed.",
+  "phonetic": "/ˈprəʊ.ses/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Each process runs independently in the operating system.",
+      "translation": "Mỗi tiến trình chạy độc lập trong hệ điều hành.",
+      "_id": "67d6db326c1d1055c1004116"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:53:00Z",
+  "updatedAt": "2025-03-26T12:58:00Z",
+  "is_delete": false,
+  "vietnamese": "Tiến trình"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07ee"
+  },
+  "word": "Thread",
+  "meaning": "The smallest unit of execution within a process.",
+  "phonetic": "/θrɛd/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Threads allow concurrent execution within a process.",
+      "translation": "Luồng cho phép thực thi đồng thời bên trong một tiến trình.",
+      "_id": "67d6db326c1d1055c1004117"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:54:00Z",
+  "updatedAt": "2025-03-26T12:59:00Z",
+  "is_delete": false,
+  "vietnamese": "Luồng"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07ef"
+  },
+  "word": "Multitasking",
+  "meaning": "The ability of an operating system to execute multiple tasks simultaneously.",
+  "phonetic": "/ˌmʌl.tiˈtɑːs.kɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Modern operating systems support multitasking to enhance productivity.",
+      "translation": "Hệ điều hành hiện đại hỗ trợ đa nhiệm để tăng năng suất.",
+      "_id": "67d6db326c1d1055c1004118"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T12:55:00Z",
+  "updatedAt": "2025-03-26T13:00:00Z",
+  "is_delete": false,
+  "vietnamese": "Đa nhiệm"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07f0"
+  },
+  "word": "Multiprocessing",
+  "meaning": "The ability of a system to use multiple processors to execute tasks simultaneously.",
+  "phonetic": "/ˌmʌl.tiˈprəʊ.ses.ɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Multiprocessing improves system performance by utilizing multiple CPUs.",
+      "translation": "Đa xử lý cải thiện hiệu suất hệ thống bằng cách sử dụng nhiều bộ xử lý.",
+      "_id": "67d6db326c1d1055c1004119"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:10:00Z",
+  "updatedAt": "2025-03-26T13:15:00Z",
+  "is_delete": false,
+  "vietnamese": "Đa xử lý"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07f1"
+  },
+  "word": "Scheduling",
+  "meaning": "The method by which processes are assigned to the CPU for execution.",
+  "phonetic": "/ˈʃɛd.juː.lɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "CPU scheduling determines which process runs at a given time.",
+      "translation": "Lập lịch CPU quyết định tiến trình nào chạy vào một thời điểm nhất định.",
+      "_id": "67d6db326c1d1055c1004120"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:11:00Z",
+  "updatedAt": "2025-03-26T13:16:00Z",
+  "is_delete": false,
+  "vietnamese": "Lập lịch tiến trình"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07f2"
+  },
+  "word": "Deadlock",
+  "meaning": "A situation in which two or more processes are unable to proceed because each is waiting for the other to release a resource.",
+  "phonetic": "/ˈdɛd.lɒk/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Deadlock can occur when multiple processes compete for the same resources.",
+      "translation": "Kẹt tiến trình có thể xảy ra khi nhiều tiến trình tranh chấp cùng một tài nguyên.",
+      "_id": "67d6db326c1d1055c1004121"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:12:00Z",
+  "updatedAt": "2025-03-26T13:17:00Z",
+  "is_delete": false,
+  "vietnamese": "Kẹt tiến trình"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07f3"
+  },
+  "word": "Context Switching",
+  "meaning": "The process of storing the state of a process so that it can be resumed later.",
+  "phonetic": "/ˈkɒn.tɛkst ˈswɪtʃ.ɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Context switching occurs when the CPU switches between processes.",
+      "translation": "Chuyển đổi ngữ cảnh xảy ra khi CPU chuyển đổi giữa các tiến trình.",
+      "_id": "67d6db326c1d1055c1004122"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:13:00Z",
+  "updatedAt": "2025-03-26T13:18:00Z",
+  "is_delete": false,
+  "vietnamese": "Chuyển đổi ngữ cảnh"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07f4"
+  },
+  "word": "File System",
+  "meaning": "A method and data structure used by an operating system to manage files.",
+  "phonetic": "/faɪl ˈsɪs.təm/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "The file system determines how files are stored and retrieved.",
+      "translation": "Hệ thống tệp quyết định cách lưu trữ và truy xuất tệp tin.",
+      "_id": "67d6db326c1d1055c1004123"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:14:00Z",
+  "updatedAt": "2025-03-26T13:19:00Z",
+  "is_delete": false,
+  "vietnamese": "Hệ thống tệp"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07f5"
+  },
+  "word": "Partition",
+  "meaning": "A division of a hard drive that is treated as a separate storage unit.",
+  "phonetic": "/pɑːˈtɪʃ.ən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "A hard drive can be divided into multiple partitions.",
+      "translation": "Ổ cứng có thể được chia thành nhiều phân vùng.",
+      "_id": "67d6db326c1d1055c1004124"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:15:00Z",
+  "updatedAt": "2025-03-26T13:20:00Z",
+  "is_delete": false,
+  "vietnamese": "Phân vùng"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07f6"
+  },
+  "word": "File Allocation Table (FAT)",
+  "meaning": "A file system used for organizing and managing files on storage devices.",
+  "phonetic": "/faɪl ˌæləˈkeɪʃən ˈteɪbl/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "FAT is commonly used in USB drives and memory cards.",
+      "translation": "FAT thường được sử dụng trong USB và thẻ nhớ.",
+      "_id": "67d6db326c1d1055c1004125"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:21:00Z",
+  "updatedAt": "2025-03-26T13:25:00Z",
+  "is_delete": false,
+  "vietnamese": "Bảng phân bổ tệp"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07f7"
+  },
+  "word": "New Technology File System (NTFS)",
+  "meaning": "A modern file system developed by Microsoft for Windows operating systems.",
+  "phonetic": "/ɛn ti ɛf ɛs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "NTFS supports file permissions and encryption.",
+      "translation": "Hệ thống tệp NTFS hỗ trợ phân quyền và mã hóa tệp.",
+      "_id": "67d6db326c1d1055c1004126"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:22:00Z",
+  "updatedAt": "2025-03-26T13:26:00Z",
+  "is_delete": false,
+  "vietnamese": "Hệ thống tệp NTFS"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07f8"
+  },
+  "word": "Ext (Extended File System)",
+  "meaning": "A file system commonly used in Linux-based operating systems.",
+  "phonetic": "/ɪkst/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Linux distributions often use the Ext4 file system.",
+      "translation": "Các bản phân phối Linux thường sử dụng hệ thống tệp Ext4.",
+      "_id": "67d6db326c1d1055c1004127"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:23:00Z",
+  "updatedAt": "2025-03-26T13:27:00Z",
+  "is_delete": false,
+  "vietnamese": "Hệ thống tệp mở rộng"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07f9"
+  },
+  "word": "SSD (Solid-State Drive)",
+  "meaning": "A type of storage device that uses flash memory instead of spinning disks.",
+  "phonetic": "/ɛs ɛs diː/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "SSDs provide faster read and write speeds compared to HDDs.",
+      "translation": "Ổ SSD cung cấp tốc độ đọc và ghi nhanh hơn so với ổ HDD.",
+      "_id": "67d6db326c1d1055c1004128"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:24:00Z",
+  "updatedAt": "2025-03-26T13:28:00Z",
+  "is_delete": false,
+  "vietnamese": "Ổ cứng thể rắn"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07fa"
+  },
+  "word": "HDD (Hard Disk Drive)",
+  "meaning": "A traditional storage device that uses spinning disks to store data.",
+  "phonetic": "/eɪtʃ diː diː/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "HDDs are cheaper but slower than SSDs.",
+      "translation": "Ổ HDD có giá rẻ hơn nhưng chậm hơn SSD.",
+      "_id": "67d6db326c1d1055c1004129"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:25:00Z",
+  "updatedAt": "2025-03-26T13:29:00Z",
+  "is_delete": false,
+  "vietnamese": "Ổ cứng cơ"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07fb"
+  },
+  "word": "IP Address (Internet Protocol Address)",
+  "meaning": "A unique numerical label assigned to each device connected to a network.",
+  "phonetic": "/aɪ piː əˈdrɛs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Each device on the internet has a unique IP address.",
+      "translation": "Mỗi thiết bị trên Internet có một địa chỉ IP duy nhất.",
+      "_id": "67d6db326c1d1055c1004130"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:26:00Z",
+  "updatedAt": "2025-03-26T13:30:00Z",
+  "is_delete": false,
+  "vietnamese": "Địa chỉ IP"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07fc"
+  },
+  "word": "DNS (Domain Name System)",
+  "meaning": "A system that translates domain names into IP addresses.",
+  "phonetic": "/diː ɛn ɛs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "DNS helps convert website names into IP addresses.",
+      "translation": "DNS giúp chuyển đổi tên trang web thành địa chỉ IP.",
+      "_id": "67d6db326c1d1055c1004131"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:35:00Z",
+  "updatedAt": "2025-03-26T13:35:00Z",
+  "is_delete": false,
+  "vietnamese": "Hệ thống tên miền"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07fd"
+  },
+  "word": "DHCP (Dynamic Host Configuration Protocol)",
+  "meaning": "A protocol that automatically assigns IP addresses to devices on a network.",
+  "phonetic": "/diː eɪtʃ siː piː/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "DHCP simplifies network management by dynamically assigning IP addresses.",
+      "translation": "DHCP đơn giản hóa việc quản lý mạng bằng cách gán địa chỉ IP động.",
+      "_id": "67d6db326c1d1055c1004132"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:36:00Z",
+  "updatedAt": "2025-03-26T13:36:00Z",
+  "is_delete": false,
+  "vietnamese": "Giao thức cấu hình động"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07fe"
+  },
+  "word": "TCP/IP (Transmission Control Protocol/Internet Protocol)",
+  "meaning": "A set of communication protocols used to interconnect network devices on the internet.",
+  "phonetic": "/tiː siː piː aɪ piː/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "The internet relies on TCP/IP for communication between devices.",
+      "translation": "Internet dựa vào TCP/IP để giao tiếp giữa các thiết bị.",
+      "_id": "67d6db326c1d1055c1004133"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:37:00Z",
+  "updatedAt": "2025-03-26T13:37:00Z",
+  "is_delete": false,
+  "vietnamese": "Giao thức truyền tải"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea07ff"
+  },
+  "word": "VPN (Virtual Private Network)",
+  "meaning": "A secure network that encrypts internet traffic and hides users' IP addresses.",
+  "phonetic": "/viː piː ɛn/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "A VPN provides secure access to private networks over the internet.",
+      "translation": "VPN cung cấp quyền truy cập an toàn vào mạng riêng qua Internet.",
+      "_id": "67d6db326c1d1055c1004134"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:38:00Z",
+  "updatedAt": "2025-03-26T13:38:00Z",
+  "is_delete": false,
+  "vietnamese": "Mạng riêng ảo"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea0800"
+  },
+  "word": "Firewall",
+  "meaning": "A 67b2d7d4f25a4c444d4ed5ea system that monitors and controls incoming and outgoing network traffic.",
+  "phonetic": "/ˈfaɪərˌwɔːl/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "A firewall helps protect a network from unauthorized access.",
+      "translation": "Tường lửa giúp bảo vệ mạng khỏi truy cập trái phép.",
+      "_id": "67d6db326c1d1055c1004135"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:39:00Z",
+  "updatedAt": "2025-03-26T13:39:00Z",
+  "is_delete": false,
+  "vietnamese": "Tường lửa"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea0801"
+  },
+  "word": "Proxy Server",
+  "meaning": "A server that acts as an intermediary between a user and the internet.",
+  "phonetic": "/ˈprɒksi ˈsɜːrvər/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "A proxy server can enhance 67b2d7d4f25a4c444d4ed5ea and improve performance by caching web pages.",
+      "translation": "Máy chủ proxy có thể tăng cường bảo mật và cải thiện hiệu suất bằng cách lưu vào bộ nhớ đệm các trang web.",
+      "_id": "67d6db326c1d1055c1004136"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:40:00Z",
+  "updatedAt": "2025-03-26T13:40:00Z",
+  "is_delete": false,
+  "vietnamese": "Máy chủ proxy"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea0802"
+  },
+  "word": "Authentication",
+  "meaning": "The process of verifying a user's identity.",
+  "phonetic": "/ˌɔːθənˈtɪkəʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Two-factor authentication improves account 67b2d7d4f25a4c444d4ed5ea.",
+      "translation": "Xác thực hai yếu tố cải thiện bảo mật tài khoản.",
+      "_id": "67d6db326c1d1055c1004137"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:41:00Z",
+  "updatedAt": "2025-03-26T13:41:00Z",
+  "is_delete": false,
+  "vietnamese": "Xác thực"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea0803"
+  },
+  "word": "Authorization",
+  "meaning": "The process of granting or denying access to resources.",
+  "phonetic": "/ˌɔːθərəˈzeɪʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Authorization determines what actions a user can perform.",
+      "translation": "Phân quyền xác định những hành động người dùng có thể thực hiện.",
+      "_id": "67d6db326c1d1055c1004138"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:42:00Z",
+  "updatedAt": "2025-03-26T13:42:00Z",
+  "is_delete": false,
+  "vietnamese": "Phân quyền"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea0804"
+  },
+  "word": "Encryption",
+  "meaning": "The process of converting data into a secure format to prevent unauthorized access.",
+  "phonetic": "/ɪnˈkrɪpʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Encryption helps protect sensitive information from hackers.",
+      "translation": "Mã hóa giúp bảo vệ thông tin nhạy cảm khỏi tin tặc.",
+      "_id": "67d6db326c1d1055c1004139"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:43:00Z",
+  "updatedAt": "2025-03-26T13:43:00Z",
+  "is_delete": false,
+  "vietnamese": "Mã hóa"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea0805"
+  },
+  "word": "Access Control",
+  "meaning": "A 67b2d7d4f25a4c444d4ed5ea technique used to regulate who or what can view or use resources.",
+  "phonetic": "/ˈækses kənˈtroʊl/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Access control ensures only authorized users can access certain data.",
+      "translation": "Kiểm soát truy cập đảm bảo chỉ những người dùng được ủy quyền mới có thể truy cập dữ liệu nhất định.",
+      "_id": "67d6db326c1d1055c1004140"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:44:00Z",
+  "updatedAt": "2025-03-26T13:44:00Z",
+  "is_delete": false,
+  "vietnamese": "Kiểm soát truy cập"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea0806"
+  },
+  "word": "User Account",
+  "meaning": "An identity created for a user to access a system or service.",
+  "phonetic": "/ˈjuːzər əˈkaʊnt/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Each user must create a user account to log in.",
+      "translation": "Mỗi người dùng phải tạo một tài khoản người dùng để đăng nhập.",
+      "_id": "67d6db326c1d1055c1004141"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:45:00Z",
+  "updatedAt": "2025-03-26T13:45:00Z",
+  "is_delete": false,
+  "vietnamese": "Tài khoản người dùng"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea0807"
+  },
+  "word": "Root User / Administrator",
+  "meaning": "A user with full control over a system, often responsible for configuration and management.",
+  "phonetic": "/ruːt ˈjuːzər/ /ədˈmɪnɪstreɪtər/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "The root user has the highest level of system access.",
+      "translation": "Người dùng quản trị có mức truy cập hệ thống cao nhất.",
+      "_id": "67d6db326c1d1055c1004142"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:46:00Z",
+  "updatedAt": "2025-03-26T13:46:00Z",
+  "is_delete": false,
+  "vietnamese": "Người dùng quản trị"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea0808"
+  },
+  "word": "Privilege Escalation",
+  "meaning": "The process of gaining higher-level access to resources or functions.",
+  "phonetic": "/ˈprɪvɪlɪdʒ ˌɛskəˈleɪʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Hackers often use privilege escalation techniques to gain admin rights.",
+      "translation": "Tin tặc thường sử dụng kỹ thuật tăng quyền truy cập để có được quyền quản trị.",
+      "_id": "67d6db326c1d1055c1004143"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:50:00Z",
+  "updatedAt": "2025-03-26T13:50:00Z",
+  "is_delete": false,
+  "vietnamese": "Tăng quyền truy cập"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea0809"
+  },
+  "word": "Single-User OS",
+  "meaning": "An operating system that allows only one user to access the system at a time.",
+  "phonetic": "/ˈsɪŋɡl ˈjuːzər oʊ ɛs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Most personal computers run on a single-user OS.",
+      "translation": "Hầu hết máy tính cá nhân chạy trên hệ điều hành đơn người dùng.",
+      "_id": "67d6db326c1d1055c1004144"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:51:00Z",
+  "updatedAt": "2025-03-26T13:51:00Z",
+  "is_delete": false,
+  "vietnamese": "Hệ điều hành đơn người dùng"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea080a"
+  },
+  "word": "Multi-User OS",
+  "meaning": "An operating system that allows multiple users to access the system simultaneously.",
+  "phonetic": "/ˈmʌlti ˈjuːzər oʊ ɛs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Unix is an example of a multi-user OS.",
+      "translation": "Unix là một ví dụ về hệ điều hành đa người dùng.",
+      "_id": "67d6db326c1d1055c1004145"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:52:00Z",
+  "updatedAt": "2025-03-26T13:52:00Z",
+  "is_delete": false,
+  "vietnamese": "Hệ điều hành đa người dùng"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea080b"
+  },
+  "word": "Real-Time OS (RTOS)",
+  "meaning": "An operating system designed to process data in real-time with minimal delay.",
+  "phonetic": "/ˈriːəl taɪm oʊ ɛs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "RTOS is commonly used in embedded systems like medical devices.",
+      "translation": "Hệ điều hành thời gian thực thường được sử dụng trong các hệ thống nhúng như thiết bị y tế.",
+      "_id": "67d6db326c1d1055c1004146"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:53:00Z",
+  "updatedAt": "2025-03-26T13:53:00Z",
+  "is_delete": false,
+  "vietnamese": "Hệ điều hành thời gian thực"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea080c"
+  },
+  "word": "Distributed OS",
+  "meaning": "An operating system that manages a group of independent computers and makes them appear as a single system.",
+  "phonetic": "/dɪˈstrɪbjuːtɪd oʊ ɛs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Google's cloud infrastructure is based on a distributed OS.",
+      "translation": "Cơ sở hạ tầng đám mây của Google được xây dựng trên hệ điều hành phân tán.",
+      "_id": "67d6db326c1d1055c1004147"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:54:00Z",
+  "updatedAt": "2025-03-26T13:54:00Z",
+  "is_delete": false,
+  "vietnamese": "Hệ điều hành phân tán"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea080d"
+  },
+  "word": "Embedded OS",
+  "meaning": "An operating system designed for embedded systems, optimized for specific hardware.",
+  "phonetic": "/ɪmˈbɛdɪd oʊ ɛs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Smart TVs run on an embedded OS tailored for media applications.",
+      "translation": "TV thông minh chạy trên hệ điều hành nhúng được tối ưu hóa cho các ứng dụng đa phương tiện.",
+      "_id": "67d6db326c1d1055c1004148"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:55:00Z",
+  "updatedAt": "2025-03-26T13:55:00Z",
+  "is_delete": false,
+  "vietnamese": "Hệ điều hành nhúng"
+},
+{
+  "_id": {
+    "$oid": "67e41a212b97232faaea080e"
+  },
+  "word": "Mobile OS",
+  "meaning": "An operating system designed for mobile devices like smartphones and tablets.",
+  "phonetic": "/ˈmoʊbaɪl oʊ ɛs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "examples": [
+    {
+      "sentence": "Android and iOS are the most popular mobile OSs.",
+      "translation": "Android và iOS là những hệ điều hành di động phổ biến nhất.",
+      "_id": "67d6db326c1d1055c1004149"
+    }
+  ],
+  "audio": null,
+  "createdAt": "2025-03-26T13:56:00Z",
+  "updatedAt": "2025-03-26T13:56:00Z",
+  "is_delete": false,
+  "vietnamese": "Hệ điều hành di động"
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea080f"
+  },
+  "word": "Database",
+  "meaning": "A structured collection of data that is organized and stored.",
+  "phonetic": "/ˈdeɪtəˌbeɪs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "A 67b2d9c2f25a4c444d4ed5ec stores information in an organized way.",
+      "translation": "Cơ sở dữ liệu lưu trữ thông tin một cách có tổ chức."
+    }
+  ],
+  "vietnamese": "Cơ sở dữ liệu",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0810"
+  },
+  "word": "Table",
+  "meaning": "A collection of data arranged in rows and columns.",
+  "phonetic": "/ˈteɪb(ə)l/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "Each table in a 67b2d9c2f25a4c444d4ed5ec consists of multiple records.",
+      "translation": "Mỗi bảng trong cơ sở dữ liệu bao gồm nhiều bản ghi."
+    }
+  ],
+  "vietnamese": "Bảng",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0811"
+  },
+  "word": "Record",
+  "meaning": "A row in a table that contains specific data.",
+  "phonetic": "/ˈrɛkərd/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "Each record in the table represents a single data entry.",
+      "translation": "Mỗi bản ghi trong bảng đại diện cho một mục dữ liệu duy nhất."
+    }
+  ],
+  "vietnamese": "Bản ghi",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0812"
+  },
+  "word": "Field",
+  "meaning": "A column in a table that stores specific attributes of data.",
+  "phonetic": "/fiːld/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "The 'name' field stores the user's full name.",
+      "translation": "Trường 'name' lưu trữ tên đầy đủ của người dùng."
+    }
+  ],
+  "vietnamese": "Trường dữ liệu",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0813"
+  },
+  "word": "Primary Key",
+  "meaning": "A field or combination of fields that uniquely identifies a record in a table.",
+  "phonetic": "/ˈpraɪˌmɛri kiː/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "Each table should have a primary key for unique identification.",
+      "translation": "Mỗi bảng nên có một khóa chính để nhận dạng duy nhất."
+    }
+  ],
+  "vietnamese": "Khóa chính",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0814"
+  },
+  "word": "Foreign Key",
+  "meaning": "A field in one table that references the primary key in another table.",
+  "phonetic": "/ˈfɔːrən kiː/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "Foreign keys help maintain relationships between tables.",
+      "translation": "Khóa ngoại giúp duy trì mối quan hệ giữa các bảng."
+    }
+  ],
+  "vietnamese": "Khóa ngoại",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0815"
+  },
+  "word": "Index",
+  "meaning": "A data structure that improves the speed of data retrieval operations.",
+  "phonetic": "/ˈɪndɛks/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "Indexes improve query performance by reducing search time.",
+      "translation": "Chỉ mục cải thiện hiệu suất truy vấn bằng cách giảm thời gian tìm kiếm."
+    }
+  ],
+  "vietnamese": "Chỉ mục",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0816"
+  },
+  "word": "Relational",
+  "meaning": "A 67b2d9c2f25a4c444d4ed5ec that organizes data into tables with relationships between them.",
+  "phonetic": "/rɪˈleɪʃənəl ˈdeɪtəˌbeɪs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "A relational 67b2d9c2f25a4c444d4ed5ec stores data in structured tables.",
+      "translation": "Cơ sở dữ liệu quan hệ lưu trữ dữ liệu trong các bảng có cấu trúc.",
+      "_id": {
+        "$oid": "67e94245952f8eded06a0eee"
+      }
+    }
+  ],
+  "vietnamese": "Cơ sở dữ liệu quan hệ",
+  "is_delete": false,
+  "audio": {},
+  "updatedAt": {
+    "$date": "2025-03-30T13:08:20.983Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0817"
+  },
+  "word": "NoSQL",
+  "meaning": "A 67b2d9c2f25a4c444d4ed5ec that does not use traditional table-based structures.",
+  "phonetic": "/noʊˌɛsˌkjuːˈɛl ˈdeɪtəˌbeɪs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "NoSQL 67b2d9c2f25a4c444d4ed5ecs are used for handling large-scale unstructured data.",
+      "translation": "Cơ sở dữ liệu NoSQL được sử dụng để xử lý dữ liệu phi cấu trúc quy mô lớn.",
+      "_id": {
+        "$oid": "67e94252952f8eded06a0ef9"
+      }
+    }
+  ],
+  "vietnamese": "Cơ sở dữ liệu NoSQL",
+  "is_delete": false,
+  "audio": {},
+  "updatedAt": {
+    "$date": "2025-03-30T13:08:34.595Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0818"
+  },
+  "word": "Key-Value Store",
+  "meaning": "A 67b2d9c2f25a4c444d4ed5ec that stores data as key-value pairs.",
+  "phonetic": "/kiː ˈvæljuː stɔːr/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "Redis is an example of a key-value store 67b2d9c2f25a4c444d4ed5ec.",
+      "translation": "Redis là một ví dụ về cơ sở dữ liệu lưu trữ cặp khóa-giá trị."
+    }
+  ],
+  "vietnamese": "Lưu trữ cặp khóa-giá trị",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0819"
+  },
+  "word": "Document",
+  "meaning": "A 67b2d9c2f25a4c444d4ed5ec that stores data in document formats such as JSON or BSON.",
+  "phonetic": "/ˈdɒkjʊmənt ˈdeɪtəˌbeɪs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "MongoDB is a popular document 67b2d9c2f25a4c444d4ed5ec.",
+      "translation": "MongoDB là một cơ sở dữ liệu tài liệu phổ biến."
+    }
+  ],
+  "vietnamese": "Cơ sở dữ liệu tài liệu",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea081a"
+  },
+  "word": "Graph",
+  "meaning": "A 67b2d9c2f25a4c444d4ed5ec that represents data as nodes and edges to model relationships.",
+  "phonetic": "/ɡræf ˈdeɪtəˌbeɪs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "Neo4j is a well-known graph 67b2d9c2f25a4c444d4ed5ec used for relationship data.",
+      "translation": "Neo4j là một cơ sở dữ liệu đồ thị nổi tiếng được sử dụng cho dữ liệu quan hệ."
+    }
+  ],
+  "vietnamese": "Cơ sở dữ liệu đồ thị",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea081b"
+  },
+  "word": "Columnar",
+  "meaning": "A 67b2d9c2f25a4c444d4ed5ec that stores data by columns instead of rows.",
+  "phonetic": "/ˈkɒləmnər ˈdeɪtəˌbeɪs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "Apache Cassandra is an example of a columnar 67b2d9c2f25a4c444d4ed5ec.",
+      "translation": "Apache Cassandra là một ví dụ về cơ sở dữ liệu cột."
+    }
+  ],
+  "vietnamese": "Cơ sở dữ liệu cột",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea081c"
+  },
+  "word": "Query",
+  "meaning": "A request made to a 67b2d9c2f25a4c444d4ed5ec to retrieve or manipulate data.",
+  "phonetic": "/ˈkwɪəri/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "SQL queries are used to retrieve information from a 67b2d9c2f25a4c444d4ed5ec.",
+      "translation": "Truy vấn SQL được sử dụng để lấy thông tin từ cơ sở dữ liệu."
+    }
+  ],
+  "vietnamese": "Truy vấn",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea081d"
+  },
+  "word": "CRUD",
+  "meaning": "The four basic operations for managing data: Create, Read, Update, Delete.",
+  "phonetic": "/kruːd/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "Most web applications implement CRUD operations for data management.",
+      "translation": "Hầu hết các ứng dụng web thực hiện các thao tác CRUD để quản lý dữ liệu."
+    }
+  ],
+  "vietnamese": "Các thao tác cơ bản với dữ liệu",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea081e"
+  },
+  "word": "Join",
+  "meaning": "A 67b2d9c2f25a4c444d4ed5ec operation that combines data from multiple tables.",
+  "phonetic": "/dʒɔɪn/",
+  "type": [
+    "verb"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "SQL JOINs allow retrieving related data from different tables.",
+      "translation": "SQL JOIN cho phép truy xuất dữ liệu liên quan từ các bảng khác nhau."
+    }
+  ],
+  "vietnamese": "Ghép bảng",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea081f"
+  },
+  "word": "Normalization",
+  "meaning": "The process of organizing data to minimize redundancy.",
+  "phonetic": "/ˌnɔːrməlaɪˈzeɪʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "67b2d9c2f25a4c444d4ed5ec normalization reduces data redundancy and improves integrity.",
+      "translation": "Chuẩn hóa cơ sở dữ liệu giúp giảm trùng lặp dữ liệu và cải thiện tính toàn vẹn."
+    }
+  ],
+  "vietnamese": "Chuẩn hóa",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0820"
+  },
+  "word": "Denormalization",
+  "meaning": "The process of optimizing 67b2d9c2f25a4c444d4ed5ec queries by combining redundant data.",
+  "phonetic": "/ˌdiːnɔːrməlaɪˈzeɪʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "Denormalization can improve query performance but increases data redundancy.",
+      "translation": "Phi chuẩn hóa có thể cải thiện hiệu suất truy vấn nhưng làm tăng sự trùng lặp dữ liệu."
+    }
+  ],
+  "vietnamese": "Phi chuẩn hóa",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0821"
+  },
+  "word": "Management System (DBMS)",
+  "meaning": "A software system that manages 67b2d9c2f25a4c444d4ed5ecs.",
+  "phonetic": "/ˈdeɪtəˌbeɪs ˈmænɪdʒmənt ˈsɪstəm/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "MySQL is a popular 67b2d9c2f25a4c444d4ed5ec management system.",
+      "translation": "MySQL là một hệ quản trị cơ sở dữ liệu phổ biến."
+    }
+  ],
+  "vietnamese": "Hệ quản trị cơ sở dữ liệu",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0822"
+  },
+  "word": "Management System (RDBMS)",
+  "meaning": "A DBMS that organizes data into related tables.",
+  "phonetic": "/rɪˈleɪʃənəl ˈdeɪtəˌbeɪs ˈmænɪdʒmənt ˈsɪstəm/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "PostgreSQL is an example of a relational 67b2d9c2f25a4c444d4ed5ec management system.",
+      "translation": "PostgreSQL là một ví dụ về hệ quản trị cơ sở dữ liệu quan hệ."
+    }
+  ],
+  "vietnamese": "Hệ quản trị cơ sở dữ liệu quan hệ",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0823"
+  },
+  "word": "ACID (Atomicity, Consistency, Isolation, Durability)",
+  "meaning": "A set of properties that guarantee reliable 67b2d9c2f25a4c444d4ed5ec transactions.",
+  "phonetic": "/ˈeɪsɪd/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "ACID compliance ensures 67b2d9c2f25a4c444d4ed5ec transactions are processed reliably.",
+      "translation": "Tuân thủ ACID đảm bảo các giao dịch cơ sở dữ liệu được xử lý đáng tin cậy."
+    }
+  ],
+  "vietnamese": "Tính chất của giao dịch dữ liệu",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0824"
+  },
+  "word": "BASE (Basically Available, Soft-state, Eventually consistent)",
+  "meaning": "A model for NoSQL 67b2d9c2f25a4c444d4ed5ecs focusing on availability and eventual consistency.",
+  "phonetic": "/beɪs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "BASE principles are commonly used in NoSQL 67b2d9c2f25a4c444d4ed5ecs.",
+      "translation": "Nguyên tắc BASE thường được sử dụng trong các cơ sở dữ liệu NoSQL."
+    }
+  ],
+  "vietnamese": "Tính chất của NoSQL",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0825"
+  },
+  "word": "Sharding",
+  "meaning": "A 67b2d9c2f25a4c444d4ed5ec partitioning technique to improve performance and scalability.",
+  "phonetic": "/ˈʃɑːrdɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "Sharding distributes data across multiple servers to handle large-scale applications.",
+      "translation": "Phân mảnh phân phối dữ liệu trên nhiều máy chủ để xử lý các ứng dụng quy mô lớn."
+    }
+  ],
+  "vietnamese": "Phân mảnh",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0826"
+  },
+  "word": "Replication",
+  "meaning": "The process of copying data from one 67b2d9c2f25a4c444d4ed5ec server to another.",
+  "phonetic": "/ˌrɛplɪˈkeɪʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "67b2d9c2f25a4c444d4ed5ec replication ensures high availability and fault tolerance.",
+      "translation": "Nhân bản dữ liệu đảm bảo tính sẵn sàng cao và khả năng chịu lỗi."
+    }
+  ],
+  "vietnamese": "Nhân bản dữ liệu",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41bbe2b97232faaea0827"
+  },
+  "word": "Cache",
+  "meaning": "A temporary storage area that holds frequently accessed data for faster retrieval.",
+  "phonetic": "/kæʃ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "examples": [
+    {
+      "sentence": "Using a cache can significantly speed up 67b2d9c2f25a4c444d4ed5ec queries.",
+      "translation": "Sử dụng bộ nhớ đệm có thể tăng tốc đáng kể các truy vấn cơ sở dữ liệu."
+    }
+  ],
+  "vietnamese": "Bộ nhớ đệm",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0828"
+  },
+  "word": "Computer network",
+  "meaning": "A system of interconnected computers that communicate with each other.",
+  "phonetic": "/kəmˈpjuːtər ˈnɛtwɜrk/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A computer network allows multiple devices to share data.",
+      "translation": "Mạng máy tính cho phép nhiều thiết bị chia sẻ dữ liệu."
+    }
+  ],
+  "vietnamese": "Mạng máy tính",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0829"
+  },
+  "word": "Node",
+  "meaning": "A connection point within a network that can send, receive, or forward data.",
+  "phonetic": "/noʊd/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Each node in a network has a unique address.",
+      "translation": "Mỗi nút mạng trong hệ thống có một địa chỉ duy nhất."
+    }
+  ],
+  "vietnamese": "Nút mạng",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea082a"
+  },
+  "word": "Host",
+  "meaning": "A computer or device connected to a network that provides resources or services.",
+  "phonetic": "/hoʊst/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "The host manages requests from multiple clients.",
+      "translation": "Máy chủ quản lý các yêu cầu từ nhiều máy khách."
+    }
+  ],
+  "vietnamese": "Máy chủ",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea082b"
+  },
+  "word": "Server",
+  "meaning": "A computer system that provides services, resources, or data to other computers on a network.",
+  "phonetic": "/ˈsɜrvər/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "The server stores all user data securely.",
+      "translation": "Máy chủ lưu trữ tất cả dữ liệu người dùng một cách an toàn."
+    }
+  ],
+  "vietnamese": "Máy chủ",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea082c"
+  },
+  "word": "Client",
+  "meaning": "A computer or software that requests services or resources from a server.",
+  "phonetic": "/ˈklaɪənt/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "The client sends a request to the server for data.",
+      "translation": "Máy khách gửi yêu cầu đến máy chủ để lấy dữ liệu."
+    }
+  ],
+  "vietnamese": "Máy khách",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea082d"
+  },
+  "word": "Protocol",
+  "meaning": "A set of rules that define how data is transmitted over a network.",
+  "phonetic": "/ˈproʊtəˌkɒl/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "The HTTP protocol is used to transfer web pages.",
+      "translation": "Giao thức HTTP được sử dụng để truyền tải trang web."
+    }
+  ],
+  "vietnamese": "Giao thức",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea082e"
+  },
+  "word": "Data transmission",
+  "meaning": "The process of transferring data between devices over a network.",
+  "phonetic": "/ˈdeɪtə trænzˈmɪʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Wireless data transmission allows devices to communicate without cables.",
+      "translation": "Truyền dữ liệu không dây cho phép các thiết bị giao tiếp mà không cần dây cáp."
+    }
+  ],
+  "vietnamese": "Truyền dữ liệu",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea082f"
+  },
+  "word": "Bandwidth",
+  "meaning": "The maximum rate of data transfer across a network.",
+  "phonetic": "/ˈbændˌwɪdθ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Higher bandwidth allows for faster data transmission.",
+      "translation": "Băng thông cao hơn cho phép truyền dữ liệu nhanh hơn."
+    }
+  ],
+  "vietnamese": "Băng thông",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0830"
+  },
+  "word": "Latency",
+  "meaning": "The delay between sending and receiving data over a network.",
+  "phonetic": "/ˈleɪtənsi/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Low latency is important for real-time applications like video calls.",
+      "translation": "Độ trễ thấp rất quan trọng đối với các ứng dụng thời gian thực như cuộc gọi video."
+    }
+  ],
+  "vietnamese": "Độ trễ",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0831"
+  },
+  "word": "Throughput",
+  "meaning": "The actual amount of data successfully transmitted over a network in a given time.",
+  "phonetic": "/ˈθruːˌpʊt/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Network congestion can reduce throughput significantly.",
+      "translation": "Tắc nghẽn mạng có thể làm giảm lưu lượng truyền tải đáng kể."
+    }
+  ],
+  "vietnamese": "Lưu lượng truyền tải",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0832"
+  },
+  "word": "Packet",
+  "meaning": "A small unit of data transmitted over a network.",
+  "phonetic": "/ˈpækɪt/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Each packet contains a portion of the overall data being sent.",
+      "translation": "Mỗi gói tin chứa một phần dữ liệu tổng thể được gửi đi."
+    }
+  ],
+  "vietnamese": "Gói tin",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0833"
+  },
+  "word": "Frame",
+  "meaning": "A structured data unit in network communication that includes addressing and error-checking information.",
+  "phonetic": "/freɪm/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A frame carries packets across a network with additional control information.",
+      "translation": "Khung dữ liệu mang các gói tin qua mạng kèm theo thông tin kiểm soát bổ sung."
+    }
+  ],
+  "vietnamese": "Khung dữ liệu",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0834"
+  },
+  "word": "LAN (Local Area Network)",
+  "meaning": "A network that connects computers within a limited area such as an office, home, or school.",
+  "phonetic": "/læn/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A LAN allows employees to share files and printers easily.",
+      "translation": "Mạng cục bộ cho phép nhân viên chia sẻ tệp và máy in dễ dàng."
+    }
+  ],
+  "vietnamese": "Mạng cục bộ",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0835"
+  },
+  "word": "WAN (Wide Area Network)",
+  "meaning": "A network that covers a large geographical area, often consisting of multiple LANs.",
+  "phonetic": "/wæn/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "The internet is the largest example of a WAN.",
+      "translation": "Internet là ví dụ lớn nhất của mạng diện rộng."
+    }
+  ],
+  "vietnamese": "Mạng diện rộng",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0836"
+  },
+  "word": "MAN (Metropolitan Area Network)",
+  "meaning": "A network that covers a city or large campus, connecting multiple LANs.",
+  "phonetic": "/mæn/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A MAN connects different buildings in a city for seamless communication.",
+      "translation": "Mạng đô thị kết nối các tòa nhà trong một thành phố để giao tiếp liền mạch."
+    }
+  ],
+  "vietnamese": "Mạng đô thị",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0837"
+  },
+  "word": "WLAN (Wireless Local Area Network)",
+  "meaning": "A wireless version of a LAN that allows devices to connect without cables.",
+  "phonetic": "/ˈwaɪərlɪs læn/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "WLANs use Wi-Fi technology to provide internet access.",
+      "translation": "Mạng không dây cục bộ sử dụng công nghệ Wi-Fi để cung cấp truy cập internet."
+    }
+  ],
+  "vietnamese": "Mạng không dây cục bộ",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0838"
+  },
+  "word": "VPN (Virtual Private Network)",
+  "meaning": "A secure network connection that encrypts data over the internet.",
+  "phonetic": "/ˌvɜr.tʃu.əl ˈpraɪ.vɪt ˈnɛt.wɜrk/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A VPN allows users to access private networks securely from anywhere.",
+      "translation": "Mạng riêng ảo cho phép người dùng truy cập mạng riêng một cách an toàn từ bất cứ đâu."
+    }
+  ],
+  "vietnamese": "Mạng riêng ảo",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0839"
+  },
+  "word": "PAN (Personal Area Network)",
+  "meaning": "A small network designed for personal devices like smartphones, tablets, and wearables.",
+  "phonetic": "/pæn/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A Bluetooth PAN connects a smartphone to wireless headphones.",
+      "translation": "Mạng cá nhân Bluetooth kết nối điện thoại thông minh với tai nghe không dây."
+    }
+  ],
+  "vietnamese": "Mạng cá nhân",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea083a"
+  },
+  "word": "SAN (Storage Area Network)",
+  "meaning": "A specialized network for high-speed data storage and retrieval.",
+  "phonetic": "/sæn/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A SAN improves data access speed for large enterprises.",
+      "translation": "Mạng lưu trữ cải thiện tốc độ truy cập dữ liệu cho các doanh nghiệp lớn."
+    }
+  ],
+  "vietnamese": "Mạng lưu trữ",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea083b"
+  },
+  "word": "TCP/IP (Transmission Control Protocol/Internet Protocol)",
+  "meaning": "A set of 67b2d9f9f25a4c444d4ed5ee protocols that define how data is sent and received over the internet.",
+  "phonetic": "/ˌtiː.siː.piː aɪˈpiː/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "The internet relies on TCP/IP for communication between devices.",
+      "translation": "Internet dựa vào giao thức TCP/IP để thiết bị giao tiếp với nhau."
+    }
+  ],
+  "vietnamese": "Giao thức điều khiển truyền tải/Giao thức Internet",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea083c"
+  },
+  "word": "HTTP (HyperText Transfer Protocol)",
+  "meaning": "A protocol used to transfer web pages and resources over the internet.",
+  "phonetic": "/ˌeɪtʃ.tiː.tiːˈpiː/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Web browsers use HTTP to request and display web pages.",
+      "translation": "Trình duyệt web sử dụng giao thức HTTP để yêu cầu và hiển thị trang web."
+    }
+  ],
+  "vietnamese": "Giao thức truyền tải siêu văn bản",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea083d"
+  },
+  "word": "HTTPS (HyperText Transfer Protocol Secure)",
+  "meaning": "A secure version of HTTP that encrypts data for safe communication over the web.",
+  "phonetic": "/ˌeɪtʃ.tiː.tiː.piːˈɛs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Websites use HTTPS to protect user data from cyber threats.",
+      "translation": "Các trang web sử dụng HTTPS để bảo vệ dữ liệu người dùng khỏi các mối đe dọa mạng."
+    }
+  ],
+  "vietnamese": "Giao thức truyền tải siêu văn bản bảo mật",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea083e"
+  },
+  "word": "FTP (File Transfer Protocol)",
+  "meaning": "A protocol used for transferring files over a network.",
+  "phonetic": "/ˌɛf.tiːˈpiː/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "FTP is commonly used to upload files to a web server.",
+      "translation": "FTP thường được sử dụng để tải tệp lên máy chủ web."
+    }
+  ],
+  "vietnamese": "Giao thức truyền tập tin",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea083f"
+  },
+  "word": "DNS (Domain Name System)",
+  "meaning": "A system that translates human-readable domain names into IP addresses.",
+  "phonetic": "/ˌdiːɛnˈɛs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "DNS allows users to access websites using domain names instead of IP addresses.",
+      "translation": "DNS cho phép người dùng truy cập trang web bằng tên miền thay vì địa chỉ IP."
+    }
+  ],
+  "vietnamese": "Hệ thống tên miền",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0840"
+  },
+  "word": "DHCP (Dynamic Host Configuration Protocol)",
+  "meaning": "A protocol that automatically assigns IP addresses to devices in a network.",
+  "phonetic": "/ˌdiːeɪtʃˈsiːpiː/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "DHCP simplifies network management by automatically assigning IP addresses.",
+      "translation": "DHCP đơn giản hóa việc quản lý mạng bằng cách tự động cấp phát địa chỉ IP."
+    }
+  ],
+  "vietnamese": "Giao thức cấu hình động máy chủ",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0841"
+  },
+  "word": "SMTP (Simple Mail Transfer Protocol)",
+  "meaning": "A protocol used for sending emails between mail servers.",
+  "phonetic": "/ˌɛs.ɛm.tiːˈpiː/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "SMTP is essential for email communication over the internet.",
+      "translation": "SMTP rất quan trọng để gửi email qua internet."
+    }
+  ],
+  "vietnamese": "Giao thức truyền tải thư điện tử",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0842"
+  },
+  "word": "POP3 (Post Office Protocol 3)",
+  "meaning": "A protocol used to retrieve emails from a mail server to a local client.",
+  "phonetic": "/pɒp θriː/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "POP3 downloads emails to a device and deletes them from the server.",
+      "translation": "POP3 tải email về thiết bị và xóa chúng khỏi máy chủ."
+    }
+  ],
+  "vietnamese": "Giao thức nhận email phiên bản 3",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0843"
+  },
+  "word": "IMAP (Internet Message Access Protocol)",
+  "meaning": "A protocol that allows users to access emails stored on a remote mail server.",
+  "phonetic": "/ˈaɪ.mæp/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "IMAP allows users to access their emails from multiple devices.",
+      "translation": "IMAP cho phép người dùng truy cập email từ nhiều thiết bị khác nhau."
+    }
+  ],
+  "vietnamese": "Giao thức truy cập tin nhắn Internet",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0844"
+  },
+  "word": "SSH (Secure Shell)",
+  "meaning": "A protocol used to securely connect to remote computers over an encrypted connection.",
+  "phonetic": "/ˌɛs.ɛsˈeɪtʃ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "SSH allows secure remote administration of servers.",
+      "translation": "SSH cho phép quản trị từ xa máy chủ một cách an toàn."
+    }
+  ],
+  "vietnamese": "Giao thức kết nối bảo mật",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0845"
+  },
+  "word": "ICMP (Internet Control Message Protocol)",
+  "meaning": "A protocol used to send error messages and operational information in a network.",
+  "phonetic": "/ˌaɪ.siː.ɛmˈpiː/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "ICMP is used by the ping command to check network connectivity.",
+      "translation": "ICMP được sử dụng bởi lệnh ping để kiểm tra kết nối mạng."
+    }
+  ],
+  "vietnamese": "Giao thức điều khiển mạng Internet",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0846"
+  },
+  "word": "Router",
+  "meaning": "A device that directs network traffic between different networks.",
+  "phonetic": "/ˈraʊ.tər/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A router connects a home network to the internet.",
+      "translation": "Bộ định tuyến kết nối mạng gia đình với internet."
+    }
+  ],
+  "vietnamese": "Bộ định tuyến",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0847"
+  },
+  "word": "Switch",
+  "meaning": "A network device that connects multiple devices and manages data traffic efficiently.",
+  "phonetic": "/swɪtʃ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A switch is used to connect multiple computers in a LAN.",
+      "translation": "Bộ chuyển mạch được sử dụng để kết nối nhiều máy tính trong mạng cục bộ."
+    }
+  ],
+  "vietnamese": "Bộ chuyển mạch",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0848"
+  },
+  "word": "Hub",
+  "meaning": "A basic network device that connects multiple devices but does not manage data traffic.",
+  "phonetic": "/hʌb/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A hub broadcasts data to all connected devices.",
+      "translation": "Bộ tập trung phát dữ liệu đến tất cả các thiết bị kết nối."
+    }
+  ],
+  "vietnamese": "Bộ tập trung",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0849"
+  },
+  "word": "Modem",
+  "meaning": "A device that converts digital data into signals for transmission over telephone lines or cable.",
+  "phonetic": "/ˈmoʊ.dəm/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A modem connects a home network to an internet service provider.",
+      "translation": "Bộ điều chế kết nối mạng gia đình với nhà cung cấp dịch vụ internet."
+    }
+  ],
+  "vietnamese": "Bộ điều chế",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea084a"
+  },
+  "word": "Access Point (AP)",
+  "meaning": "A device that provides wireless connectivity to a wired network.",
+  "phonetic": "/ˈæk.sɛs pɔɪnt/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "An access point extends Wi-Fi coverage in large buildings.",
+      "translation": "Điểm truy cập mở rộng vùng phủ sóng Wi-Fi trong các tòa nhà lớn."
+    }
+  ],
+  "vietnamese": "Điểm truy cập",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea084b"
+  },
+  "word": "Firewall",
+  "meaning": "A security system that monitors and controls incoming and outgoing network traffic.",
+  "phonetic": "/ˈfaɪr.wɔːl/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A firewall helps protect a network from cyber threats.",
+      "translation": "Tường lửa giúp bảo vệ mạng khỏi các mối đe dọa an ninh mạng."
+    }
+  ],
+  "vietnamese": "Tường lửa",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea084c"
+  },
+  "word": "Repeater",
+  "meaning": "A network device that amplifies and retransmits signals to extend the range of a network.",
+  "phonetic": "/rɪˈpiː.tər/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A repeater is used to extend Wi-Fi coverage in large areas.",
+      "translation": "Bộ lặp được sử dụng để mở rộng vùng phủ sóng Wi-Fi trong các khu vực rộng lớn."
+    }
+  ],
+  "vietnamese": "Bộ lặp",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea084d"
+  },
+  "word": "Load Balancer",
+  "meaning": "A device or software that distributes network traffic across multiple servers to ensure high availability and reliability.",
+  "phonetic": "/loʊd ˈbæ.lən.sɚ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A load balancer helps distribute incoming traffic evenly among servers.",
+      "translation": "Bộ cân bằng tải giúp phân phối lưu lượng truy cập đồng đều giữa các máy chủ."
+    }
+  ],
+  "vietnamese": "Bộ cân bằng tải",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea084e"
+  },
+  "word": "IP Address (Internet Protocol Address)",
+  "meaning": "A unique numerical identifier assigned to each device connected to a network.",
+  "phonetic": "/ˌaɪˈpiː əˈdrɛs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Each device on the internet has a unique IP address.",
+      "translation": "Mỗi thiết bị trên internet đều có một địa chỉ IP duy nhất."
+    }
+  ],
+  "vietnamese": "Địa chỉ IP",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea084f"
+  },
+  "word": "IPv4 (Internet Protocol Version 4)",
+  "meaning": "The fourth version of the Internet Protocol, which uses a 32-bit address scheme.",
+  "phonetic": "/ˌaɪ.piː.viː ˈfɔːr/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "IPv4 is the most widely used protocol for internet communication.",
+      "translation": "IPv4 là giao thức được sử dụng rộng rãi nhất cho truyền thông internet."
+    }
+  ],
+  "vietnamese": "Giao thức IP phiên bản 4",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0850"
+  },
+  "word": "IPv6 (Internet Protocol Version 6)",
+  "meaning": "The sixth version of the Internet Protocol, designed to replace IPv4 and provide a larger address space using a 128-bit address scheme.",
+  "phonetic": "/ˌaɪ.piː.viː ˈsɪks/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "IPv6 was developed to solve the address exhaustion problem of IPv4.",
+      "translation": "IPv6 được phát triển để giải quyết vấn đề cạn kiệt địa chỉ của IPv4."
+    }
+  ],
+  "vietnamese": "Giao thức IP phiên bản 6",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0851"
+  },
+  "word": "Subnet Mask",
+  "meaning": "A numerical mask that determines the network and host portions of an IP address.",
+  "phonetic": "/ˈsʌb.nɛt mæsk/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A subnet mask helps define network boundaries.",
+      "translation": "Mặt nạ mạng con giúp xác định ranh giới của mạng."
+    }
+  ],
+  "vietnamese": "Mặt nạ mạng con",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0852"
+  },
+  "word": "MAC Address (Media Access Control Address)",
+  "meaning": "A unique identifier assigned to a network interface controller (NIC) for communications on a network.",
+  "phonetic": "/ˌɛmˌeɪˈsiː ˈæd.rɛs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Each network device has a unique MAC address.",
+      "translation": "Mỗi thiết bị mạng có một địa chỉ MAC duy nhất."
+    }
+  ],
+  "vietnamese": "Địa chỉ MAC",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0853"
+  },
+  "word": "NAT (Network Address Translation)",
+  "meaning": "A method of remapping one IP address space into another to improve security and reduce the number of public IP addresses required.",
+  "phonetic": "/næt/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "NAT helps multiple devices share a single public IP address.",
+      "translation": "Biên dịch địa chỉ mạng giúp nhiều thiết bị dùng chung một địa chỉ IP công cộng."
+    }
+  ],
+  "vietnamese": "Biên dịch địa chỉ mạng",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0854"
+  },
+  "word": "CIDR (Classless Inter-Domain Routing)",
+  "meaning": "A method for allocating IP addresses and IP routing that replaces the older class-based system.",
+  "phonetic": "/ˈsaɪ.dər/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "CIDR allows for more efficient allocation of IP addresses.",
+      "translation": "Định tuyến liên miền không phân lớp cho phép phân bổ địa chỉ IP hiệu quả hơn."
+    }
+  ],
+  "vietnamese": "Định tuyến liên miền không phân lớp",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0855"
+  },
+  "word": "Firewall",
+  "meaning": "A security system that monitors and controls incoming and outgoing network traffic.",
+  "phonetic": "/ˈfaɪr.wɔːl/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A firewall helps protect a network from cyber threats.",
+      "translation": "Tường lửa giúp bảo vệ mạng khỏi các mối đe dọa an ninh mạng."
+    }
+  ],
+  "vietnamese": "Tường lửa",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0856"
+  },
+  "word": "Encryption",
+  "meaning": "The process of converting data into a secure format that cannot be read without a decryption key.",
+  "phonetic": "/ɪnˈkrɪp.ʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Encryption ensures that sensitive data remains protected.",
+      "translation": "Mã hóa đảm bảo rằng dữ liệu nhạy cảm được bảo vệ."
+    }
+  ],
+  "vietnamese": "Mã hóa",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0857"
+  },
+  "word": "Decryption",
+  "meaning": "The process of converting encrypted data back into its original form.",
+  "phonetic": "/diːˈkrɪp.ʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Decryption is required to access encrypted messages.",
+      "translation": "Giải mã là cần thiết để truy cập các tin nhắn đã mã hóa."
+    }
+  ],
+  "vietnamese": "Giải mã",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0858"
+  },
+  "word": "Authentication",
+  "meaning": "The process of verifying the identity of a user or device before granting access to a system.",
+  "phonetic": "/ɔːˌθɛn.tɪˈkeɪ.ʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Two-factor authentication adds an extra layer of security.",
+      "translation": "Xác thực hai yếu tố thêm một lớp bảo mật bổ sung."
+    }
+  ],
+  "vietnamese": "Xác thực",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0859"
+  },
+  "word": "Authorization",
+  "meaning": "The process of granting or denying access rights to resources in a system.",
+  "phonetic": "/ˌɔː.θɚ.aɪˈzeɪ.ʃən/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Authorization determines what actions a user is allowed to perform.",
+      "translation": "Ủy quyền xác định những hành động mà người dùng được phép thực hiện."
+    }
+  ],
+  "vietnamese": "Ủy quyền",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea085a"
+  },
+  "word": "Intrusion Detection System (IDS)",
+  "meaning": "A security system that monitors network traffic for suspicious activity and potential threats.",
+  "phonetic": "/ɪnˈtruːʒən dɪˈtɛkʃən ˈsɪstəm/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "The IDS detected unusual activity in the network.",
+      "translation": "Hệ thống phát hiện xâm nhập đã phát hiện hoạt động bất thường trong mạng."
+    }
+  ],
+  "vietnamese": "Hệ thống phát hiện xâm nhập",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea085b"
+  },
+  "word": "Intrusion Prevention System (IPS)",
+  "meaning": "A security system that actively prevents detected threats from compromising the network.",
+  "phonetic": "/ɪnˈtruːʒən prɪˈvɛnʃən ˈsɪstəm/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "The IPS blocked a potential attack before it could reach the server.",
+      "translation": "Hệ thống ngăn chặn xâm nhập đã chặn một cuộc tấn công tiềm ẩn trước khi nó có thể xâm nhập vào máy chủ."
+    }
+  ],
+  "vietnamese": "Hệ thống ngăn chặn xâm nhập",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea085c"
+  },
+  "word": "Malware",
+  "meaning": "Malicious software designed to damage, disrupt, or gain unauthorized access to a system.",
+  "phonetic": "/ˈmæl.wɛər/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Malware can compromise your personal data.",
+      "translation": "Phần mềm độc hại có thể xâm phạm dữ liệu cá nhân của bạn."
+    }
+  ],
+  "vietnamese": "Phần mềm độc hại",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea085d"
+  },
+  "word": "Phishing",
+  "meaning": "A cyber attack that uses fraudulent emails or websites to trick individuals into revealing sensitive information.",
+  "phonetic": "/ˈfɪʃ.ɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "0e0000000ec0000067b2d9f9"
+  },
+  "examples": [
+    {
+      "sentence": "He received a phishing email pretending to be from his bank.",
+      "translation": "Anh ấy đã nhận được một email lừa đảo giả danh ngân hàng của mình."
+    }
+  ],
+  "vietnamese": "Lừa đảo qua mạng",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea085e"
+  },
+  "word": "Denial of Service (DoS)",
+  "meaning": "A cyber attack that overwhelms a network or service with excessive traffic, rendering it unavailable.",
+  "phonetic": "/dɪˈnaɪ.əl əv ˈsɜːr.vɪs/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "The website was taken down by a DoS attack.",
+      "translation": "Trang web đã bị tấn công từ chối dịch vụ và ngừng hoạt động."
+    }
+  ],
+  "vietnamese": "Tấn công từ chối dịch vụ",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea085f"
+  },
+  "word": "Man-in-the-Middle Attack (MITM)",
+  "meaning": "A cyber attack where an attacker intercepts and manipulates communication between two parties.",
+  "phonetic": "/mæn ɪn ðə ˈmɪd.əl əˈtæk/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A MITM attack can intercept your login credentials.",
+      "translation": "Một cuộc tấn công trung gian có thể chặn thông tin đăng nhập của bạn."
+    }
+  ],
+  "vietnamese": "Tấn công trung gian",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0860"
+  },
+  "word": "Load Balancing",
+  "meaning": "The process of distributing network traffic across multiple servers to ensure efficiency and reliability.",
+  "phonetic": "/loʊd ˈbæl.ən.sɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Load balancing improves website performance during high traffic periods.",
+      "translation": "Cân bằng tải giúp cải thiện hiệu suất trang web trong thời gian lưu lượng truy cập cao."
+    }
+  ],
+  "vietnamese": "Cân bằng tải",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0861"
+  },
+  "word": "Port",
+  "meaning": "A virtual endpoint for communication in a network, identified by a unique number.",
+  "phonetic": "/pɔːrt/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "The web server listens on port 80 for HTTP traffic.",
+      "translation": "Máy chủ web lắng nghe lưu lượng HTTP trên cổng 80."
+    }
+  ],
+  "vietnamese": "Cổng mạng",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0862"
+  },
+  "word": "Gateway",
+  "meaning": "A network device that connects two different networks and facilitates communication between them.",
+  "phonetic": "/ˈɡeɪt.weɪ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A gateway connects the local network to the internet.",
+      "translation": "Cổng kết nối giúp kết nối mạng nội bộ với internet."
+    }
+  ],
+  "vietnamese": "Cổng kết nối",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0863"
+  },
+  "word": "Proxy Server",
+  "meaning": "An intermediary server that processes requests between a client and another server.",
+  "phonetic": "/ˈprɒk.si ˈsɜːr.vər/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "A proxy server can improve security and privacy.",
+      "translation": "Máy chủ proxy có thể cải thiện bảo mật và quyền riêng tư."
+    }
+  ],
+  "vietnamese": "Máy chủ proxy",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0864"
+  },
+  "word": "Cloud Computing",
+  "meaning": "The delivery of computing services over the internet, including storage, processing, and 67b2d9f9f25a4c444d4ed5ee.",
+  "phonetic": "/klaʊd kəmˈpjuː.tɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Many businesses use cloud computing for data storage.",
+      "translation": "Nhiều doanh nghiệp sử dụng điện toán đám mây để lưu trữ dữ liệu."
+    }
+  ],
+  "vietnamese": "Điện toán đám mây",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0865"
+  },
+  "word": "Edge Computing",
+  "meaning": "A distributed computing model where processing is performed closer to data sources.",
+  "phonetic": "/ɛdʒ kəmˈpjuː.tɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Edge computing reduces latency in IoT applications.",
+      "translation": "Điện toán biên giúp giảm độ trễ trong các ứng dụng IoT."
+    }
+  ],
+  "vietnamese": "Điện toán biên",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0866"
+  },
+  "word": "Content Delivery Network (CDN)",
+  "meaning": "A network of servers that delivers content efficiently based on user location.",
+  "phonetic": "/ˈkɒn.tɛnt dɪˈlɪv.ər.i ˈnɛt.wɜːrk/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "CDNs help websites load faster worldwide.",
+      "translation": "Mạng phân phối nội dung giúp trang web tải nhanh hơn trên toàn thế giới."
+    }
+  ],
+  "vietnamese": "Mạng phân phối nội dung",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0867"
+  },
+  "word": "Packet Switching",
+  "meaning": "A 67b2d9f9f25a4c444d4ed5ee method where data is divided into packets and transmitted independently.",
+  "phonetic": "/ˈpæk.ɪt ˈswɪtʃ.ɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "The internet uses packet switching to transfer data efficiently.",
+      "translation": "Internet sử dụng chuyển mạch gói để truyền dữ liệu hiệu quả."
+    }
+  ],
+  "vietnamese": "Chuyển mạch gói",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0868"
+  },
+  "word": "Circuit Switching",
+  "meaning": "A 67b2d9f9f25a4c444d4ed5ee method where a dedicated communication path is established before data transfer.",
+  "phonetic": "/ˈsɜː.kɪt ˈswɪtʃ.ɪŋ/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "Traditional telephone networks use circuit switching.",
+      "translation": "Mạng điện thoại truyền thống sử dụng chuyển mạch kênh."
+    }
+  ],
+  "vietnamese": "Chuyển mạch kênh",
+  "is_delete": false,
+  "audio": null
+},
+{
+  "_id": {
+    "$oid": "67e41f192b97232faaea0869"
+  },
+  "word": "Peer-to-Peer (P2P)",
+  "meaning": "A decentralized network model where devices communicate directly with each other.",
+  "phonetic": "/pɪər tuː pɪər/",
+  "type": [
+    "noun"
+  ],
+  "topic_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "examples": [
+    {
+      "sentence": "P2P networks are used for file sharing.",
+      "translation": "Mạng ngang hàng được sử dụng để chia sẻ tập tin."
+    }
+  ],
+  "vietnamese": "Mạng ngang hàng",
+  "is_delete": false,
+  "audio": null
+}]

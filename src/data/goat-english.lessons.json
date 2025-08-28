@@ -1,0 +1,4278 @@
+[{
+  "_id": {
+    "$oid": "68260dd7a7f1621d3931079a"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.230Z"
+  },
+  "description": "Từ vựng: memory, RAM, cache, allocate, virtual memory.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 550,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985741"
+  },
+  "status": "publish",
+  "title": "Bộ nhớ và RAM",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.230Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d3931079c"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.246Z"
+  },
+  "description": "Từ vựng: file system, NTFS, FAT32, mount, partition.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 600,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985741"
+  },
+  "status": "publish",
+  "title": "Hệ thống tập tin",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.246Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d3931079e"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.250Z"
+  },
+  "description": "Từ vựng: printer, scanner, driver, device, plug.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 650,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985741"
+  },
+  "status": "publish",
+  "title": "Thiết bị ngoại vi",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.250Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d393107a0"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.264Z"
+  },
+  "description": "Từ vựng: CPU scheduling, priority, interrupt, core, affinity.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 750,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985754"
+  },
+  "status": "publish",
+  "title": "Quản lý bộ xử lý",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.264Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d393107a2"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.278Z"
+  },
+  "description": "Từ vựng: network, protocol, TCP/IP, client, server.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 900,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985754"
+  },
+  "status": "publish",
+  "title": "Hệ điều hành mạng",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.278Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d393107a4"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.283Z"
+  },
+  "description": "Từ vựng: group, permission, access, policy, audit.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1050,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985799"
+  },
+  "status": "publish",
+  "title": "Quản lý đa người dùng",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.283Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d393107a6"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.297Z"
+  },
+  "description": "Từ vựng: patch, update, fix, version, changelog.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1200,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985799"
+  },
+  "status": "publish",
+  "title": "Cập nhật và vá lỗi",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.297Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d393107a8"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.310Z"
+  },
+  "description": "Từ vựng: kernel, monolithic, microkernel, modular, bootloader.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1250,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5ea24c75bc0549b985793"
+  },
+  "status": "publish",
+  "title": "Kernel và các loại kernel",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.310Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d3931081d"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.595Z"
+  },
+  "description": "Từ vựng: hard drive, SSD, USB, backup, format.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 450,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985761"
+  },
+  "status": "publish",
+  "title": "Lưu trữ dữ liệu",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.595Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d3931081f"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.613Z"
+  },
+  "description": "Từ vựng: process, thread, run, terminate, schedule.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 500,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985741"
+  },
+  "status": "publish",
+  "title": "Quản lý tiến trình",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.613Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d39310821"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.626Z"
+  },
+  "description": "Từ vựng: user, admin, password, permission, role.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 700,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985741"
+  },
+  "status": "publish",
+  "title": "Tài khoản người dùng",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.626Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d39310823"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.633Z"
+  },
+  "description": "Từ vựng: security, antivirus, firewall, malware, update.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 800,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985754"
+  },
+  "status": "publish",
+  "title": "Bảo mật hệ thống",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.633Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d39310825"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.647Z"
+  },
+  "description": "Từ vựng: message, pipe, shared memory, semaphore, signal.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 850,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985754"
+  },
+  "status": "publish",
+  "title": "Giao tiếp giữa các tiến trình (IPC)",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.647Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d39310827"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.656Z"
+  },
+  "description": "Từ vựng: I/O, buffer, driver, interrupt, polling.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 950,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985754"
+  },
+  "status": "publish",
+  "title": "Quản lý thiết bị đầu vào/ra",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.656Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d39310829"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.662Z"
+  },
+  "description": "Từ vựng: optimize, benchmark, performance, latency, throughput.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1000,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985799"
+  },
+  "status": "publish",
+  "title": "Tối ưu hóa hiệu năng hệ điều hành",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.662Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d3931082b"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.678Z"
+  },
+  "description": "Từ vựng: compatibility, emulation, library, framework, runtime.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1100,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985799"
+  },
+  "status": "publish",
+  "title": "Tính tương thích và hỗ trợ phần mềm",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.678Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d3931082d"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.681Z"
+  },
+  "description": "Từ vựng: virtualization, VM, hypervisor, guest, host.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1150,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985799"
+  },
+  "status": "publish",
+  "title": "Ảo hóa hệ điều hành",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.681Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d3931082f"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.694Z"
+  },
+  "description": "Từ vựng: synchronization, mutex, deadlock, race condition, critical section.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1300,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5ea24c75bc0549b985793"
+  },
+  "status": "publish",
+  "title": "Đồng bộ hóa tiến trình",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.694Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d39310831"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.698Z"
+  },
+  "description": "Từ vựng: resource allocation, quota, priority queue, load balancing, monitoring.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1350,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5ea24c75bc0549b985793"
+  },
+  "status": "publish",
+  "title": "Quản lý tài nguyên nâng cao",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.698Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d39310833"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.712Z"
+  },
+  "description": "Từ vựng: encryption, authentication, authorization, intrusion, vulnerability.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1400,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5ea24c75bc0549b985793"
+  },
+  "status": "publish",
+  "title": "Bảo mật nâng cao",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.712Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd7a7f1621d39310835"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:55.796Z"
+  },
+  "description": "Từ vựng: access control, role-based, log, session, privilege",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1450,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5ea24c75bc0549b985793"
+  },
+  "status": "publish",
+  "title": "Điều khiển truy cập hệ thống",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:55.796Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd8a7f1621d39310984"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:56.932Z"
+  },
+  "description": "Từ vựng: multitasking, multi-user, session, login, account.",
+  "exercises": [
+    {
+      "$oid": "68260dd8a7f1621d393108ec"
+    },
+    {
+      "$oid": "68260dd8a7f1621d393108ee"
+    },
+    {
+      "$oid": "68260dd8a7f1621d393108f0"
+    },
+    {
+      "$oid": "68260dd8a7f1621d393108f2"
+    },
+    {
+      "$oid": "68260dd8a7f1621d393108f4"
+    },
+    {
+      "$oid": "68260dd8a7f1621d393108f6"
+    },
+    {
+      "$oid": "68260dd8a7f1621d393108f8"
+    },
+    {
+      "$oid": "68260dd8a7f1621d393108fa"
+    },
+    {
+      "$oid": "68260dd8a7f1621d393108fc"
+    },
+    {
+      "$oid": "68260dd8a7f1621d393108fe"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310900"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 300,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985761"
+  },
+  "status": "publish",
+  "title": "Đa nhiệm và đa người dùng",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:56.932Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd8a7f1621d39310986"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:56.951Z"
+  },
+  "description": "Từ vựng: boot, power, load, startup, screen",
+  "exercises": [
+    {
+      "$oid": "68260dd8a7f1621d39310902"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310904"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310906"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310908"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931090a"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931090c"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931090e"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310910"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310912"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310914"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310916"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310918"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931091a"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931091c"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931091e"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310920"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 200,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b985716"
+  },
+  "status": "publish",
+  "title": "Khởi động máy tính",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:56.951Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd9a7f1621d39310996"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:57.025Z"
+  },
+  "description": "Từ vựng: GUI, menu, icon, window, cursor.",
+  "exercises": [
+    {
+      "$oid": "68260dd8a7f1621d3931094a"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931094c"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310956"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931094e"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310950"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310952"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310954"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310958"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931095a"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931095c"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931095e"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310960"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310962"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 350,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985761"
+  },
+  "status": "publish",
+  "title": "Giao diện người dùng",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:57.025Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd9a7f1621d39310998"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:57.030Z"
+  },
+  "description": "Học các từ vựng cơ bản như: computer, software, hardware, system, OS",
+  "exercises": [
+    {
+      "$oid": "68260dd8a7f1621d39310964"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310966"
+    },
+    {
+      "$oid": "68260dd8a7f1621d393108e2"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310968"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931096a"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931096c"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931096e"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310970"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 0,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b985716"
+  },
+  "status": "publish",
+  "title": "Giới thiệu hệ điều hành",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:57.030Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd9a7f1621d3931099a"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:57.044Z"
+  },
+  "description": "Từ vựng: Windows, Linux, macOS, Android, iOS",
+  "exercises": [
+    {
+      "$oid": "68260dd8a7f1621d39310972"
+    },
+    {
+      "$oid": "68260dd8a7f1621d393108e4"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310974"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310976"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310978"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931097a"
+    },
+    {
+      "$oid": "68260dd8a7f1621d393108e6"
+    },
+    {
+      "$oid": "68260dd8a7f1621d393108e8"
+    },
+    {
+      "$oid": "68260dd8a7f1621d393108ea"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 150,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b985716"
+  },
+  "status": "publish",
+  "title": "Các loại hệ điều hành thông dụng",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:57.044Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd9a7f1621d3931099c"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:57.047Z"
+  },
+  "description": "Từ vựng: shortcut, key, enter, delete, ctrl",
+  "exercises": [
+    {
+      "$oid": "68260dd8a7f1621d39310922"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310924"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310926"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310928"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931092a"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931092c"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931092e"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310930"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310932"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310934"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931097c"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 400,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985761"
+  },
+  "status": "publish",
+  "title": "Bàn phím và tổ hợp phím",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:57.047Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd9a7f1621d3931099e"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:57.058Z"
+  },
+  "description": "Từ vựng: CPU, memory, storage, monitor, keyboard, mouse",
+  "exercises": [
+    {
+      "$oid": "68260dd8a7f1621d3931097e"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310980"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310982"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310988"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931098a"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 50,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b985716"
+  },
+  "status": "publish",
+  "title": "Các thành phần chính của máy tính",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:57.058Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd9a7f1621d393109a0"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:57.063Z"
+  },
+  "description": "Từ vựng: manage, resource, interface, user, task",
+  "exercises": [
+    {
+      "$oid": "68260dd8a7f1621d3931098c"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931098e"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310990"
+    },
+    {
+      "$oid": "68260dd9a7f1621d39310992"
+    },
+    {
+      "$oid": "68260dd9a7f1621d39310994"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 100,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b985716"
+  },
+  "status": "publish",
+  "title": "Tác dụng của hệ điều hành",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:57.063Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260dd9a7f1621d393109a6"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:52:57.084Z"
+  },
+  "description": "Từ vựng: file, folder, directory, path, extension",
+  "exercises": [
+    {
+      "$oid": "68260dd8a7f1621d393108d8"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310936"
+    },
+    {
+      "$oid": "68260dd9a7f1621d393109a2"
+    },
+    {
+      "$oid": "68260dd9a7f1621d393109a4"
+    },
+    {
+      "$oid": "68260dd8a7f1621d3931093e"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310940"
+    },
+    {
+      "$oid": "68260dd8a7f1621d393108e0"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310942"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310944"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310946"
+    },
+    {
+      "$oid": "68260dd8a7f1621d39310948"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 250,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985761"
+  },
+  "status": "publish",
+  "title": "Quản lý tập tin và thư mục",
+  "updatedAt": {
+    "$date": "2025-05-15T15:52:57.084Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddda7f1621d39310a1c"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:01.842Z"
+  },
+  "description": "Thiết kế giao diện phù hợp nhiều thiết bị.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1200,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985741"
+  },
+  "status": "publish",
+  "title": "Responsive Design Basics",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:01.842Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bac"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.581Z"
+  },
+  "description": "Hàm là gì và cách sử dụng chúng.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 500,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985727"
+  },
+  "status": "publish",
+  "title": "Functions and Parameters",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.581Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bae"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.591Z"
+  },
+  "description": "Làm việc với mảng và danh sách.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 550,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985727"
+  },
+  "status": "publish",
+  "title": "Arrays and Lists",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.591Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bb0"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.596Z"
+  },
+  "description": "Cách xử lý và thao tác với chuỗi.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 600,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985727"
+  },
+  "status": "publish",
+  "title": "String Manipulation",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.596Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bb2"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.608Z"
+  },
+  "description": "Các loại lỗi phổ biến và cách hiểu chúng.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 650,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985727"
+  },
+  "status": "publish",
+  "title": "Understanding Errors",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.608Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bb4"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.612Z"
+  },
+  "description": "Làm quen với môi trường phát triển như VS Code.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 700,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985727"
+  },
+  "status": "publish",
+  "title": "Introduction to IDEs",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.612Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bb6"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.623Z"
+  },
+  "description": "Lập trình hướng đối tượng là gì?",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 750,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985719"
+  },
+  "status": "publish",
+  "title": "Object-Oriented Programming (OOP)",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.623Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bb8"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.627Z"
+  },
+  "description": "Tạo và sử dụng lớp, đối tượng.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 800,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985719"
+  },
+  "status": "publish",
+  "title": "Classes and Objects",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.627Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bba"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.631Z"
+  },
+  "description": "Kế thừa và đa hình trong OOP.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 850,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985719"
+  },
+  "status": "publish",
+  "title": "Inheritance and Polymorphism",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.631Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bbc"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.642Z"
+  },
+  "description": "Đọc và ghi file trong lập trình.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 900,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985719"
+  },
+  "status": "publish",
+  "title": "File Handling",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.642Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bbe"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.645Z"
+  },
+  "description": "Làm quen với cơ sở dữ liệu và SQL cơ bản.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 950,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985719"
+  },
+  "status": "publish",
+  "title": "Introduction to Databases",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.645Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bc0"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.657Z"
+  },
+  "description": "Giới thiệu về API và giao tiếp qua HTTP",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1000,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985741"
+  },
+  "status": "publish",
+  "title": "API and HTTP Basics",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.657Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bc2"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.661Z"
+  },
+  "description": "Định dạng dữ liệu phổ biến trong web.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1050,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985741"
+  },
+  "status": "publish",
+  "title": "JSON and Data Exchange",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.661Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bc4"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.670Z"
+  },
+  "description": "Làm việc với Git và GitHub cơ bản.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1100,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985741"
+  },
+  "status": "publish",
+  "title": "Version Control with Git",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.670Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bc6"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.676Z"
+  },
+  "description": "Frontend, backend là gì?",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1150,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985741"
+  },
+  "status": "publish",
+  "title": "Introduction to Web Development",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.676Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bc8"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.680Z"
+  },
+  "description": "Tạo và sử dụng REST APIs.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1250,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5ea24c75bc0549b985794"
+  },
+  "status": "publish",
+  "title": "RESTful APIs",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.680Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bca"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.691Z"
+  },
+  "description": "Cách xác thực người dùng và bảo mật ứng dụng.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1300,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5ea24c75bc0549b985794"
+  },
+  "status": "publish",
+  "title": "Authentication and Security",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.691Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bcc"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.695Z"
+  },
+  "description": "Đưa ứng dụng lên Internet.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1350,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5ea24c75bc0549b985794"
+  },
+  "status": "publish",
+  "title": "Deployment Basics",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.695Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bce"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.707Z"
+  },
+  "description": "Kiểm thử phần mềm và các công cụ hỗ trợ.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1400,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5ea24c75bc0549b985794"
+  },
+  "status": "publish",
+  "title": "Testing and Debugging",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.707Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bd0"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.710Z"
+  },
+  "description": "Quy trình làm việc nhóm trong phát triển phần mềm.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1450,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5ea24c75bc0549b985794"
+  },
+  "status": "publish",
+  "title": "Working in Teams",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.710Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bd2"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.713Z"
+  },
+  "description": "Các giai đoạn trong quy trình phát triển phần mềm.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1500,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5ea36c75bc0549b985720"
+  },
+  "status": "publish",
+  "title": "Software Development Life Cycle",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.713Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bd4"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.726Z"
+  },
+  "description": "Phương pháp phát triển phần mềm hiện đại.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1550,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5ea36c75bc0549b985720"
+  },
+  "status": "publish",
+  "title": "Agile and Scrum",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.726Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bd6"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.731Z"
+  },
+  "description": "Thiết kế hệ thống phần mềm cấp cao.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1650,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5ea36c75bc0549b985720"
+  },
+  "status": "publish",
+  "title": "System Design Basics",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.731Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bd8"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.743Z"
+  },
+  "description": "Viết code rõ ràng, dễ bảo trì.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1600,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5ea36c75bc0549b985720"
+  },
+  "status": "publish",
+  "title": "Clean Code Principles",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.743Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260ddea7f1621d39310bda"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:02.747Z"
+  },
+  "description": "Các chiến lược debug nâng cao.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1700,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5ea36c75bc0549b985720"
+  },
+  "status": "publish",
+  "title": "Advanced Debugging Techniques",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:02.747Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de0a7f1621d39310ed4"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:04.777Z"
+  },
+  "description": "Giới thiệu khái niệm phần mềm và các loại phần mềm cơ bản.",
+  "exercises": [
+    {
+      "$oid": "68260ddfa7f1621d39310d80"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d82"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d84"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d86"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d88"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d8a"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d8c"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d8e"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d90"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d92"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d94"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d96"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d98"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d9a"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d9c"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d9e"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310da0"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310da2"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310da4"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310da6"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310da8"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 0,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b985710"
+  },
+  "status": "publish",
+  "title": "What is Software?",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:04.777Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de0a7f1621d39310ede"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:04.830Z"
+  },
+  "description": "Các thuật ngữ máy tính phổ biến cho người mới.",
+  "exercises": [
+    {
+      "$oid": "68260ddfa7f1621d39310daa"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310dac"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310dae"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310db0"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310db2"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310db4"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d6e"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310db6"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310db8"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310dba"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310dbc"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310dbe"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310dc0"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310dc2"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310dc4"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310dc6"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310dc8"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310dca"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310dcc"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310dce"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 50,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b985710"
+  },
+  "status": "publish",
+  "title": "Basic Computer Terms",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:04.830Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de0a7f1621d39310ee0"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:04.858Z"
+  },
+  "description": "If/else và điều kiện trong code.",
+  "exercises": [
+    {
+      "$oid": "68260de0a7f1621d39310dd6"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310dd8"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310dda"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ddc"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310dde"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310de0"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310de2"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310de4"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310de6"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310de8"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310dea"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310dec"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310dee"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310df0"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310df2"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310df4"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310df6"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310df8"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310dfa"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310dfc"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310dfe"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 350,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985721"
+  },
+  "status": "publish",
+  "title": "Conditional Statements",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:04.858Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de0a7f1621d39310ee2"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:04.874Z"
+  },
+  "description": "Viết đoạn mã đầu tiên bằng Python đơn giản.",
+  "exercises": [
+    {
+      "$oid": "68260de0a7f1621d39310e00"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e02"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e04"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e06"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e08"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e0a"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e0c"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e0e"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e10"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e12"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e14"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e16"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e18"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 200,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b985710"
+  },
+  "status": "publish",
+  "title": "Writing Your First Code",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:04.874Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de0a7f1621d39310f0a"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:04.942Z"
+  },
+  "description": "Các phép toán như +, -, *, /.",
+  "exercises": [
+    {
+      "$oid": "68260de0a7f1621d39310e3e"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e40"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e42"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e44"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e46"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e48"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e4a"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e4c"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e4e"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e50"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e52"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e54"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e56"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e58"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e5a"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e5c"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 300,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985721"
+  },
+  "status": "publish",
+  "title": "Operators in Programming",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:04.942Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de1a7f1621d39310f1c"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:05.026Z"
+  },
+  "description": "Giới thiệu vòng lặp for và while.",
+  "exercises": [
+    {
+      "$oid": "68260de0a7f1621d39310e5e"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e60"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e62"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e64"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e66"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e68"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e6a"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e6c"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e6e"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e70"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e72"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e74"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e76"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e78"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e7a"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e7c"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e7e"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e80"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e82"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e84"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e86"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e88"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e8a"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e8c"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e8e"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e90"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e92"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e94"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e96"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e98"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e9a"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e9c"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e9e"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ea0"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ea2"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ea4"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ea6"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ea8"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310eaa"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 400,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985721"
+  },
+  "status": "publish",
+  "title": "Loops and Repetition",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:05.026Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de1a7f1621d39310f1e"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:05.044Z"
+  },
+  "description": "Lập trình là gì? Giới thiệu các khái niệm cơ bản.",
+  "exercises": [
+    {
+      "$oid": "68260de0a7f1621d39310eac"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310eae"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310eb0"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310eb2"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310eb4"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310eb6"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310eb8"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310eba"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ebc"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ebe"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ec0"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ec2"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ec4"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ec6"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ec8"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310eca"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ecc"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ece"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ed0"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ed2"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 100,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b985710"
+  },
+  "status": "publish",
+  "title": "Introduction to Programming",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:05.044Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de1a7f1621d39310f20"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:05.058Z"
+  },
+  "description": "Tên gọi và mục đích của các ngôn ngữ như Python, Java.",
+  "exercises": [
+    {
+      "$oid": "68260de0a7f1621d39310dd0"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d70"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d72"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d74"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d76"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d78"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d7a"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d7c"
+    },
+    {
+      "$oid": "68260ddfa7f1621d39310d7e"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310dd2"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ed6"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310ed8"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310eda"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310edc"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310dd4"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 150,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b985710"
+  },
+  "status": "publish",
+  "title": "Common Programming Languages",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:05.058Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de1a7f1621d39310f5c"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:05.411Z"
+  },
+  "description": "Cách tìm và sửa lỗi trong chương trình.",
+  "exercises": [
+    {
+      "$oid": "68260de1a7f1621d39310f22"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f24"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310f0c"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f26"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310f0e"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310f10"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310f12"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310f14"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310f16"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310f18"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f1a"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f28"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f2e"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f30"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f32"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f34"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f36"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f38"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f3a"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f3c"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f2a"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f3e"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f40"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f42"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f44"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f46"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f48"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f4a"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f2c"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f4c"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f4e"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f50"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f52"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f54"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f56"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f58"
+    },
+    {
+      "$oid": "68260de1a7f1621d39310f5a"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 450,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985721"
+  },
+  "status": "publish",
+  "title": "Debugging Basics",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:05.411Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de1a7f1621d39310f5e"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:05.427Z"
+  },
+  "description": "Biến là gì, kiểu dữ liệu cơ bản.",
+  "exercises": [
+    {
+      "$oid": "68260de0a7f1621d39310e1a"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e1c"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e1e"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e20"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e22"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e24"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e26"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e28"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e2a"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e2c"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e2e"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e30"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e32"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e34"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e36"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e38"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e3a"
+    },
+    {
+      "$oid": "68260de0a7f1621d39310e3c"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 250,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985721"
+  },
+  "status": "publish",
+  "title": "Variables and Data Types",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:05.427Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d3931107c"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.227Z"
+  },
+  "description": "Cấu trúc của một trang web.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 350,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985720"
+  },
+  "status": "publish",
+  "title": "Understanding Web Pages",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.227Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d393110ac"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.351Z"
+  },
+  "description": "Cách liên kết giữa các trang bằng thẻ <a>.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 400,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985720"
+  },
+  "status": "publish",
+  "title": "Basic Web Navigation",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.351Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d393110ae"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.357Z"
+  },
+  "description": "CSS là gì, vai trò của nó.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 500,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985722"
+  },
+  "status": "publish",
+  "title": "CSS Introduction",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.357Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d393110b0"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.371Z"
+  },
+  "description": "Làm đẹp văn bản: màu, kích cỡ, font.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 550,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985722"
+  },
+  "status": "publish",
+  "title": "Text Styling with CSS",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.371Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d393110b2"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.376Z"
+  },
+  "description": "Cách chèn ảnh, đoạn văn, tiêu đề.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 450,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985720"
+  },
+  "status": "publish",
+  "title": "Image and Text in HTML",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.376Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d393110b4"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.389Z"
+  },
+  "description": "Giới thiệu margin, padding, border.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 600,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985722"
+  },
+  "status": "publish",
+  "title": "Box Model Basics",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.389Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d393110b6"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.403Z"
+  },
+  "description": "Sắp xếp layout cơ bản bằng CSS.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 700,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985722"
+  },
+  "status": "publish",
+  "title": "Creating a Simple Layout",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.403Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d393110b8"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.411Z"
+  },
+  "description": "Cách khai báo hàm, bắt sự kiện click.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 800,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985724"
+  },
+  "status": "publish",
+  "title": "Functions and Events",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.411Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d393110c1"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.440Z"
+  },
+  "description": "Cách nhúng CSS vào HTML.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 650,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985722"
+  },
+  "status": "publish",
+  "title": "Linking CSS to HTML",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.440Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d393110c3"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.443Z"
+  },
+  "description": "Biến, kiểu dữ liệu, toán tử.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 750,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985724"
+  },
+  "status": "publish",
+  "title": "JavaScript Fundamentals",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.443Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d393110c5"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.456Z"
+  },
+  "description": "Kiểm tra dữ liệu đầu vào.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 950,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985724"
+  },
+  "status": "publish",
+  "title": "Form Validation Basics",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.456Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d393110c7"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.459Z"
+  },
+  "description": "Kỹ thuật xử lý sự kiện nâng cao.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1150,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985726"
+  },
+  "status": "publish",
+  "title": "Event Delegation",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.459Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d393110c9"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.472Z"
+  },
+  "description": "Fetch API, JSON.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1100,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985726"
+  },
+  "status": "publish",
+  "title": "Making API Requests",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.472Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d393110cb"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.475Z"
+  },
+  "description": "if, for, while trong JavaScript.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 850,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985724"
+  },
+  "status": "publish",
+  "title": "Conditions and Loops",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.475Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d393110cd"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.488Z"
+  },
+  "description": "Dùng console và DevTools để tìm lỗi.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1200,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985726"
+  },
+  "status": "publish",
+  "title": "Basic Debugging",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.488Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d393110cf"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.491Z"
+  },
+  "description": "Thiết kế bố cục với Flexbox.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1000,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985726"
+  },
+  "status": "publish",
+  "title": "Flexbox Layout",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.491Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d393110d1"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.503Z"
+  },
+  "description": "Làm việc với danh sách và đối tượng.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1050,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985726"
+  },
+  "status": "publish",
+  "title": "JavaScript Arrays and Objects",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.503Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de6a7f1621d393110d3"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:10.507Z"
+  },
+  "description": "Thao tác HTML bằng JavaScript.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 900,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985724"
+  },
+  "status": "publish",
+  "title": "Working with the DOM",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:10.507Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de8a7f1621d393112dc"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:12.005Z"
+  },
+  "description": "Tìm hiểu khái niệm internet, website và cách chúng hoạt động.",
+  "exercises": [
+    {
+      "$oid": "68260de7a7f1621d393111f4"
+    },
+    {
+      "$oid": "68260de7a7f1621d393111f6"
+    },
+    {
+      "$oid": "68260de7a7f1621d393111f8"
+    },
+    {
+      "$oid": "68260de7a7f1621d393111fa"
+    },
+    {
+      "$oid": "68260de7a7f1621d393111fc"
+    },
+    {
+      "$oid": "68260de7a7f1621d393111fe"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311200"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311202"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311204"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311206"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311208"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931120a"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931120c"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931120e"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311210"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311212"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311214"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311216"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311218"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931121a"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931121c"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931121e"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311220"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 0,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b98571e"
+  },
+  "status": "publish",
+  "title": "What is the Internet?",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:12.005Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de8a7f1621d393112f8"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:12.093Z"
+  },
+  "description": "Cách dùng trình duyệt: mở tab, tìm kiếm, quay lại trang trước.",
+  "exercises": [
+    {
+      "$oid": "68260de7a7f1621d39311222"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311224"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311226"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311228"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931122a"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931122c"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931122e"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311230"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311232"
+    },
+    {
+      "$oid": "68260de7a7f1621d393111e2"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311234"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311236"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311238"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931123a"
+    },
+    {
+      "$oid": "68260de7a7f1621d393111e4"
+    },
+    {
+      "$oid": "68260de7a7f1621d393111e6"
+    },
+    {
+      "$oid": "68260de7a7f1621d393111e8"
+    },
+    {
+      "$oid": "68260de7a7f1621d393111ea"
+    },
+    {
+      "$oid": "68260de7a7f1621d393111ec"
+    },
+    {
+      "$oid": "68260de7a7f1621d393111ee"
+    },
+    {
+      "$oid": "68260de7a7f1621d393111f0"
+    },
+    {
+      "$oid": "68260de7a7f1621d393111f2"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 150,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b98571e"
+  },
+  "status": "publish",
+  "title": "Using a Web Browser",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:12.093Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de8a7f1621d393112fa"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:12.109Z"
+  },
+  "description": "Phân biệt website và ứng dụng.",
+  "exercises": [
+    {
+      "$oid": "68260de7a7f1621d3931123e"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311240"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311242"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311244"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311246"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311248"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931124a"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931124c"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931124e"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311250"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311252"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311254"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311256"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311258"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931125a"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931125c"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931125e"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 100,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b98571e"
+  },
+  "status": "publish",
+  "title": "Web vs. App",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:12.109Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de8a7f1621d393112fc"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:12.137Z"
+  },
+  "description": "Nhận biết các phần của website: header, footer, menu, banner.",
+  "exercises": [
+    {
+      "$oid": "68260de7a7f1621d39311260"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311262"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311264"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311266"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311268"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931126a"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931126c"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931126e"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311270"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311272"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311274"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311276"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311278"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931127a"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931127c"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931127e"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311280"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311282"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311284"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 200,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b98571e"
+  },
+  "status": "publish",
+  "title": "Simple Website Vocabulary",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:12.137Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de8a7f1621d393112fe"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:12.141Z"
+  },
+  "description": "Giới thiệu các thẻ HTML cơ bản.",
+  "exercises": [
+    {
+      "$oid": "68260de7a7f1621d39311286"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311288"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931128a"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931128c"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931128e"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311290"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311292"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311294"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311296"
+    },
+    {
+      "$oid": "68260de7a7f1621d39311298"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931129a"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931129c"
+    },
+    {
+      "$oid": "68260de7a7f1621d3931129e"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112a0"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112a2"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112a4"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112a6"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112a8"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112aa"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112ac"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 250,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985720"
+  },
+  "status": "publish",
+  "title": "HTML Tags Overview",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:12.141Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de8a7f1621d39311300"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:12.157Z"
+  },
+  "description": "Viết một trang HTML đơn giản.",
+  "exercises": [
+    {
+      "$oid": "68260de7a7f1621d393112ae"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112b0"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112b2"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112b4"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112b6"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112b8"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112ba"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112bc"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112be"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112c0"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112c2"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112c4"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112c6"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112c8"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112ca"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112cc"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112ce"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112d0"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112d2"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112d4"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112d6"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112d8"
+    },
+    {
+      "$oid": "68260de7a7f1621d393112da"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 300,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985720"
+  },
+  "status": "publish",
+  "title": "Creating a Simple Page",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:12.157Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68260de8a7f1621d39311302"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T15:53:12.172Z"
+  },
+  "description": "Làm quen với từ vựng: browser, link, click, website, scroll.",
+  "exercises": [
+    {
+      "$oid": "68260de7a7f1621d3931123c"
+    },
+    {
+      "$oid": "68260de8a7f1621d393112de"
+    },
+    {
+      "$oid": "68260de8a7f1621d393112e0"
+    },
+    {
+      "$oid": "68260de8a7f1621d393112e2"
+    },
+    {
+      "$oid": "68260de8a7f1621d393112e4"
+    },
+    {
+      "$oid": "68260de8a7f1621d393112e6"
+    },
+    {
+      "$oid": "68260de8a7f1621d393112e8"
+    },
+    {
+      "$oid": "68260de8a7f1621d393112ea"
+    },
+    {
+      "$oid": "68260de8a7f1621d393112ec"
+    },
+    {
+      "$oid": "68260de8a7f1621d393112ee"
+    },
+    {
+      "$oid": "68260de8a7f1621d393112f0"
+    },
+    {
+      "$oid": "68260de8a7f1621d393112f2"
+    },
+    {
+      "$oid": "68260de8a7f1621d393112f4"
+    },
+    {
+      "$oid": "68260de8a7f1621d393112f6"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 50,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b98571e"
+  },
+  "status": "publish",
+  "title": "Basic Computer Terms",
+  "updatedAt": {
+    "$date": "2025-05-15T15:53:12.172Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261795a7f1621d393113ee"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:29.565Z"
+  },
+  "description": "Nhóm dữ liệu và điều kiện nhóm.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 900,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985786"
+  },
+  "status": "publish",
+  "title": "GROUP BY và HAVING",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:29.565Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261795a7f1621d3931146f"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:29.901Z"
+  },
+  "description": "Primary key & Foreign key trong bảng.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 250,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985788"
+  },
+  "status": "publish",
+  "title": "Hiểu về khóa chính và khóa ngoại",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:29.901Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114a3"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.048Z"
+  },
+  "description": "Text, number, date, boolean.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 300,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985788"
+  },
+  "status": "publish",
+  "title": "Các kiểu dữ liệu thông dụng",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.048Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114a5"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.051Z"
+  },
+  "description": "Cách lấy dữ liệu từ bảng.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 350,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985788"
+  },
+  "status": "publish",
+  "title": "Câu lệnh SELECT cơ bản",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.051Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114a7"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.055Z"
+  },
+  "description": "One-to-One, One-to-Many, Many-to-Many.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 750,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985786"
+  },
+  "status": "publish",
+  "title": "Quan hệ giữa các bảng",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.055Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114a9"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.066Z"
+  },
+  "description": "Lọc dữ liệu với điều kiện",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 550,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985787"
+  },
+  "status": "publish",
+  "title": "Câu lệnh WHERE trong truy vấn",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.066Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114ab"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.072Z"
+  },
+  "description": "Tạo bảng mới.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 650,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985787"
+  },
+  "status": "publish",
+  "title": "Câu lệnh CREATE TABLE",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.072Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114ad"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.091Z"
+  },
+  "description": "ORDER BY, LIMIT.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 600,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985787"
+  },
+  "status": "publish",
+  "title": "Sắp xếp và giới hạn kết quả",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.091Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114af"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.122Z"
+  },
+  "description": "Toán tử =, <>, >, <, BETWEEN, LIKE, IN.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 400,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985788"
+  },
+  "status": "publish",
+  "title": "Toán tử trong SQL",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.122Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114b1"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.139Z"
+  },
+  "description": "Thêm dữ liệu vào bảng.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 450,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5e9bdc75bc0549b985788"
+  },
+  "status": "publish",
+  "title": "Câu lệnh INSERT INTO",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.139Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114b3"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.170Z"
+  },
+  "description": "Xử lý giá trị trống trong dữ liệu.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 700,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985787"
+  },
+  "status": "publish",
+  "title": "Hiểu về NULL và NOT NULL",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.170Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114b5"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.185Z"
+  },
+  "description": "Sửa và xóa dữ liệu.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 500,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5e9cbc75bc0549b985787"
+  },
+  "status": "publish",
+  "title": "Câu lệnh UPDATE và DELETE",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.185Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114b7"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.189Z"
+  },
+  "description": "INNER JOIN, LEFT JOIN cơ bản",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 800,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985786"
+  },
+  "status": "publish",
+  "title": "JOIN trong SQL (phần 1)",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.189Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114b9"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.199Z"
+  },
+  "description": "COUNT, SUM, AVG, MAX, MIN.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 850,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985786"
+  },
+  "status": "publish",
+  "title": "Hàm tổng hợp (Aggregate functions)",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.199Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114bb"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.204Z"
+  },
+  "description": "RIGHT JOIN, FULL JOIN.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1000,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985785"
+  },
+  "status": "publish",
+  "title": "JOIN trong SQL (phần 2)",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.204Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114bd"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.218Z"
+  },
+  "description": "Thêm/sửa/xóa cột trong bảng.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 950,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5e9f4c75bc0549b985786"
+  },
+  "status": "publish",
+  "title": "Câu lệnh ALTER TABLE",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.218Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114bf"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.223Z"
+  },
+  "description": "Truy vấn trong SELECT/WHERE.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1050,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985785"
+  },
+  "status": "publish",
+  "title": "Subqueries – Truy vấn lồng nhau",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.223Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114cb"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.288Z"
+  },
+  "description": "UNIQUE, CHECK, DEFAULT.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1100,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985785"
+  },
+  "status": "publish",
+  "title": "Ràng buộc dữ liệu (Constraints)",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.288Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114cd"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.296Z"
+  },
+  "description": "BEGIN, COMMIT, ROLLBACK.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1150,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985785"
+  },
+  "status": "publish",
+  "title": "Transaction – Giao dịch",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.296Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d393114cf"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.303Z"
+  },
+  "description": "Tăng tốc độ truy vấn với INDEX.",
+  "exercises": [],
+  "is_delete": false,
+  "min_score": 1200,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5ea0fc75bc0549b985785"
+  },
+  "status": "publish",
+  "title": "Index – Chỉ mục",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.303Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d39311615"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.902Z"
+  },
+  "description": "Các từ: database, table, row, column, data.",
+  "exercises": [
+    {
+      "$oid": "68261796a7f1621d39311587"
+    },
+    {
+      "$oid": "68261796a7f1621d39311589"
+    },
+    {
+      "$oid": "68261796a7f1621d3931158b"
+    },
+    {
+      "$oid": "68261796a7f1621d3931158d"
+    },
+    {
+      "$oid": "68261796a7f1621d3931158f"
+    },
+    {
+      "$oid": "68261796a7f1621d39311591"
+    },
+    {
+      "$oid": "68261796a7f1621d39311593"
+    },
+    {
+      "$oid": "68261796a7f1621d39311595"
+    },
+    {
+      "$oid": "68261796a7f1621d39311597"
+    },
+    {
+      "$oid": "68261796a7f1621d39311599"
+    },
+    {
+      "$oid": "68261796a7f1621d3931159b"
+    },
+    {
+      "$oid": "68261796a7f1621d3931159d"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 50,
+  "order": 2,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b985789"
+  },
+  "status": "publish",
+  "title": "Từ vựng cơ bản về cơ sở dữ liệu",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.902Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d39311617"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.920Z"
+  },
+  "description": "Khái niệm cơ bản, vai trò của database.",
+  "exercises": [
+    {
+      "$oid": "68261796a7f1621d3931159f"
+    },
+    {
+      "$oid": "68261796a7f1621d393115a1"
+    },
+    {
+      "$oid": "68261796a7f1621d393115a3"
+    },
+    {
+      "$oid": "68261796a7f1621d393115a5"
+    },
+    {
+      "$oid": "68261796a7f1621d393115a7"
+    },
+    {
+      "$oid": "68261796a7f1621d393115a9"
+    },
+    {
+      "$oid": "68261796a7f1621d393115ab"
+    },
+    {
+      "$oid": "68261796a7f1621d393115ad"
+    },
+    {
+      "$oid": "68261796a7f1621d393115af"
+    },
+    {
+      "$oid": "68261796a7f1621d393115b1"
+    },
+    {
+      "$oid": "68261796a7f1621d393115b3"
+    },
+    {
+      "$oid": "68261796a7f1621d393115b5"
+    },
+    {
+      "$oid": "68261796a7f1621d393115b7"
+    },
+    {
+      "$oid": "68261796a7f1621d393115b9"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 0,
+  "order": 1,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b985789"
+  },
+  "status": "publish",
+  "title": "Giới thiệu về cơ sở dữ liệu",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.920Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261796a7f1621d39311627"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:30.983Z"
+  },
+  "description": "Thành phần: tên bảng, cột, kiểu dữ liệu.",
+  "exercises": [
+    {
+      "$oid": "68261796a7f1621d393115bb"
+    },
+    {
+      "$oid": "68261796a7f1621d393115bd"
+    },
+    {
+      "$oid": "68261796a7f1621d393115bf"
+    },
+    {
+      "$oid": "68261796a7f1621d393115c1"
+    },
+    {
+      "$oid": "68261796a7f1621d393115c3"
+    },
+    {
+      "$oid": "68261796a7f1621d393115c5"
+    },
+    {
+      "$oid": "68261796a7f1621d39311575"
+    },
+    {
+      "$oid": "68261796a7f1621d393115c7"
+    },
+    {
+      "$oid": "68261796a7f1621d393115c9"
+    },
+    {
+      "$oid": "68261796a7f1621d393115cb"
+    },
+    {
+      "$oid": "68261796a7f1621d393115cd"
+    },
+    {
+      "$oid": "68261796a7f1621d393115cf"
+    },
+    {
+      "$oid": "68261796a7f1621d393115d1"
+    },
+    {
+      "$oid": "68261796a7f1621d393115d3"
+    },
+    {
+      "$oid": "68261796a7f1621d393115d5"
+    },
+    {
+      "$oid": "68261796a7f1621d393115d7"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 150,
+  "order": 4,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b985789"
+  },
+  "status": "publish",
+  "title": "Cấu trúc một bảng dữ liệu",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:30.983Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261797a7f1621d39311629"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:31.004Z"
+  },
+  "description": "Đọc, ghi, cập nhật, xóa dữ liệu (CRUD).",
+  "exercises": [
+    {
+      "$oid": "68261796a7f1621d393115e3"
+    },
+    {
+      "$oid": "68261796a7f1621d393115e5"
+    },
+    {
+      "$oid": "68261796a7f1621d393115e7"
+    },
+    {
+      "$oid": "68261796a7f1621d393115e9"
+    },
+    {
+      "$oid": "68261796a7f1621d393115eb"
+    },
+    {
+      "$oid": "68261796a7f1621d393115ed"
+    },
+    {
+      "$oid": "68261796a7f1621d393115ef"
+    },
+    {
+      "$oid": "68261796a7f1621d393115f1"
+    },
+    {
+      "$oid": "68261796a7f1621d393115f3"
+    },
+    {
+      "$oid": "68261796a7f1621d393115f5"
+    },
+    {
+      "$oid": "68261796a7f1621d393115f7"
+    },
+    {
+      "$oid": "68261796a7f1621d393115f9"
+    },
+    {
+      "$oid": "68261796a7f1621d393115fb"
+    },
+    {
+      "$oid": "68261796a7f1621d393115fd"
+    },
+    {
+      "$oid": "68261796a7f1621d393115ff"
+    },
+    {
+      "$oid": "68261796a7f1621d39311601"
+    },
+    {
+      "$oid": "68261796a7f1621d39311603"
+    },
+    {
+      "$oid": "68261796a7f1621d39311605"
+    },
+    {
+      "$oid": "68261796a7f1621d39311607"
+    },
+    {
+      "$oid": "68261796a7f1621d39311609"
+    },
+    {
+      "$oid": "68261796a7f1621d3931160b"
+    },
+    {
+      "$oid": "68261796a7f1621d3931160d"
+    },
+    {
+      "$oid": "68261796a7f1621d3931160f"
+    },
+    {
+      "$oid": "68261796a7f1621d39311611"
+    },
+    {
+      "$oid": "68261796a7f1621d39311613"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 200,
+  "order": 5,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b985789"
+  },
+  "status": "publish",
+  "title": "Các thao tác cơ bản",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:31.004Z"
+  },
+  "vocabularies": []
+},
+{
+  "_id": {
+    "$oid": "68261797a7f1621d3931162b"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-05-15T16:34:31.019Z"
+  },
+  "description": "Phân biệt: quan hệ, phi quan hệ, tệp.",
+  "exercises": [
+    {
+      "$oid": "68261796a7f1621d39311577"
+    },
+    {
+      "$oid": "68261796a7f1621d39311579"
+    },
+    {
+      "$oid": "68261796a7f1621d3931157b"
+    },
+    {
+      "$oid": "68261796a7f1621d3931157d"
+    },
+    {
+      "$oid": "68261796a7f1621d3931157f"
+    },
+    {
+      "$oid": "68261796a7f1621d39311581"
+    },
+    {
+      "$oid": "68261796a7f1621d39311583"
+    },
+    {
+      "$oid": "68261796a7f1621d39311585"
+    },
+    {
+      "$oid": "68261796a7f1621d393115d9"
+    },
+    {
+      "$oid": "68261796a7f1621d39311619"
+    },
+    {
+      "$oid": "68261796a7f1621d3931161b"
+    },
+    {
+      "$oid": "68261796a7f1621d393115db"
+    },
+    {
+      "$oid": "68261796a7f1621d3931161d"
+    },
+    {
+      "$oid": "68261796a7f1621d3931161f"
+    },
+    {
+      "$oid": "68261796a7f1621d39311621"
+    },
+    {
+      "$oid": "68261796a7f1621d39311623"
+    },
+    {
+      "$oid": "68261796a7f1621d39311625"
+    },
+    {
+      "$oid": "68261796a7f1621d393115dd"
+    },
+    {
+      "$oid": "68261796a7f1621d393115df"
+    },
+    {
+      "$oid": "68261796a7f1621d393115e1"
+    }
+  ],
+  "is_delete": false,
+  "min_score": 100,
+  "order": 3,
+  "progress_id": {
+    "$oid": "67b5e96ec75bc0549b985789"
+  },
+  "status": "publish",
+  "title": "Các loại cơ sở dữ liệu",
+  "updatedAt": {
+    "$date": "2025-05-15T16:34:31.019Z"
+  },
+  "vocabularies": []
+}]

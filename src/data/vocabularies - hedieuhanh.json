@@ -1,0 +1,1080 @@
+[
+  {
+    "word": "Operating System (OS)",
+    "meaning": "A software that manages hardware and software resources of a computer.",
+    "phonetic": "/ˈɒpərˌeɪtɪŋ ˈsɪstəm/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Windows, macOS, and Linux are popular operating systems.",
+        "translation": "Windows, macOS và Linux là những hệ điều hành phổ biến.",
+        "_id": "67d6db326c1d1055c1004101"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/os-uk.mp3",
+      "us": "https://example.com/audio/os-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:15:00Z",
+    "updatedAt": "2025-03-26T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Hệ điều hành"
+  },
+  {
+    "word": "Kernel",
+    "meaning": "The core part of an operating system that manages system resources.",
+    "phonetic": "/ˈkɜːrnəl/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "The Linux kernel is open-source and widely used.",
+        "translation": "Nhân Linux là mã nguồn mở và được sử dụng rộng rãi.",
+        "_id": "67d6db326c1d1055c1004102"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/kernel-uk.mp3",
+      "us": "https://example.com/audio/kernel-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:16:00Z",
+    "updatedAt": "2025-03-26T12:26:00Z",
+    "is_delete": false,
+    "vietnamese": "Nhân hệ điều hành"
+  },
+  {
+    "word": "Boot Process",
+    "meaning": "The sequence of events that occur when a computer is powered on and starts up.",
+    "phonetic": "/buːt ˈprəʊsɛs/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "The BIOS is responsible for the initial boot process.",
+        "translation": "BIOS chịu trách nhiệm cho quá trình khởi động ban đầu.",
+        "_id": "67d6db326c1d1055c1004103"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/boot-uk.mp3",
+      "us": "https://example.com/audio/boot-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:17:00Z",
+    "updatedAt": "2025-03-26T12:27:00Z",
+    "is_delete": false,
+    "vietnamese": "Quá trình khởi động"
+  },
+  {
+    "word": "Firmware",
+    "meaning": "A type of software that is embedded in hardware devices.",
+    "phonetic": "/ˈfɜːrmwɛr/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Firmware updates can improve device performance.",
+        "translation": "Cập nhật firmware có thể cải thiện hiệu suất thiết bị.",
+        "_id": "67d6db326c1d1055c1004104"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/firmware-uk.mp3",
+      "us": "https://example.com/audio/firmware-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:18:00Z",
+    "updatedAt": "2025-03-26T12:28:00Z",
+    "is_delete": false,
+    "vietnamese": "Phần mềm hệ thống (Firmware)"
+  },
+  {
+    "word": "Shell",
+    "meaning": "A user interface for accessing an operating system's services.",
+    "phonetic": "/ʃɛl/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Bash is a popular shell used in Linux.",
+        "translation": "Bash là một shell phổ biến được sử dụng trong Linux.",
+        "_id": "67d6db326c1d1055c1004105"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/shell-uk.mp3",
+      "us": "https://example.com/audio/shell-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:19:00Z",
+    "updatedAt": "2025-03-26T12:29:00Z",
+    "is_delete": false,
+    "vietnamese": "Trình thông dịch lệnh"
+  },
+  {
+    "word": "Command Line Interface (CLI)",
+    "meaning": "A text-based interface used to interact with a computer system.",
+    "phonetic": "/kəˈmænd laɪn ˈɪntərfeɪs/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Many developers prefer using the CLI for better control.",
+        "translation": "Nhiều lập trình viên thích sử dụng giao diện dòng lệnh để kiểm soát tốt hơn.",
+        "_id": "67d6db326c1d1055c1004106"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/cli-uk.mp3",
+      "us": "https://example.com/audio/cli-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:20:00Z",
+    "updatedAt": "2025-03-26T12:30:00Z",
+    "is_delete": false,
+    "vietnamese": "Giao diện dòng lệnh"
+  },
+  {
+    "word": "Graphical User Interface (GUI)",
+    "meaning": "A visual way of interacting with a computer using icons and windows.",
+    "phonetic": "/ˈɡræfɪkəl ˈjuːzər ˈɪntərfeɪs/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Most modern operating systems use a graphical user interface.",
+        "translation": "Hầu hết các hệ điều hành hiện đại đều sử dụng giao diện đồ họa.",
+        "_id": "67d6db326c1d1055c1004107"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/gui-uk.mp3",
+      "us": "https://example.com/audio/gui-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:31:00Z",
+    "updatedAt": "2025-03-26T12:41:00Z",
+    "is_delete": false,
+    "vietnamese": "Giao diện đồ họa"
+  },
+  {
+    "word": "Driver",
+    "meaning": "A program that controls a particular type of hardware device attached to a computer.",
+    "phonetic": "/ˈdraɪvər/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "You need to install a driver for your printer to work properly.",
+        "translation": "Bạn cần cài đặt trình điều khiển để máy in hoạt động đúng cách.",
+        "_id": "67d6db326c1d1055c1004108"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/driver-uk.mp3",
+      "us": "https://example.com/audio/driver-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:32:00Z",
+    "updatedAt": "2025-03-26T12:42:00Z",
+    "is_delete": false,
+    "vietnamese": "Trình điều khiển"
+  },
+  {
+    "word": "Virtual Memory",
+    "meaning": "A memory management capability that uses disk storage to extend RAM.",
+    "phonetic": "/ˈvɜːrtʃuəl ˈmɛməri/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Virtual memory helps a computer run multiple programs smoothly.",
+        "translation": "Bộ nhớ ảo giúp máy tính chạy nhiều chương trình mượt mà hơn.",
+        "_id": "67d6db326c1d1055c1004109"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/virtual-memory-uk.mp3",
+      "us": "https://example.com/audio/virtual-memory-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:33:00Z",
+    "updatedAt": "2025-03-26T12:43:00Z",
+    "is_delete": false,
+    "vietnamese": "Bộ nhớ ảo"
+  },
+  {
+    "word": "Paging",
+    "meaning": "A memory management scheme that eliminates the need for contiguous memory allocation.",
+    "phonetic": "/ˈpeɪdʒɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Paging allows a computer to use disk space as an extension of RAM.",
+        "translation": "Phân trang bộ nhớ cho phép máy tính sử dụng không gian đĩa như một phần mở rộng của RAM.",
+        "_id": "67d6db326c1d1055c1004110"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/paging-uk.mp3",
+      "us": "https://example.com/audio/paging-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:34:00Z",
+    "updatedAt": "2025-03-26T12:44:00Z",
+    "is_delete": false,
+    "vietnamese": "Phân trang bộ nhớ"
+  },
+  {
+    "word": "Segmentation",
+    "meaning": "A memory management technique that divides a process into different segments.",
+    "phonetic": "/ˌsɛɡmənˈteɪʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Segmentation provides better flexibility in memory allocation.",
+        "translation": "Phân đoạn bộ nhớ cung cấp sự linh hoạt hơn trong phân bổ bộ nhớ.",
+        "_id": "67d6db326c1d1055c1004111"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/segmentation-uk.mp3",
+      "us": "https://example.com/audio/segmentation-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:35:00Z",
+    "updatedAt": "2025-03-26T12:45:00Z",
+    "is_delete": false,
+    "vietnamese": "Phân đoạn bộ nhớ"
+  },
+  {
+    "word": "Swapping",
+    "meaning": "A process in which a page or process is temporarily moved from RAM to disk storage.",
+    "phonetic": "/ˈswɒpɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Swapping allows more processes to run than the available physical memory.",
+        "translation": "Hoán đổi bộ nhớ cho phép nhiều tiến trình chạy hơn so với bộ nhớ vật lý có sẵn.",
+        "_id": "67d6db326c1d1055c1004112"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/swapping-uk.mp3",
+      "us": "https://example.com/audio/swapping-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:36:00Z",
+    "updatedAt": "2025-03-26T12:46:00Z",
+    "is_delete": false,
+    "vietnamese": "Hoán đổi bộ nhớ"
+  },
+  {
+    "word": "Cache Memory",
+    "meaning": "A small-sized type of volatile computer memory that provides high-speed data access to a processor.",
+    "phonetic": "/kæʃ ˈmɛməri/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Cache memory speeds up data retrieval.",
+        "translation": "Bộ nhớ đệm giúp tăng tốc truy xuất dữ liệu.",
+        "_id": "67d6db326c1d1055c1004113"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/cache-memory-uk.mp3",
+      "us": "https://example.com/audio/cache-memory-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:50:00Z",
+    "updatedAt": "2025-03-26T12:55:00Z",
+    "is_delete": false,
+    "vietnamese": "Bộ nhớ đệm"
+  },
+  {
+    "word": "RAM (Random Access Memory)",
+    "meaning": "A type of computer memory that can be accessed randomly and is volatile.",
+    "phonetic": "/ræm/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Upgrading your RAM improves system performance.",
+        "translation": "Nâng cấp RAM giúp cải thiện hiệu suất hệ thống.",
+        "_id": "67d6db326c1d1055c1004114"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/ram-uk.mp3",
+      "us": "https://example.com/audio/ram-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:51:00Z",
+    "updatedAt": "2025-03-26T12:56:00Z",
+    "is_delete": false,
+    "vietnamese": "Bộ nhớ truy xuất ngẫu nhiên"
+  },
+  {
+    "word": "ROM (Read-Only Memory)",
+    "meaning": "A type of non-volatile memory used in computers and electronic devices.",
+    "phonetic": "/rɒm/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "ROM stores firmware that is essential for booting a computer.",
+        "translation": "Bộ nhớ chỉ đọc lưu trữ phần mềm hệ thống quan trọng để khởi động máy tính.",
+        "_id": "67d6db326c1d1055c1004115"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/rom-uk.mp3",
+      "us": "https://example.com/audio/rom-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:52:00Z",
+    "updatedAt": "2025-03-26T12:57:00Z",
+    "is_delete": false,
+    "vietnamese": "Bộ nhớ chỉ đọc"
+  },
+  {
+    "word": "Process",
+    "meaning": "An instance of a program that is being executed.",
+    "phonetic": "/ˈprəʊ.ses/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Each process runs independently in the operating system.",
+        "translation": "Mỗi tiến trình chạy độc lập trong hệ điều hành.",
+        "_id": "67d6db326c1d1055c1004116"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/process-uk.mp3",
+      "us": "https://example.com/audio/process-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:53:00Z",
+    "updatedAt": "2025-03-26T12:58:00Z",
+    "is_delete": false,
+    "vietnamese": "Tiến trình"
+  },
+  {
+    "word": "Thread",
+    "meaning": "The smallest unit of execution within a process.",
+    "phonetic": "/θrɛd/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Threads allow concurrent execution within a process.",
+        "translation": "Luồng cho phép thực thi đồng thời bên trong một tiến trình.",
+        "_id": "67d6db326c1d1055c1004117"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/thread-uk.mp3",
+      "us": "https://example.com/audio/thread-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:54:00Z",
+    "updatedAt": "2025-03-26T12:59:00Z",
+    "is_delete": false,
+    "vietnamese": "Luồng"
+  },
+  {
+    "word": "Multitasking",
+    "meaning": "The ability of an operating system to execute multiple tasks simultaneously.",
+    "phonetic": "/ˌmʌl.tiˈtɑːs.kɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Modern operating systems support multitasking to enhance productivity.",
+        "translation": "Hệ điều hành hiện đại hỗ trợ đa nhiệm để tăng năng suất.",
+        "_id": "67d6db326c1d1055c1004118"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/multitasking-uk.mp3",
+      "us": "https://example.com/audio/multitasking-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:55:00Z",
+    "updatedAt": "2025-03-26T13:00:00Z",
+    "is_delete": false,
+    "vietnamese": "Đa nhiệm"
+  },
+  {
+    "word": "Multiprocessing",
+    "meaning": "The ability of a system to use multiple processors to execute tasks simultaneously.",
+    "phonetic": "/ˌmʌl.tiˈprəʊ.ses.ɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Multiprocessing improves system performance by utilizing multiple CPUs.",
+        "translation": "Đa xử lý cải thiện hiệu suất hệ thống bằng cách sử dụng nhiều bộ xử lý.",
+        "_id": "67d6db326c1d1055c1004119"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/multiprocessing-uk.mp3",
+      "us": "https://example.com/audio/multiprocessing-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:10:00Z",
+    "updatedAt": "2025-03-26T13:15:00Z",
+    "is_delete": false,
+    "vietnamese": "Đa xử lý"
+  },
+  {
+    "word": "Scheduling",
+    "meaning": "The method by which processes are assigned to the CPU for execution.",
+    "phonetic": "/ˈʃɛd.juː.lɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "CPU scheduling determines which process runs at a given time.",
+        "translation": "Lập lịch CPU quyết định tiến trình nào chạy vào một thời điểm nhất định.",
+        "_id": "67d6db326c1d1055c1004120"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/scheduling-uk.mp3",
+      "us": "https://example.com/audio/scheduling-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:11:00Z",
+    "updatedAt": "2025-03-26T13:16:00Z",
+    "is_delete": false,
+    "vietnamese": "Lập lịch tiến trình"
+  },
+  {
+    "word": "Deadlock",
+    "meaning": "A situation in which two or more processes are unable to proceed because each is waiting for the other to release a resource.",
+    "phonetic": "/ˈdɛd.lɒk/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Deadlock can occur when multiple processes compete for the same resources.",
+        "translation": "Kẹt tiến trình có thể xảy ra khi nhiều tiến trình tranh chấp cùng một tài nguyên.",
+        "_id": "67d6db326c1d1055c1004121"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/deadlock-uk.mp3",
+      "us": "https://example.com/audio/deadlock-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:12:00Z",
+    "updatedAt": "2025-03-26T13:17:00Z",
+    "is_delete": false,
+    "vietnamese": "Kẹt tiến trình"
+  },
+  {
+    "word": "Context Switching",
+    "meaning": "The process of storing the state of a process so that it can be resumed later.",
+    "phonetic": "/ˈkɒn.tɛkst ˈswɪtʃ.ɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Context switching occurs when the CPU switches between processes.",
+        "translation": "Chuyển đổi ngữ cảnh xảy ra khi CPU chuyển đổi giữa các tiến trình.",
+        "_id": "67d6db326c1d1055c1004122"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/context-switching-uk.mp3",
+      "us": "https://example.com/audio/context-switching-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:13:00Z",
+    "updatedAt": "2025-03-26T13:18:00Z",
+    "is_delete": false,
+    "vietnamese": "Chuyển đổi ngữ cảnh"
+  },
+  {
+    "word": "File System",
+    "meaning": "A method and data structure used by an operating system to manage files.",
+    "phonetic": "/faɪl ˈsɪs.təm/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "The file system determines how files are stored and retrieved.",
+        "translation": "Hệ thống tệp quyết định cách lưu trữ và truy xuất tệp tin.",
+        "_id": "67d6db326c1d1055c1004123"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/file-system-uk.mp3",
+      "us": "https://example.com/audio/file-system-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:14:00Z",
+    "updatedAt": "2025-03-26T13:19:00Z",
+    "is_delete": false,
+    "vietnamese": "Hệ thống tệp"
+  },
+  {
+    "word": "Partition",
+    "meaning": "A division of a hard drive that is treated as a separate storage unit.",
+    "phonetic": "/pɑːˈtɪʃ.ən/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "A hard drive can be divided into multiple partitions.",
+        "translation": "Ổ cứng có thể được chia thành nhiều phân vùng.",
+        "_id": "67d6db326c1d1055c1004124"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/partition-uk.mp3",
+      "us": "https://example.com/audio/partition-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:15:00Z",
+    "updatedAt": "2025-03-26T13:20:00Z",
+    "is_delete": false,
+    "vietnamese": "Phân vùng"
+  },
+  {
+    "word": "File Allocation Table (FAT)",
+    "meaning": "A file system used for organizing and managing files on storage devices.",
+    "phonetic": "/faɪl ˌæləˈkeɪʃən ˈteɪbl/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "FAT is commonly used in USB drives and memory cards.",
+        "translation": "FAT thường được sử dụng trong USB và thẻ nhớ.",
+        "_id": "67d6db326c1d1055c1004125"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/fat-uk.mp3",
+      "us": "https://example.com/audio/fat-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:21:00Z",
+    "updatedAt": "2025-03-26T13:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Bảng phân bổ tệp"
+  },
+  {
+    "word": "New Technology File System (NTFS)",
+    "meaning": "A modern file system developed by Microsoft for Windows operating systems.",
+    "phonetic": "/ɛn ti ɛf ɛs/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "NTFS supports file permissions and encryption.",
+        "translation": "Hệ thống tệp NTFS hỗ trợ phân quyền và mã hóa tệp.",
+        "_id": "67d6db326c1d1055c1004126"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/ntfs-uk.mp3",
+      "us": "https://example.com/audio/ntfs-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:22:00Z",
+    "updatedAt": "2025-03-26T13:26:00Z",
+    "is_delete": false,
+    "vietnamese": "Hệ thống tệp NTFS"
+  },
+  {
+    "word": "Ext (Extended File System)",
+    "meaning": "A file system commonly used in Linux-based operating systems.",
+    "phonetic": "/ɪkst/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Linux distributions often use the Ext4 file system.",
+        "translation": "Các bản phân phối Linux thường sử dụng hệ thống tệp Ext4.",
+        "_id": "67d6db326c1d1055c1004127"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/ext-uk.mp3",
+      "us": "https://example.com/audio/ext-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:23:00Z",
+    "updatedAt": "2025-03-26T13:27:00Z",
+    "is_delete": false,
+    "vietnamese": "Hệ thống tệp mở rộng"
+  },
+  {
+    "word": "SSD (Solid-State Drive)",
+    "meaning": "A type of storage device that uses flash memory instead of spinning disks.",
+    "phonetic": "/ɛs ɛs diː/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "SSDs provide faster read and write speeds compared to HDDs.",
+        "translation": "Ổ SSD cung cấp tốc độ đọc và ghi nhanh hơn so với ổ HDD.",
+        "_id": "67d6db326c1d1055c1004128"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/ssd-uk.mp3",
+      "us": "https://example.com/audio/ssd-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:24:00Z",
+    "updatedAt": "2025-03-26T13:28:00Z",
+    "is_delete": false,
+    "vietnamese": "Ổ cứng thể rắn"
+  },
+  {
+    "word": "HDD (Hard Disk Drive)",
+    "meaning": "A traditional storage device that uses spinning disks to store data.",
+    "phonetic": "/eɪtʃ diː diː/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "HDDs are cheaper but slower than SSDs.",
+        "translation": "Ổ HDD có giá rẻ hơn nhưng chậm hơn SSD.",
+        "_id": "67d6db326c1d1055c1004129"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/hdd-uk.mp3",
+      "us": "https://example.com/audio/hdd-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:25:00Z",
+    "updatedAt": "2025-03-26T13:29:00Z",
+    "is_delete": false,
+    "vietnamese": "Ổ cứng cơ"
+  },
+  {
+    "word": "IP Address (Internet Protocol Address)",
+    "meaning": "A unique numerical label assigned to each device connected to a network.",
+    "phonetic": "/aɪ piː əˈdrɛs/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Each device on the internet has a unique IP address.",
+        "translation": "Mỗi thiết bị trên Internet có một địa chỉ IP duy nhất.",
+        "_id": "67d6db326c1d1055c1004130"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/ip-address-uk.mp3",
+      "us": "https://example.com/audio/ip-address-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:26:00Z",
+    "updatedAt": "2025-03-26T13:30:00Z",
+    "is_delete": false,
+    "vietnamese": "Địa chỉ IP"
+  },
+  {
+    "word": "DNS (Domain Name System)",
+    "meaning": "A system that translates domain names into IP addresses.",
+    "phonetic": "/diː ɛn ɛs/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "DNS helps convert website names into IP addresses.",
+        "translation": "DNS giúp chuyển đổi tên trang web thành địa chỉ IP.",
+        "_id": "67d6db326c1d1055c1004131"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/dns-uk.mp3",
+      "us": "https://example.com/audio/dns-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:35:00Z",
+    "updatedAt": "2025-03-26T13:35:00Z",
+    "is_delete": false,
+    "vietnamese": "Hệ thống tên miền"
+  },
+  {
+    "word": "DHCP (Dynamic Host Configuration Protocol)",
+    "meaning": "A protocol that automatically assigns IP addresses to devices on a network.",
+    "phonetic": "/diː eɪtʃ siː piː/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "DHCP simplifies network management by dynamically assigning IP addresses.",
+        "translation": "DHCP đơn giản hóa việc quản lý mạng bằng cách gán địa chỉ IP động.",
+        "_id": "67d6db326c1d1055c1004132"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/dhcp-uk.mp3",
+      "us": "https://example.com/audio/dhcp-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:36:00Z",
+    "updatedAt": "2025-03-26T13:36:00Z",
+    "is_delete": false,
+    "vietnamese": "Giao thức cấu hình động"
+  },
+  {
+    "word": "TCP/IP (Transmission Control Protocol/Internet Protocol)",
+    "meaning": "A set of communication protocols used to interconnect network devices on the internet.",
+    "phonetic": "/tiː siː piː aɪ piː/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "The internet relies on TCP/IP for communication between devices.",
+        "translation": "Internet dựa vào TCP/IP để giao tiếp giữa các thiết bị.",
+        "_id": "67d6db326c1d1055c1004133"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/tcp-ip-uk.mp3",
+      "us": "https://example.com/audio/tcp-ip-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:37:00Z",
+    "updatedAt": "2025-03-26T13:37:00Z",
+    "is_delete": false,
+    "vietnamese": "Giao thức truyền tải"
+  },
+  {
+    "word": "VPN (Virtual Private Network)",
+    "meaning": "A secure network that encrypts internet traffic and hides users' IP addresses.",
+    "phonetic": "/viː piː ɛn/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "A VPN provides secure access to private networks over the internet.",
+        "translation": "VPN cung cấp quyền truy cập an toàn vào mạng riêng qua Internet.",
+        "_id": "67d6db326c1d1055c1004134"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/vpn-uk.mp3",
+      "us": "https://example.com/audio/vpn-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:38:00Z",
+    "updatedAt": "2025-03-26T13:38:00Z",
+    "is_delete": false,
+    "vietnamese": "Mạng riêng ảo"
+  },
+  {
+    "word": "Firewall",
+    "meaning": "A 67b2d7d4f25a4c444d4ed5ea system that monitors and controls incoming and outgoing network traffic.",
+    "phonetic": "/ˈfaɪərˌwɔːl/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "A firewall helps protect a network from unauthorized access.",
+        "translation": "Tường lửa giúp bảo vệ mạng khỏi truy cập trái phép.",
+        "_id": "67d6db326c1d1055c1004135"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/firewall-uk.mp3",
+      "us": "https://example.com/audio/firewall-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:39:00Z",
+    "updatedAt": "2025-03-26T13:39:00Z",
+    "is_delete": false,
+    "vietnamese": "Tường lửa"
+  },
+  {
+    "word": "Proxy Server",
+    "meaning": "A server that acts as an intermediary between a user and the internet.",
+    "phonetic": "/ˈprɒksi ˈsɜːrvər/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "A proxy server can enhance 67b2d7d4f25a4c444d4ed5ea and improve performance by caching web pages.",
+        "translation": "Máy chủ proxy có thể tăng cường bảo mật và cải thiện hiệu suất bằng cách lưu vào bộ nhớ đệm các trang web.",
+        "_id": "67d6db326c1d1055c1004136"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/proxy-server-uk.mp3",
+      "us": "https://example.com/audio/proxy-server-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:40:00Z",
+    "updatedAt": "2025-03-26T13:40:00Z",
+    "is_delete": false,
+    "vietnamese": "Máy chủ proxy"
+  },
+  {
+    "word": "Authentication",
+    "meaning": "The process of verifying a user's identity.",
+    "phonetic": "/ˌɔːθənˈtɪkəʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Two-factor authentication improves account 67b2d7d4f25a4c444d4ed5ea.",
+        "translation": "Xác thực hai yếu tố cải thiện bảo mật tài khoản.",
+        "_id": "67d6db326c1d1055c1004137"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/authentication-uk.mp3",
+      "us": "https://example.com/audio/authentication-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:41:00Z",
+    "updatedAt": "2025-03-26T13:41:00Z",
+    "is_delete": false,
+    "vietnamese": "Xác thực"
+  },
+  {
+    "word": "Authorization",
+    "meaning": "The process of granting or denying access to resources.",
+    "phonetic": "/ˌɔːθərəˈzeɪʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Authorization determines what actions a user can perform.",
+        "translation": "Phân quyền xác định những hành động người dùng có thể thực hiện.",
+        "_id": "67d6db326c1d1055c1004138"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/authorization-uk.mp3",
+      "us": "https://example.com/audio/authorization-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:42:00Z",
+    "updatedAt": "2025-03-26T13:42:00Z",
+    "is_delete": false,
+    "vietnamese": "Phân quyền"
+  },
+  {
+    "word": "Encryption",
+    "meaning": "The process of converting data into a secure format to prevent unauthorized access.",
+    "phonetic": "/ɪnˈkrɪpʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Encryption helps protect sensitive information from hackers.",
+        "translation": "Mã hóa giúp bảo vệ thông tin nhạy cảm khỏi tin tặc.",
+        "_id": "67d6db326c1d1055c1004139"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/encryption-uk.mp3",
+      "us": "https://example.com/audio/encryption-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:43:00Z",
+    "updatedAt": "2025-03-26T13:43:00Z",
+    "is_delete": false,
+    "vietnamese": "Mã hóa"
+  },
+  {
+    "word": "Access Control",
+    "meaning": "A 67b2d7d4f25a4c444d4ed5ea technique used to regulate who or what can view or use resources.",
+    "phonetic": "/ˈækses kənˈtroʊl/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Access control ensures only authorized users can access certain data.",
+        "translation": "Kiểm soát truy cập đảm bảo chỉ những người dùng được ủy quyền mới có thể truy cập dữ liệu nhất định.",
+        "_id": "67d6db326c1d1055c1004140"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/access-control-uk.mp3",
+      "us": "https://example.com/audio/access-control-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:44:00Z",
+    "updatedAt": "2025-03-26T13:44:00Z",
+    "is_delete": false,
+    "vietnamese": "Kiểm soát truy cập"
+  },
+  {
+    "word": "User Account",
+    "meaning": "An identity created for a user to access a system or service.",
+    "phonetic": "/ˈjuːzər əˈkaʊnt/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Each user must create a user account to log in.",
+        "translation": "Mỗi người dùng phải tạo một tài khoản người dùng để đăng nhập.",
+        "_id": "67d6db326c1d1055c1004141"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/user-account-uk.mp3",
+      "us": "https://example.com/audio/user-account-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:45:00Z",
+    "updatedAt": "2025-03-26T13:45:00Z",
+    "is_delete": false,
+    "vietnamese": "Tài khoản người dùng"
+  },
+  {
+    "word": "Root User / Administrator",
+    "meaning": "A user with full control over a system, often responsible for configuration and management.",
+    "phonetic": "/ruːt ˈjuːzər/ /ədˈmɪnɪstreɪtər/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "The root user has the highest level of system access.",
+        "translation": "Người dùng quản trị có mức truy cập hệ thống cao nhất.",
+        "_id": "67d6db326c1d1055c1004142"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/root-user-uk.mp3",
+      "us": "https://example.com/audio/root-user-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:46:00Z",
+    "updatedAt": "2025-03-26T13:46:00Z",
+    "is_delete": false,
+    "vietnamese": "Người dùng quản trị"
+  },
+  {
+    "word": "Privilege Escalation",
+    "meaning": "The process of gaining higher-level access to resources or functions.",
+    "phonetic": "/ˈprɪvɪlɪdʒ ˌɛskəˈleɪʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Hackers often use privilege escalation techniques to gain admin rights.",
+        "translation": "Tin tặc thường sử dụng kỹ thuật tăng quyền truy cập để có được quyền quản trị.",
+        "_id": "67d6db326c1d1055c1004143"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/privilege-escalation-uk.mp3",
+      "us": "https://example.com/audio/privilege-escalation-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:50:00Z",
+    "updatedAt": "2025-03-26T13:50:00Z",
+    "is_delete": false,
+    "vietnamese": "Tăng quyền truy cập"
+  },
+  {
+    "word": "Single-User OS",
+    "meaning": "An operating system that allows only one user to access the system at a time.",
+    "phonetic": "/ˈsɪŋɡl ˈjuːzər oʊ ɛs/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Most personal computers run on a single-user OS.",
+        "translation": "Hầu hết máy tính cá nhân chạy trên hệ điều hành đơn người dùng.",
+        "_id": "67d6db326c1d1055c1004144"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/single-user-os-uk.mp3",
+      "us": "https://example.com/audio/single-user-os-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:51:00Z",
+    "updatedAt": "2025-03-26T13:51:00Z",
+    "is_delete": false,
+    "vietnamese": "Hệ điều hành đơn người dùng"
+  },
+  {
+    "word": "Multi-User OS",
+    "meaning": "An operating system that allows multiple users to access the system simultaneously.",
+    "phonetic": "/ˈmʌlti ˈjuːzər oʊ ɛs/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Unix is an example of a multi-user OS.",
+        "translation": "Unix là một ví dụ về hệ điều hành đa người dùng.",
+        "_id": "67d6db326c1d1055c1004145"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/multi-user-os-uk.mp3",
+      "us": "https://example.com/audio/multi-user-os-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:52:00Z",
+    "updatedAt": "2025-03-26T13:52:00Z",
+    "is_delete": false,
+    "vietnamese": "Hệ điều hành đa người dùng"
+  },
+  {
+    "word": "Real-Time OS (RTOS)",
+    "meaning": "An operating system designed to process data in real-time with minimal delay.",
+    "phonetic": "/ˈriːəl taɪm oʊ ɛs/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "RTOS is commonly used in embedded systems like medical devices.",
+        "translation": "Hệ điều hành thời gian thực thường được sử dụng trong các hệ thống nhúng như thiết bị y tế.",
+        "_id": "67d6db326c1d1055c1004146"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/real-time-os-uk.mp3",
+      "us": "https://example.com/audio/real-time-os-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:53:00Z",
+    "updatedAt": "2025-03-26T13:53:00Z",
+    "is_delete": false,
+    "vietnamese": "Hệ điều hành thời gian thực"
+  },
+  {
+    "word": "Distributed OS",
+    "meaning": "An operating system that manages a group of independent computers and makes them appear as a single system.",
+    "phonetic": "/dɪˈstrɪbjuːtɪd oʊ ɛs/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Google's cloud infrastructure is based on a distributed OS.",
+        "translation": "Cơ sở hạ tầng đám mây của Google được xây dựng trên hệ điều hành phân tán.",
+        "_id": "67d6db326c1d1055c1004147"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/distributed-os-uk.mp3",
+      "us": "https://example.com/audio/distributed-os-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:54:00Z",
+    "updatedAt": "2025-03-26T13:54:00Z",
+    "is_delete": false,
+    "vietnamese": "Hệ điều hành phân tán"
+  },
+  {
+    "word": "Embedded OS",
+    "meaning": "An operating system designed for embedded systems, optimized for specific hardware.",
+    "phonetic": "/ɪmˈbɛdɪd oʊ ɛs/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Smart TVs run on an embedded OS tailored for media applications.",
+        "translation": "TV thông minh chạy trên hệ điều hành nhúng được tối ưu hóa cho các ứng dụng đa phương tiện.",
+        "_id": "67d6db326c1d1055c1004148"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/embedded-os-uk.mp3",
+      "us": "https://example.com/audio/embedded-os-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:55:00Z",
+    "updatedAt": "2025-03-26T13:55:00Z",
+    "is_delete": false,
+    "vietnamese": "Hệ điều hành nhúng"
+  },
+  {
+    "word": "Mobile OS",
+    "meaning": "An operating system designed for mobile devices like smartphones and tablets.",
+    "phonetic": "/ˈmoʊbaɪl oʊ ɛs/",
+    "type": ["noun"],
+    "topic_id": "67b2d7d4f25a4c444d4ed5ea",
+    "examples": [
+      {
+        "sentence": "Android and iOS are the most popular mobile OSs.",
+        "translation": "Android và iOS là những hệ điều hành di động phổ biến nhất.",
+        "_id": "67d6db326c1d1055c1004149"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/mobile-os-uk.mp3",
+      "us": "https://example.com/audio/mobile-os-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:56:00Z",
+    "updatedAt": "2025-03-26T13:56:00Z",
+    "is_delete": false,
+    "vietnamese": "Hệ điều hành di động"
+  }
+]

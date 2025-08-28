@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "text": "Beginner",
+    "value": "beginner",
+    "icon": "../src/components/icons/beginner.svg"
+  },
+  {
+    "id": 2,
+    "text": "Intermediate",
+    "value": "intermediate",
+    "icon": "../src/components/icons/intermediate.svg"
+  },
+  {
+    "id": 3,
+    "text": "Advanced",
+    "value": "advanced",
+    "icon": "../src/components/icons/advanced.svg"
+  }
+]

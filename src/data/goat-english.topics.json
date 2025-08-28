@@ -1,0 +1,112 @@
+[{
+  "_id": {
+    "$oid": "67b2d6e4f25a4c444d4ed5e8"
+  },
+  "name": "Lập trình phần mềm",
+  "description": "Các ngôn ngữ lập trình (Python, Java, C++, JavaScript, Go, Swift), kỹ thuật lập trình, phương pháp phát triển phần mềm, thiết kế phần mềm, và kiểm thử phần mềm.",
+  "image": "http://res.cloudinary.com/dm0czde4x/image/upload/v1740854081/goat-topic/d5bjemxwkvlkm0bqbvns.jpg",
+  "createdAt": {
+    "$date": "2025-02-17T06:27:48.474Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T18:34:43.163Z"
+  },
+  "__v": 0,
+  "isDelete": false
+},
+{
+  "_id": {
+    "$oid": "67b2d7d4f25a4c444d4ed5ea"
+  },
+  "name": "Hệ điều hành",
+  "description": "Các hệ điều hành như Windows, Linux, macOS, Android, iOS, và nguyên lý hoạt động của chúng.",
+  "image": "http://res.cloudinary.com/dm0czde4x/image/upload/v1743602878/goat-topic/moobaps5kurakesf8tdt.jpg",
+  "createdAt": {
+    "$date": "2025-02-17T06:31:48.111Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-02T14:07:57.703Z"
+  },
+  "__v": 0,
+  "isDelete": false
+},
+{
+  "_id": {
+    "$oid": "67b2d9c2f25a4c444d4ed5ec"
+  },
+  "name": "Cơ sở dữ liệu",
+  "description": "Thiết kế và quản lý cơ sở dữ liệu (SQL, NoSQL, MySQL, MongoDB, PostgreSQL), tối ưu hóa truy vấn, bảo mật cơ sở dữ liệu, và các kỹ thuật phân tích dữ liệu.",
+  "image": "https://cdn.hostingviet.vn/upload/2023/08/he-quan-tri-co-so-du-lieu-3.png",
+  "createdAt": {
+    "$date": "2025-02-17T06:40:02.639Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-17T06:40:02.639Z"
+  },
+  "__v": 0,
+  "isDelete": false
+},
+{
+  "_id": {
+    "$oid": "67b2d9f9f25a4c444d4ed5ee"
+  },
+  "name": "Mạng máy tính",
+  "description": "Các giao thức mạng (TCP/IP, HTTP, DNS), thiết kế mạng, bảo mật mạng, và các công nghệ mạng như Wi-Fi, VPN, 5G.",
+  "image": "http://res.cloudinary.com/dm0czde4x/image/upload/v1740854156/goat-topic/pjwej3qeqsf3tz64yquz.jpg",
+  "createdAt": {
+    "$date": "2025-02-17T06:40:57.194Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T05:22:58.742Z"
+  },
+  "__v": 0,
+  "isDelete": false
+},
+{
+  "_id": {
+    "$oid": "67b2da41f25a4c444d4ed5f0"
+  },
+  "name": "Phát triển web",
+  "description": "HTML, CSS, JavaScript, frameworks như React, Angular, Vue.js, và backend development với Node.js, Express, Ruby on Rails.",
+  "image": "http://res.cloudinary.com/dm0czde4x/image/upload/v1740854171/goat-topic/kxa2zkdcjy9symz5d0r5.jpg",
+  "createdAt": {
+    "$date": "2025-02-17T06:42:09.086Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T18:36:12.629Z"
+  },
+  "__v": 0,
+  "isDelete": false
+},
+{
+  "_id": {
+    "$oid": "67eea66794bce34f61646627"
+  },
+  "name": "Lập trình mạng",
+  "description": "Lập trình mạng mô tả",
+  "image": "http://localhost:3000/img.png",
+  "isDelete": true,
+  "createdAt": {
+    "$date": "2025-04-03T15:16:55.424Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T06:14:44.015Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eea66794bce34f6164662b"
+  },
+  "name": "Cấu trúc dữ liệu nâng cao",
+  "description": "Dữ liệu mô tả nâng cao",
+  "image": "http://localhost:3000/img2.png",
+  "isDelete": true,
+  "createdAt": {
+    "$date": "2025-04-03T15:16:55.507Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T06:14:45.862Z"
+  },
+  "__v": 0
+}]

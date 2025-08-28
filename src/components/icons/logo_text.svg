@@ -1,0 +1,20 @@
+<svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes typing {
+      from { stroke-dasharray: 0, 100%; }
+      to { stroke-dasharray: 100%, 100%; }
+    }
+    text {
+      font-size: 40px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      fill: none;
+      stroke: black;
+      stroke-width: 2;
+      stroke-dasharray: 100%;
+      stroke-dashoffset: 100%;
+      animation: typing 3s linear forwards;
+    }
+  </style>
+  <text x="10" y="50">GOAT ENGLISH</text>
+</svg>

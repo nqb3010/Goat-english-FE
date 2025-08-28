@@ -1,0 +1,129 @@
+@use '../base';
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: base.$color-white;
+  z-index: 999;
+  border-bottom: 1px solid #e5e5e5;
+  // height: 70px;
+
+  .nav {
+    height: 70px;
+    @include base.breakpoint(sm) {
+      height: 50px;
+    }
+  }
+
+  .logo .img {
+    width: 60px;
+    height: 60px;
+    fill: base.$color-primary;
+  }
+
+  .logo .text {
+    color: base.$color-primary;
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+}
+
+.header-v2 {
+  position: fixed;
+  top: 0;
+  left: 255px;
+  right: 0;
+  padding: 15px;
+  height: 65px;
+  background-color: #fff;
+  border-bottom: 0.125rem solid rgb(204, 210, 222);
+  z-index: 999;
+  @include base.breakpoint(lg) {
+    left: 0;
+  }
+
+  .btn-menu {
+    display: none;
+    @include base.breakpoint(lg) {
+      display: block;
+    }
+  }
+
+  &.btn-menu-open .btn-menu {
+    display: block;
+  }
+
+  &.sidebar-collapsed {
+    left: 90px;
+    @include base.breakpoint(lg) {
+      left: 0;
+    }
+  }
+
+  &.sidebar-open {
+    left: 255px;
+    .actions-right {
+      display: none;
+    }
+  }
+
+  &.sidebar-open.sidebar-collapsed {
+    left: 90px;
+    .actions-right {
+      display: flex;
+    }
+  }
+
+  .topic-text {
+    font-size: 1.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+    @include base.breakpoint(sm) {
+      display: none;
+    }
+  }
+
+  .actions-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    .action-item {
+      cursor: pointer;
+
+      svg {
+        width: 32px;
+        height: 32px;
+      }
+
+      .dropdown-header {
+        position: absolute;
+        right: 0;
+        top: 40px;
+        width: 256px;
+        background-color: #fff;
+        border-radius: 1rem;
+        border: 0.125rem solid rgb(204, 210, 222);
+        overflow: hidden;
+        z-index: 999;
+      }
+
+      .dropdown-block {
+        padding: 16px;
+        border-bottom: 0.125rem solid rgb(204, 210, 222);
+
+        &:last-child {
+          border: none;
+          padding-bottom: 24px;
+        }
+      }
+
+      .dropdown-link {
+        font-weight: 600;
+      }
+    }
+  }
+}

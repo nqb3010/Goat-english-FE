@@ -1,0 +1,101 @@
+@use '../base';
+
+.header-v3 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 8px 24px;
+  z-index: 999;
+
+  .logo {
+    margin-right: 24px;
+    padding: 0 8px;
+  }
+}
+
+#progress {
+  width: 100%;
+  min-height: calc(100vh);
+  background-image: url('https://app.memrise.com/_next/static/images/dfd8b6cea907600be9550a3294b054b5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  .progress-content {
+    padding: 7rem 3rem 4.8rem;
+    @include base.breakpoint(md) {
+      padding: 7rem 1rem 4.8rem;
+    }
+  }
+
+  .progress-content__header {
+    @include base.breakpoint(md) {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .progress-desc {
+    line-height: 20px;
+  }
+
+  .list-progress {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    @include base.breakpoint(lg) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    @include base.breakpoint(sm) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  .progress-item {
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.25rem;
+    position: relative;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 187, 0);
+  }
+
+  .progress-btn {
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.2rem;
+    width: 3.2rem;
+    min-width: 3.2rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    background-color: rgb(204, 210, 222);
+    box-shadow: rgb(0, 17, 34) 0px calc(0.15rem) 0px 0px;
+    color: rgb(83, 97, 117);
+
+    &.active {
+      background-color: rgb(255, 187, 0);
+      border: 1px solid rgb(204, 150, 0);
+      box-shadow: rgb(204, 210, 222) 0px calc(0.2rem) 0px 0px;
+    }
+  }
+
+  .dot-icon svg {
+    color: rgb(188, 194, 207);
+  }
+
+  .dot-icon.active svg {
+    color: rgb(255, 187, 0);
+  }
+
+  .progress-number-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.2rem;
+  }
+}

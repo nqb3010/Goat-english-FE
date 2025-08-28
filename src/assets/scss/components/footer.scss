@@ -1,0 +1,22 @@
+@use '../base';
+
+#footer {
+  padding: 20px;
+  color: base.$color-white;
+  background-color: base.$color-primary;
+
+  .footer-col {
+    font-size: 1.5rem;
+  }
+
+  .footer-col-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-col-desc {
+    width: 300px;
+    line-height: 24px;
+  }
+}

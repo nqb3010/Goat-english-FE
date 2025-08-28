@@ -1,0 +1,838 @@
+[
+  {
+    "word": "HTML",
+    "meaning": "A markup language for creating web pages.",
+    "phonetic": "/ˌeɪtʃ.tiː.ɛmˈel/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "HTML is commonly used in web development.",
+        "translation": "HTML thường được sử dụng trong phát triển web.",
+        "_id": "67d6db326c1d1055c1004101"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/html-uk.mp3",
+      "us": "https://example.com/audio/html-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:00:00Z",
+    "updatedAt": "2025-03-16T12:10:00Z",
+    "is_delete": false,
+    "vietnamese": "Ngôn ngữ đánh dấu siêu văn bản"
+  },
+  {
+    "word": "CSS",
+    "meaning": "A stylesheet language for designing web pages.",
+    "phonetic": "/siː.es.es/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "CSS is used to style web pages.",
+        "translation": "CSS được sử dụng để định kiểu trang web.",
+        "_id": "67d6db326c1d1055c1004102"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/css-uk.mp3",
+      "us": "https://example.com/audio/css-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:05:00Z",
+    "updatedAt": "2025-03-16T12:15:00Z",
+    "is_delete": false,
+    "vietnamese": "Ngôn ngữ định kiểu"
+  },
+  {
+    "word": "JavaScript",
+    "meaning": "A programming language for the web.",
+    "phonetic": "/ˈdʒɑː.və.skrɪpt/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "JavaScript is used to create interactive web pages.",
+        "translation": "JavaScript được sử dụng để tạo trang web tương tác.",
+        "_id": "67d6db326c1d1055c1004103"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/javascript-uk.mp3",
+      "us": "https://example.com/audio/javascript-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:10:00Z",
+    "updatedAt": "2025-03-16T12:20:00Z",
+    "is_delete": false,
+    "vietnamese": "Ngôn ngữ lập trình JavaScript"
+  },
+  {
+    "word": "React",
+    "meaning": "A JavaScript library for building UIs.",
+    "phonetic": "/riːækt/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "React is widely used in modern web development.",
+        "translation": "React được sử dụng rộng rãi trong phát triển web hiện đại.",
+        "_id": "67d6db326c1d1055c1004104"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/react-uk.mp3",
+      "us": "https://example.com/audio/react-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Thư viện JavaScript React"
+  },
+  {
+    "word": "Vue",
+    "meaning": "A progressive JavaScript framework.",
+    "phonetic": "/vjuː/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "Vue is known for its simplicity and flexibility.",
+        "translation": "Vue được biết đến với sự đơn giản và linh hoạt.",
+        "_id": "67d6db326c1d1055c1004105"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/vue-uk.mp3",
+      "us": "https://example.com/audio/vue-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:20:00Z",
+    "updatedAt": "2025-03-16T12:30:00Z",
+    "is_delete": false,
+    "vietnamese": "Framework JavaScript Vue.js"
+  },
+  {
+    "_id": "67d6db326c1d1055c1004006",
+    "word": "Angular",
+    "meaning": "A TypeScript-based web framework.",
+    "phonetic": "/ˈæŋ.ɡjʊ.lər/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "Angular is a powerful framework for building SPAs.",
+        "translation": "Angular là một framework mạnh mẽ để xây dựng SPA.",
+        "_id": "67d6db326c1d1055c1004106"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/angular-uk.mp3",
+      "us": "https://example.com/audio/angular-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:25:00Z",
+    "updatedAt": "2025-03-16T12:35:00Z",
+    "is_delete": false,
+    "vietnamese": "Framework Angular"
+  },
+  {
+    "word": "Node.js",
+    "meaning": "A runtime environment for JavaScript.",
+    "phonetic": "/noʊd/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "Node.js allows developers to run JavaScript on the server.",
+        "translation": "Node.js cho phép lập trình viên chạy JavaScript trên máy chủ.",
+        "_id": "67d6db326c1d1055c1004107"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/nodejs-uk.mp3",
+      "us": "https://example.com/audio/nodejs-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:30:00Z",
+    "updatedAt": "2025-03-16T12:40:00Z",
+    "is_delete": false,
+    "vietnamese": "Môi trường chạy Node.js"
+  },
+  {
+    "word": "API",
+    "meaning": "A set of rules that allows different software entities to communicate.",
+    "phonetic": "/ˌeɪ.piːˈaɪ/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "The developer integrated a payment API into the website.",
+        "translation": "Nhà phát triển đã tích hợp API thanh toán vào trang web.",
+        "_id": "67d6db326c1d1055c1004108"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/api-uk.mp3",
+      "us": "https://example.com/audio/api-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:35:00Z",
+    "updatedAt": "2025-03-16T12:45:00Z",
+    "is_delete": false,
+    "vietnamese": "Giao diện lập trình ứng dụng"
+  },
+  {
+    "word": "Database",
+    "meaning": "A structured set of data stored electronically.",
+    "phonetic": "/ˈdeɪ.tə.beɪs/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "The website stores user information in a database.",
+        "translation": "Trang web lưu trữ thông tin người dùng trong cơ sở dữ liệu.",
+        "_id": "67d6db326c1d1055c1004109"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/database-uk.mp3",
+      "us": "https://example.com/audio/database-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:40:00Z",
+    "updatedAt": "2025-03-16T12:50:00Z",
+    "is_delete": false,
+    "vietnamese": "Cơ sở dữ liệu"
+  },
+  {
+    "word": "Backend",
+    "meaning": "The server-side part of a website.",
+    "phonetic": "/ˈbæk.end/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "The backend processes user requests and database queries.",
+        "translation": "Backend xử lý yêu cầu của người dùng và truy vấn cơ sở dữ liệu.",
+        "_id": "67d6db326c1d1055c1004110"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/backend-uk.mp3",
+      "us": "https://example.com/audio/backend-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:45:00Z",
+    "updatedAt": "2025-03-16T12:55:00Z",
+    "is_delete": false,
+    "vietnamese": "Phần phụ trợ"
+  },
+  {
+    "word": "Frontend",
+    "meaning": "The client-side part of a website.",
+    "phonetic": "/ˈfrʌnt.end/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "A good frontend improves user experience.",
+        "translation": "Một giao diện frontend tốt cải thiện trải nghiệm người dùng.",
+        "_id": "67d6db326c1d1055c1004111"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/frontend-uk.mp3",
+      "us": "https://example.com/audio/frontend-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:50:00Z",
+    "updatedAt": "2025-03-16T13:00:00Z",
+    "is_delete": false,
+    "vietnamese": "Phần giao diện"
+  },
+  {
+    "word": "Full Stack",
+    "meaning": "A developer skilled in both frontend and backend development.",
+    "phonetic": "/fʊl stæk/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "She works as a full-stack developer.",
+        "translation": "Cô ấy làm việc như một lập trình viên full-stack.",
+        "_id": "67d6db326c1d1055c1004112"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/fullstack-uk.mp3",
+      "us": "https://example.com/audio/fullstack-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:55:00Z",
+    "updatedAt": "2025-03-16T13:05:00Z",
+    "is_delete": false,
+    "vietnamese": "Lập trình viên Full Stack"
+  },
+  {
+    "word": "RESTful API",
+    "meaning": "An API that follows REST principles for communication between systems.",
+    "phonetic": "/rɛst.fʊl eɪ.piː.aɪ/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "RESTful APIs are commonly used for web services.",
+        "translation": "RESTful API thường được sử dụng cho các dịch vụ web.",
+        "_id": "67d6db326c1d1055c1004122"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/restfulapi-uk.mp3",
+      "us": "https://example.com/audio/restfulapi-us.mp3"
+    },
+    "createdAt": "2025-03-16T14:00:00Z",
+    "updatedAt": "2025-03-16T14:05:00Z",
+    "is_delete": false,
+    "vietnamese": "Giao diện lập trình ứng dụng theo REST"
+  },
+  {
+    "word": "Framework",
+    "meaning": "A pre-built set of tools and libraries that help in web development.",
+    "phonetic": "/ˈfreɪm.wɜːk/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "React is a popular JavaScript framework.",
+        "translation": "React là một framework JavaScript phổ biến.",
+        "_id": "67d6db326c1d1055c1004126"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/framework-uk.mp3",
+      "us": "https://example.com/audio/framework-us.mp3"
+    },
+    "createdAt": "2025-03-16T14:25:00Z",
+    "updatedAt": "2025-03-16T14:30:00Z",
+    "is_delete": false,
+    "vietnamese": "Bộ khung phát triển"
+  },
+  {
+    "word": "Responsive Design",
+    "meaning": "A web design approach that ensures websites work well on different devices.",
+    "phonetic": "/rɪˈspɒn.sɪv dɪˈzaɪn/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "Responsive design improves user experience on mobile devices.",
+        "translation": "Thiết kế đáp ứng cải thiện trải nghiệm người dùng trên thiết bị di động.",
+        "_id": "67d6db326c1d1055c1004127"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/responsive-design-uk.mp3",
+      "us": "https://example.com/audio/responsive-design-us.mp3"
+    },
+    "createdAt": "2025-03-16T14:30:00Z",
+    "updatedAt": "2025-03-16T14:35:00Z",
+    "is_delete": false,
+    "vietnamese": "Thiết kế đáp ứng"
+  },
+  {
+    "word": "SEO",
+    "meaning": "The practice of optimizing a website to rank higher in search engine results.",
+    "phonetic": "/ˌes.iːˈoʊ/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "Good SEO improves a website's visibility on Google.",
+        "translation": "SEO tốt giúp cải thiện khả năng hiển thị của trang web trên Google.",
+        "_id": "67d6db326c1d1055c1004132"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/seo-uk.mp3",
+      "us": "https://example.com/audio/seo-us.mp3"
+    },
+    "createdAt": "2025-03-16T15:00:00Z",
+    "updatedAt": "2025-03-16T15:05:00Z",
+    "is_delete": false,
+    "vietnamese": "Tối ưu hóa công cụ tìm kiếm (SEO)"
+  },
+  {
+    "word": "Cache",
+    "meaning": "A storage layer that helps speed up data retrieval by keeping frequently used information.",
+    "phonetic": "/kæʃ/",
+    "type": [
+      "noun",
+      "verb"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "The browser cache stores images for faster loading.",
+        "translation": "Bộ nhớ cache của trình duyệt lưu trữ hình ảnh để tải nhanh hơn.",
+        "_id": "67d6db326c1d1055c1004133"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/cache-uk.mp3",
+      "us": "https://example.com/audio/cache-us.mp3"
+    },
+    "createdAt": "2025-03-16T15:10:00Z",
+    "updatedAt": "2025-03-16T15:15:00Z",
+    "is_delete": false,
+    "vietnamese": "Bộ nhớ đệm"
+  },
+  {
+    "word": "CDN",
+    "meaning": "A network of servers that deliver web content quickly by caching it in multiple locations.",
+    "phonetic": "/ˌsiː.diːˈen/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "A CDN helps reduce website load times by serving content from nearby servers.",
+        "translation": "CDN giúp giảm thời gian tải trang web bằng cách cung cấp nội dung từ các máy chủ gần nhất.",
+        "_id": "67d6db326c1d1055c1004135"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/cdn-uk.mp3",
+      "us": "https://example.com/audio/cdn-us.mp3"
+    },
+    "createdAt": "2025-03-16T15:20:00Z",
+    "updatedAt": "2025-03-16T15:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Mạng phân phối nội dung (CDN)"
+  },
+  {
+    "word": "WebSocket",
+    "meaning": "A protocol that enables real-time communication between a client and a server.",
+    "phonetic": "/ˈwɛbˌsɒkɪt/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "WebSockets allow real-time chat applications to work efficiently.",
+        "translation": "WebSockets giúp các ứng dụng chat thời gian thực hoạt động hiệu quả.",
+        "_id": "67d6db326c1d1055c1004136"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/websocket-uk.mp3",
+      "us": "https://example.com/audio/websocket-us.mp3"
+    },
+    "createdAt": "2025-03-16T15:25:00Z",
+    "updatedAt": "2025-03-16T15:30:00Z",
+    "is_delete": false,
+    "vietnamese": "Giao thức WebSocket"
+  },
+  {
+    "word": "AJAX",
+    "meaning": "A technique that allows web pages to update asynchronously without reloading the entire page.",
+    "phonetic": "/ˈeɪ.dʒæks/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "AJAX helps create smooth and fast web applications.",
+        "translation": "AJAX giúp tạo các ứng dụng web mượt mà và nhanh chóng.",
+        "_id": "67d6db326c1d1055c1004139"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/ajax-uk.mp3",
+      "us": "https://example.com/audio/ajax-us.mp3"
+    },
+    "createdAt": "2025-03-16T15:45:00Z",
+    "updatedAt": "2025-03-16T15:50:00Z",
+    "is_delete": false,
+    "vietnamese": "Kỹ thuật AJAX"
+  },
+  {
+    "word": "JSON",
+    "meaning": "A lightweight data-interchange format that is easy to read and write for both humans and machines.",
+    "phonetic": "/ˈdʒeɪ.sən/",
+    "type": [
+      "noun"
+    ],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "JSON is commonly used for sending data between a client and a server.",
+        "translation": "JSON thường được sử dụng để gửi dữ liệu giữa client và server.",
+        "_id": "67d6db326c1d1055c1004142"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/json-uk.mp3",
+      "us": "https://example.com/audio/json-us.mp3"
+    },
+    "createdAt": "2025-03-16T16:00:00Z",
+    "updatedAt": "2025-03-16T16:05:00Z",
+    "is_delete": false,
+    "vietnamese": "Định dạng JSON"
+  },
+{
+    "word": "Website",
+    "meaning": "A collection of related web pages.",
+    "phonetic": "/ˈwɛb.saɪt/",
+    "type": ["noun"],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "The company launched a new website.",
+        "translation": "Công ty đã ra mắt một trang web mới.",
+        "_id": "67d6db326c1d1055c1004105"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/website-uk.mp3",
+      "us": "https://example.com/audio/website-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:15:00Z",
+    "updatedAt": "2025-03-26T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Trang web"
+  },
+  {
+    "word": "Web Browser",
+    "meaning": "A software application for accessing websites.",
+    "phonetic": "/wɛb ˈbraʊzər/",
+    "type": ["noun"],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "Google Chrome is a popular web browser.",
+        "translation": "Google Chrome là một trình duyệt web phổ biến.",
+        "_id": "67d6db326c1d1055c1004106"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/web-browser-uk.mp3",
+      "us": "https://example.com/audio/web-browser-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:16:00Z",
+    "updatedAt": "2025-03-26T12:26:00Z",
+    "is_delete": false,
+    "vietnamese": "Trình duyệt web"
+  },
+  {
+    "word": "URL",
+    "meaning": "The address of a web page.",
+    "phonetic": "/ˌjuː ɑːr ˈɛl/",
+    "type": ["noun"],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "Enter the URL in the address bar.",
+        "translation": "Nhập URL vào thanh địa chỉ.",
+        "_id": "67d6db326c1d1055c1004107"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/url-uk.mp3",
+      "us": "https://example.com/audio/url-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:17:00Z",
+    "updatedAt": "2025-03-26T12:27:00Z",
+    "is_delete": false,
+    "vietnamese": "Địa chỉ trang web"
+  },
+  {
+    "word": "Domain Name",
+    "meaning": "A human-readable address used to access a website.",
+    "phonetic": "/dəˈmeɪn neɪm/",
+    "type": ["noun"],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "Google.com is a domain name.",
+        "translation": "Google.com là một tên miền.",
+        "_id": "67d6db326c1d1055c1004108"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/domain-name-uk.mp3",
+      "us": "https://example.com/audio/domain-name-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:18:00Z",
+    "updatedAt": "2025-03-26T12:28:00Z",
+    "is_delete": false,
+    "vietnamese": "Tên miền"
+  },
+  {
+    "word": "Hosting",
+    "meaning": "A service that stores website files and makes them accessible online.",
+    "phonetic": "/ˈhoʊstɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "You need a hosting service to run a website.",
+        "translation": "Bạn cần một dịch vụ lưu trữ để chạy trang web.",
+        "_id": "67d6db326c1d1055c1004109"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/hosting-uk.mp3",
+      "us": "https://example.com/audio/hosting-us.mp3"
+    },
+    "createdAt": "2025-03-26T12:19:00Z",
+    "updatedAt": "2025-03-26T12:29:00Z",
+    "is_delete": false,
+    "vietnamese": "Dịch vụ lưu trữ web"
+  },
+{
+    "word": "GraphQL",
+    "meaning": "A query language for APIs that allows clients to request specific data.",
+    "phonetic": "/ˈɡræf.kjuːˌɛl/",
+    "type": ["noun"],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "GraphQL enables efficient data fetching.",
+        "translation": "GraphQL giúp truy xuất dữ liệu hiệu quả.",
+        "_id": "67d6db326c1d1055c1004201"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/graphql-uk.mp3",
+      "us": "https://example.com/audio/graphql-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:00:00Z",
+    "updatedAt": "2025-03-26T13:10:00Z",
+    "is_delete": false,
+    "vietnamese": "Ngôn ngữ truy vấn cho API"
+  },
+  {
+    "word": "SQL",
+    "meaning": "A language used for managing relational databases.",
+    "phonetic": "/ˌɛsˌkjuːˈɛl/",
+    "type": ["noun"],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "SQL is widely used in database management.",
+        "translation": "SQL được sử dụng rộng rãi trong quản lý cơ sở dữ liệu.",
+        "_id": "67d6db326c1d1055c1004202"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/sql-uk.mp3",
+      "us": "https://example.com/audio/sql-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:01:00Z",
+    "updatedAt": "2025-03-26T13:11:00Z",
+    "is_delete": false,
+    "vietnamese": "Ngôn ngữ truy vấn có cấu trúc"
+  },
+  {
+    "word": "NoSQL",
+    "meaning": "A type of database that does not use SQL for data storage.",
+    "phonetic": "/ˌnəʊˈɛsˌkjuːˈɛl/",
+    "type": ["noun"],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "NoSQL databases are useful for big data applications.",
+        "translation": "Cơ sở dữ liệu NoSQL hữu ích cho các ứng dụng dữ liệu lớn.",
+        "_id": "67d6db326c1d1055c1004203"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/nosql-uk.mp3",
+      "us": "https://example.com/audio/nosql-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:02:00Z",
+    "updatedAt": "2025-03-26T13:12:00Z",
+    "is_delete": false,
+    "vietnamese": "Cơ sở dữ liệu không dùng SQL"
+  },
+  {
+    "word": "ORM",
+    "meaning": "A technique for converting data between a relational database and object-oriented programming languages.",
+    "phonetic": "/ˌoʊˌɑːrˈɛm/",
+    "type": ["noun"],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "ORM simplifies database interactions in applications.",
+        "translation": "ORM giúp đơn giản hóa việc tương tác với cơ sở dữ liệu trong ứng dụng.",
+        "_id": "67d6db326c1d1055c1004204"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/orm-uk.mp3",
+      "us": "https://example.com/audio/orm-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:03:00Z",
+    "updatedAt": "2025-03-26T13:13:00Z",
+    "is_delete": false,
+    "vietnamese": "Kỹ thuật ánh xạ quan hệ đối tượng"
+  },
+  {
+    "word": "Version Control",
+    "meaning": "A system for tracking changes in code, such as Git.",
+    "phonetic": "/ˈvɜːr.ʒən kənˈtroʊl/",
+    "type": ["noun"],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "Git is a popular version control system.",
+        "translation": "Git là một hệ thống kiểm soát phiên bản phổ biến.",
+        "_id": "67d6db326c1d1055c1004205"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/version-control-uk.mp3",
+      "us": "https://example.com/audio/version-control-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:04:00Z",
+    "updatedAt": "2025-03-26T13:14:00Z",
+    "is_delete": false,
+    "vietnamese": "Hệ thống kiểm soát phiên bản"
+  },
+  {
+    "word": "CI/CD",
+    "meaning": "A practice in software development for continuous integration and continuous deployment.",
+    "phonetic": "/ˌsiː.aɪ ˌsiː.diː/",
+    "type": ["noun"],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "CI/CD automates software testing and deployment.",
+        "translation": "CI/CD tự động hóa kiểm thử và triển khai phần mềm.",
+        "_id": "67d6db326c1d1055c1004206"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/ci-cd-uk.mp3",
+      "us": "https://example.com/audio/ci-cd-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:05:00Z",
+    "updatedAt": "2025-03-26T13:15:00Z",
+    "is_delete": false,
+    "vietnamese": "Tích hợp liên tục & Triển khai liên tục"
+  },
+  {
+    "word": "Docker",
+    "meaning": "A platform for containerizing applications.",
+    "phonetic": "/ˈdɒk.ər/",
+    "type": ["noun"],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "Docker helps developers build and deploy applications quickly.",
+        "translation": "Docker giúp các nhà phát triển xây dựng và triển khai ứng dụng nhanh chóng.",
+        "_id": "67d6db326c1d1055c1004207"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/docker-uk.mp3",
+      "us": "https://example.com/audio/docker-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:06:00Z",
+    "updatedAt": "2025-03-26T13:16:00Z",
+    "is_delete": false,
+    "vietnamese": "Nền tảng container hóa ứng dụng"
+  },
+{
+    "word": "Serverless Computing",
+    "meaning": "A cloud computing model where the cloud provider dynamically manages the server resources.",
+    "phonetic": "/ˈsɜːr.vɚ.ləs kəmˈpjuː.tɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "Serverless computing allows developers to focus on writing code without managing infrastructure.",
+        "translation": "Điện toán không máy chủ cho phép lập trình viên tập trung vào viết mã mà không phải quản lý hạ tầng.",
+        "_id": "67d6db326c1d1055c1004208"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/serverless-computing-uk.mp3",
+      "us": "https://example.com/audio/serverless-computing-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:07:00Z",
+    "updatedAt": "2025-03-26T13:17:00Z",
+    "is_delete": false,
+    "vietnamese": "Điện toán không máy chủ"
+  },
+  {
+    "word": "Cloud Computing",
+    "meaning": "The delivery of computing services over the internet.",
+    "phonetic": "/klaʊd kəmˈpjuː.tɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "Cloud computing provides on-demand access to computing resources.",
+        "translation": "Điện toán đám mây cung cấp quyền truy cập tài nguyên máy tính theo yêu cầu.",
+        "_id": "67d6db326c1d1055c1004209"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/cloud-computing-uk.mp3",
+      "us": "https://example.com/audio/cloud-computing-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:08:00Z",
+    "updatedAt": "2025-03-26T13:18:00Z",
+    "is_delete": false,
+    "vietnamese": "Điện toán đám mây"
+  },
+  {
+    "word": "Load Balancing",
+    "meaning": "The process of distributing network traffic across multiple servers to ensure reliability and performance.",
+    "phonetic": "/loʊd ˈbæl.ənsɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2da41f25a4c444d4ed5f0",
+    "examples": [
+      {
+        "sentence": "Load balancing prevents server overload by distributing traffic efficiently.",
+        "translation": "Cân bằng tải giúp ngăn chặn tình trạng quá tải máy chủ bằng cách phân phối lưu lượng hiệu quả.",
+        "_id": "67d6db326c1d1055c1004210"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/load-balancing-uk.mp3",
+      "us": "https://example.com/audio/load-balancing-us.mp3"
+    },
+    "createdAt": "2025-03-26T13:09:00Z",
+    "updatedAt": "2025-03-26T13:19:00Z",
+    "is_delete": false,
+    "vietnamese": "Cân bằng tải"
+  }
+]

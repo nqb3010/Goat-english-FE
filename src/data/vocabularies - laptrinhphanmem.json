@@ -1,0 +1,860 @@
+[
+  {
+    "word": "Algorithm",
+    "meaning": "A step-by-step procedure for solving a problem.",
+    "phonetic": "/ˈælɡəˌrɪðəm/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "The sorting algorithm improves performance significantly.",
+        "translation": "Thuật toán sắp xếp cải thiện hiệu suất đáng kể.",
+        "_id": "67d6db326c1d1055c1004101"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/algorithm-uk.mp3",
+      "us": "https://example.com/audio/algorithm-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Thuật toán"
+  },
+  {
+    "word": "Bug",
+    "meaning": "An error or flaw in a software program.",
+    "phonetic": "/bʌɡ/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "The developer fixed the critical bug in the system.",
+        "translation": "Nhà phát triển đã sửa lỗi nghiêm trọng trong hệ thống.",
+        "_id": "67d6db326c1d1055c1004102"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/bug-uk.mp3",
+      "us": "https://example.com/audio/bug-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Lỗi phần mềm"
+  },
+  {
+    "word": "Debugging",
+    "meaning": "The process of identifying and fixing software errors.",
+    "phonetic": "/diˈbʌɡɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Debugging is an essential skill for software engineers.",
+        "translation": "Quá trình sửa lỗi là kỹ năng cần thiết đối với kỹ sư phần mềm.",
+        "_id": "67d6db326c1d1055c1004103"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/debugging-uk.mp3",
+      "us": "https://example.com/audio/debugging-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Quá trình sửa lỗi"
+  },
+  {
+    "word": "Function",
+    "meaning": "A reusable block of code designed to perform a task.",
+    "phonetic": "/ˈfʌŋkʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "The function returns the sum of two numbers.",
+        "translation": "Hàm trả về tổng của hai số.",
+        "_id": "67d6db326c1d1055c1004104"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/function-uk.mp3",
+      "us": "https://example.com/audio/function-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Hàm"
+  },
+  {
+    "word": "Variable",
+    "meaning": "A symbolic name for a value in programming.",
+    "phonetic": "/ˈvɛriəb(ə)l/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Declare a variable before using it.",
+        "translation": "Khai báo một biến trước khi sử dụng nó.",
+        "_id": "67d6db326c1d1055c1004105"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/variable-uk.mp3",
+      "us": "https://example.com/audio/variable-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Biến"
+  },
+  {
+    "word": "Constant",
+    "meaning": "A fixed value that does not change during program execution.",
+    "phonetic": "/ˈkɒnstənt/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "A constant stores a value that cannot be modified.",
+        "translation": "Một hằng số lưu trữ một giá trị không thể thay đổi.",
+        "_id": "67d6db326c1d1055c1004106"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/constant-uk.mp3",
+      "us": "https://example.com/audio/constant-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Hằng số"
+  },
+  {
+    "word": "Loop",
+    "meaning": "A sequence of instructions that repeats until a condition is met.",
+    "phonetic": "/luːp/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "A loop iterates over an array.",
+        "translation": "Vòng lặp duyệt qua một mảng.",
+        "_id": "67d6db326c1d1055c1004107"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/loop-uk.mp3",
+      "us": "https://example.com/audio/loop-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Vòng lặp"
+  },
+  {
+    "word": "Condition",
+    "meaning": "A statement that controls the execution of code based on a condition.",
+    "phonetic": "/kənˈdɪʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "The if statement checks a condition before executing the block of code.",
+        "translation": "Câu lệnh if kiểm tra một điều kiện trước khi thực thi khối mã.",
+        "_id": "67d6db326c1d1055c1004108"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/condition-uk.mp3",
+      "us": "https://example.com/audio/condition-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Điều kiện"
+  },
+  {
+    "word": "Recursion",
+    "meaning": "A technique in programming where a function calls itself.",
+    "phonetic": "/rɪˈkɜːʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Recursion is commonly used in tree traversal algorithms.",
+        "translation": "Đệ quy thường được sử dụng trong các thuật toán duyệt cây.",
+        "_id": "67d6db326c1d1055c1004109"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/recursion-uk.mp3",
+      "us": "https://example.com/audio/recursion-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Đệ quy"
+  },
+  {
+    "word": "Array",
+    "meaning": "A data structure that stores multiple values in a single variable.",
+    "phonetic": "/əˈreɪ/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "An array can hold multiple elements of the same type.",
+        "translation": "Một mảng có thể chứa nhiều phần tử cùng kiểu.",
+        "_id": "67d6db326c1d1055c1004110"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/array-uk.mp3",
+      "us": "https://example.com/audio/array-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Mảng"
+  },
+  {
+    "word": "Object",
+    "meaning": "An instance of a class that contains properties and behaviors.",
+    "phonetic": "/ˈɒbdʒɪkt/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "In JavaScript, everything is an object.",
+        "translation": "Trong JavaScript, mọi thứ đều là đối tượng.",
+        "_id": "67d6db326c1d1055c1004111"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/object-uk.mp3",
+      "us": "https://example.com/audio/object-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Đối tượng"
+  },
+  {
+    "word": "Class",
+    "meaning": "A blueprint for creating objects in object-oriented programming.",
+    "phonetic": "/klɑːs/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "A class defines the structure and behavior of objects.",
+        "translation": "Một lớp định nghĩa cấu trúc và hành vi của đối tượng.",
+        "_id": "67d6db326c1d1055c1004112"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/class-uk.mp3",
+      "us": "https://example.com/audio/class-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Lớp"
+  },
+  {
+    "word": "Inheritance",
+    "meaning": "A mechanism where a class can inherit properties and methods from another class.",
+    "phonetic": "/ɪnˈhɛrɪtəns/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Inheritance allows code reuse in object-oriented programming.",
+        "translation": "Kế thừa cho phép tái sử dụng mã trong lập trình hướng đối tượng.",
+        "_id": "67d6db326c1d1055c1004113"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/inheritance-uk.mp3",
+      "us": "https://example.com/audio/inheritance-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Kế thừa"
+  },
+  {
+    "word": "Encapsulation",
+    "meaning": "The principle of restricting access to certain details of an object to protect data integrity.",
+    "phonetic": "/ɪnˌkæpsjuˈleɪʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Encapsulation helps to protect object data from external modification.",
+        "translation": "Đóng gói giúp bảo vệ dữ liệu đối tượng khỏi sự thay đổi từ bên ngoài.",
+        "_id": "67d6db326c1d1055c1004114"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/encapsulation-uk.mp3",
+      "us": "https://example.com/audio/encapsulation-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Đóng gói"
+  },
+  {
+    "word": "Polymorphism",
+    "meaning": "The ability of a function or object to take on multiple forms.",
+    "phonetic": "/ˌpɒlɪˈmɔːfɪzəm/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Polymorphism allows different classes to be treated as instances of the same class.",
+        "translation": "Đa hình cho phép các lớp khác nhau được xử lý như là các thể hiện của cùng một lớp.",
+        "_id": "67d6db326c1d1055c1004115"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/polymorphism-uk.mp3",
+      "us": "https://example.com/audio/polymorphism-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Đa hình"
+  },
+  {
+    "word": "Abstraction",
+    "meaning": "A principle in OOP that hides implementation details and only shows essential features.",
+    "phonetic": "/æbˈstrækʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Abstraction helps reduce complexity in software design.",
+        "translation": "Trừu tượng hóa giúp giảm bớt sự phức tạp trong thiết kế phần mềm.",
+        "_id": "67d6db326c1d1055c1004116"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/abstraction-uk.mp3",
+      "us": "https://example.com/audio/abstraction-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Trừu tượng hóa"
+  },
+  {
+    "word": "Exception Handling",
+    "meaning": "A mechanism to handle runtime errors and prevent program crashes.",
+    "phonetic": "/ɪkˈsɛpʃən ˈhændlɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Exception handling is crucial for building robust applications.",
+        "translation": "Xử lý ngoại lệ rất quan trọng để xây dựng ứng dụng ổn định.",
+        "_id": "67d6db326c1d1055c1004117"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/exception-handling-uk.mp3",
+      "us": "https://example.com/audio/exception-handling-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Xử lý ngoại lệ"
+  },
+  {
+    "word": "Framework",
+    "meaning": "A pre-built collection of libraries and tools for developing software.",
+    "phonetic": "/ˈfreɪmˌwɜːk/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "React is a popular JavaScript framework for building UIs.",
+        "translation": "React là một khung làm việc JavaScript phổ biến để xây dựng giao diện người dùng.",
+        "_id": "67d6db326c1d1055c1004118"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/framework-uk.mp3",
+      "us": "https://example.com/audio/framework-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Khung làm việc"
+  },
+  {
+    "word": "Library",
+    "meaning": "A collection of prewritten code that can be used to simplify development.",
+    "phonetic": "/ˈlaɪbrəri/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Lodash is a JavaScript library that provides utility functions.",
+        "translation": "Lodash là một thư viện JavaScript cung cấp các hàm tiện ích.",
+        "_id": "67d6db326c1d1055c1004119"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/library-uk.mp3",
+      "us": "https://example.com/audio/library-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Thư viện"
+  },
+  {
+    "word": "API (Application Programming Interface)",
+    "meaning": "A set of rules and tools for building software applications.",
+    "phonetic": "/ˌeɪ piː ˈaɪ/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "The REST API allows developers to interact with the system easily.",
+        "translation": "Giao diện lập trình ứng dụng REST giúp các lập trình viên tương tác với hệ thống dễ dàng.",
+        "_id": "67d6db326c1d1055c1004120"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/api-uk.mp3",
+      "us": "https://example.com/audio/api-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Giao diện lập trình ứng dụng"
+  },
+  {
+    "word": "SDK (Software Development Kit)",
+    "meaning": "A collection of tools, libraries, and documentation for software development.",
+    "phonetic": "/ˌɛs diː ˈkeɪ/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "The Android SDK is essential for building Android applications.",
+        "translation": "Bộ công cụ phát triển phần mềm Android là cần thiết để xây dựng ứng dụng Android.",
+        "_id": "67d6db326c1d1055c1004121"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/sdk-uk.mp3",
+      "us": "https://example.com/audio/sdk-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Bộ công cụ phát triển phần mềm"
+  },
+  {
+    "word": "SQL (Structured Query Language)",
+    "meaning": "A programming language used to manage and manipulate relational databases.",
+    "phonetic": "/ˌɛs kjuː ˈɛl/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "SQL is used to retrieve and manipulate data in relational databases.",
+        "translation": "SQL được sử dụng để truy xuất và thao tác dữ liệu trong cơ sở dữ liệu quan hệ.",
+        "_id": "67d6db326c1d1055c1004123"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/sql-uk.mp3",
+      "us": "https://example.com/audio/sql-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Ngôn ngữ truy vấn có cấu trúc"
+  },
+  {
+    "word": "NoSQL (Not Only SQL)",
+    "meaning": "A type of database that allows flexible, scalable, and non-relational data storage.",
+    "phonetic": "/ˌnəʊ ˌɛs kjuː ˈɛl/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "NoSQL databases like MongoDB store data in JSON-like format.",
+        "translation": "Cơ sở dữ liệu NoSQL như MongoDB lưu trữ dữ liệu theo định dạng giống JSON.",
+        "_id": "67d6db326c1d1055c1004124"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/nosql-uk.mp3",
+      "us": "https://example.com/audio/nosql-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Cơ sở dữ liệu phi quan hệ"
+  },
+  {
+    "word": "ORM (Object-Relational Mapping)",
+    "meaning": "A technique that allows developers to interact with databases using object-oriented programming.",
+    "phonetic": "/ˌoʊ ɑːr ˈɛm/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "ORM frameworks like Hibernate simplify database interactions.",
+        "translation": "Các framework ORM như Hibernate giúp đơn giản hóa tương tác với cơ sở dữ liệu.",
+        "_id": "67d6db326c1d1055c1004125"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/orm-uk.mp3",
+      "us": "https://example.com/audio/orm-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Ánh xạ quan hệ đối tượng"
+  },
+  {
+    "word": "Git",
+    "meaning": "A distributed version control system used to track changes in source code.",
+    "phonetic": "/ɡɪt/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Git helps developers collaborate on projects efficiently.",
+        "translation": "Git giúp các nhà phát triển hợp tác hiệu quả trong các dự án.",
+        "_id": "67d6db326c1d1055c1004131"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/git-uk.mp3",
+      "us": "https://example.com/audio/git-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Hệ thống quản lý phiên bản"
+  },
+  {
+    "word": "GitHub/GitLab/Bitbucket",
+    "meaning": "Web-based platforms for hosting and collaborating on Git repositories.",
+    "phonetic": "/ˈɡɪt.hʌb/, /ˈɡɪt.læb/, /ˈbɪt.bʌkɪt/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Developers use GitHub, GitLab, and Bitbucket to manage their code repositories.",
+        "translation": "Các lập trình viên sử dụng GitHub, GitLab và Bitbucket để quản lý kho mã nguồn của họ.",
+        "_id": "67d6db326c1d1055c1004132"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/github-uk.mp3",
+      "us": "https://example.com/audio/github-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Nền tảng lưu trữ mã nguồn"
+  },
+  {
+    "word": "Package Manager",
+    "meaning": "A tool that automates the installation, upgrading, configuration, and removal of software packages.",
+    "phonetic": "/ˈpækɪdʒ ˈmænɪdʒər/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Package managers simplify software dependency management.",
+        "translation": "Trình quản lý gói giúp đơn giản hóa việc quản lý phụ thuộc phần mềm.",
+        "_id": "67d6db326c1d1055c1004133"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/package-manager-uk.mp3",
+      "us": "https://example.com/audio/package-manager-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Trình quản lý gói"
+  },
+  {
+    "word": "npm/yarn/pnpm",
+    "meaning": "JavaScript package managers used for managing project dependencies.",
+    "phonetic": "/ɛn piː ɛm/, /jɑːrn/, /piː ɛn piː ɛm/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Developers use npm, yarn, and pnpm to install JavaScript libraries.",
+        "translation": "Các lập trình viên sử dụng npm, yarn và pnpm để cài đặt thư viện JavaScript.",
+        "_id": "67d6db326c1d1055c1004134"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/npm-uk.mp3",
+      "us": "https://example.com/audio/npm-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Công cụ quản lý gói cho JavaScript"
+  },
+  {
+    "word": "CI/CD (Continuous Integration/Continuous Deployment)",
+    "meaning": "A software development practice that automates the integration and deployment process.",
+    "phonetic": "/siː aɪ siː diː/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "CI/CD pipelines streamline the software release process.",
+        "translation": "Các pipeline CI/CD giúp tối ưu hóa quy trình phát hành phần mềm.",
+        "_id": "67d6db326c1d1055c1004135"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/ci-cd-uk.mp3",
+      "us": "https://example.com/audio/ci-cd-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Tích hợp và triển khai liên tục"
+  },
+  {
+    "word": "Docker",
+    "meaning": "A platform that enables developers to build, ship, and run applications in containers.",
+    "phonetic": "/ˈdɒkər/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Docker simplifies application deployment by using containerization.",
+        "translation": "Docker giúp đơn giản hóa triển khai ứng dụng bằng cách sử dụng công nghệ container.",
+        "_id": "67d6db326c1d1055c1004136"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/docker-uk.mp3",
+      "us": "https://example.com/audio/docker-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Công nghệ container hóa"
+  },
+  {
+    "word": "Microservices",
+    "meaning": "An architectural style that structures an application as a collection of small, loosely coupled services.",
+    "phonetic": "/ˈmaɪ.krəʊˌsɜː.vɪ.sɪz/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Many modern applications are built using microservices architecture.",
+        "translation": "Nhiều ứng dụng hiện đại được xây dựng theo kiến trúc vi dịch vụ.",
+        "_id": "67d6db326c1d1055c1004201"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/microservices-uk.mp3",
+      "us": "https://example.com/audio/microservices-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Kiến trúc vi dịch vụ"
+  },
+  {
+    "word": "Monolithic Architecture",
+    "meaning": "A software architecture where all components are tightly integrated into a single unit.",
+    "phonetic": "/ˌmɒn.əˈlɪθ.ɪk ˈɑː.kɪ.tek.tʃər/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Traditional applications often use a monolithic architecture.",
+        "translation": "Các ứng dụng truyền thống thường sử dụng kiến trúc đơn khối.",
+        "_id": "67d6db326c1d1055c1004202"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/monolithic-uk.mp3",
+      "us": "https://example.com/audio/monolithic-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Kiến trúc đơn khối"
+  },
+  {
+    "word": "Authentication",
+    "meaning": "The process of verifying the identity of a user or system.",
+    "phonetic": "/ɔːˌθen.tɪˈkeɪ.ʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Authentication is required before accessing sensitive data.",
+        "translation": "Xác thực là bắt buộc trước khi truy cập dữ liệu nhạy cảm.",
+        "_id": "67d6db326c1d1055c1004203"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/authentication-uk.mp3",
+      "us": "https://example.com/audio/authentication-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Xác thực"
+  },
+  {
+    "word": "Authorization",
+    "meaning": "The process of granting or denying access to resources based on user permissions.",
+    "phonetic": "/ˌɔː.θə.raɪˈzeɪ.ʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Authorization determines what actions a user is allowed to perform.",
+        "translation": "Phân quyền xác định những hành động mà người dùng có thể thực hiện.",
+        "_id": "67d6db326c1d1055c1004204"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/authorization-uk.mp3",
+      "us": "https://example.com/audio/authorization-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Phân quyền"
+  },
+  {
+    "word": "Encryption",
+    "meaning": "The process of encoding information to prevent unauthorized access.",
+    "phonetic": "/ɪnˈkrɪp.ʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Encryption ensures that data remains secure during transmission.",
+        "translation": "Mã hóa giúp dữ liệu luôn được bảo mật trong quá trình truyền tải.",
+        "_id": "67d6db326c1d1055c1004205"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/encryption-uk.mp3",
+      "us": "https://example.com/audio/encryption-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Mã hóa"
+  },
+  {
+    "word": "Data Structure",
+    "meaning": "A way of organizing and storing data for efficient access and modification.",
+    "phonetic": "/ˈdeɪ.tə ˈstrʌk.tʃər/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Choosing the right data structure is crucial for performance.",
+        "translation": "Việc chọn đúng cấu trúc dữ liệu rất quan trọng để tối ưu hiệu suất.",
+        "_id": "67d6db326c1d1055c1004206"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/data-structure-uk.mp3",
+      "us": "https://example.com/audio/data-structure-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Cấu trúc dữ liệu"
+  },
+  {
+    "word": "Big O Notation",
+    "meaning": "A mathematical notation that describes the complexity of an algorithm.",
+    "phonetic": "/bɪɡ oʊ noʊˈteɪ.ʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Big O Notation helps developers analyze algorithm efficiency.",
+        "translation": "Ký hiệu độ phức tạp thuật toán giúp lập trình viên phân tích hiệu suất thuật toán.",
+        "_id": "67d6db326c1d1055c1004207"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/big-o-notation-uk.mp3",
+      "us": "https://example.com/audio/big-o-notation-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Ký hiệu độ phức tạp thuật toán"
+  },
+  {
+    "word": "Software Testing",
+    "meaning": "The process of evaluating software to identify bugs and ensure it meets requirements.",
+    "phonetic": "/ˈsɒft.weər ˈtes.tɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Software testing is essential to ensure product quality.",
+        "translation": "Kiểm thử phần mềm là cần thiết để đảm bảo chất lượng sản phẩm.",
+        "_id": "67d6db326c1d1055c1004208"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/software-testing-uk.mp3",
+      "us": "https://example.com/audio/software-testing-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Kiểm thử phần mềm"
+  },
+  {
+    "word": "Unit Test",
+    "meaning": "A type of software testing that focuses on testing individual components of a program.",
+    "phonetic": "/ˈjuː.nɪt tɛst/",
+    "type": ["noun"],
+    "topic_id": "67b2d6e4f25a4c444d4ed5e8",
+    "examples": [
+      {
+        "sentence": "Unit tests help ensure each function works correctly.",
+        "translation": "Kiểm thử đơn vị giúp đảm bảo mỗi hàm hoạt động chính xác.",
+        "_id": "67d6db326c1d1055c1004209"
+      }
+    ],
+    "audio": {
+      "uk": "https://example.com/audio/unit-test-uk.mp3",
+      "us": "https://example.com/audio/unit-test-us.mp3"
+    },
+    "createdAt": "2025-03-16T12:15:00Z",
+    "updatedAt": "2025-03-16T12:25:00Z",
+    "is_delete": false,
+    "vietnamese": "Kiểm thử đơn vị"
+  }
+]

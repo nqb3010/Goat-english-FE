@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "text": "News, article, or blog",
+    "value": "news",
+    "icon": "../src/components/icons/blog.svg"
+  },
+  {
+    "id": 2,
+    "text": "Websearch",
+    "value": "websearch",
+    "icon": "../src/components/icons/search.svg"
+  },
+  {
+    "id": 3,
+    "text": "Online ads",
+    "value": "ads",
+    "icon": "../src/components/icons/ads.svg"
+  },
+  {
+    "id": 4,
+    "text": "Youtube",
+    "value": "youtube",
+    "icon": "../src/components/icons/youtube.svg"
+  },
+  {
+    "id": 5,
+    "text": "App store",
+    "value": "appstore",
+    "icon": "../src/components/icons/appstore.svg"
+  },
+  {
+    "id": 6,
+    "text": "Social media",
+    "value": "social",
+    "icon": "../src/components/icons/social.svg"
+  },
+  {
+    "id": 7,
+    "text": "Friends or family",
+    "value": "friendsfamily",
+    "icon": "../src/components/icons/people.svg"
+  },
+  {
+    "id": 8,
+    "text": "Other",
+    "value": "other",
+    "icon": "../src/components/icons/other.svg"
+  }
+]

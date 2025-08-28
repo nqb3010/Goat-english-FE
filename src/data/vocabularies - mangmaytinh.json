@@ -1,0 +1,926 @@
+[
+  {
+    "word": "Computer network",
+    "meaning": "A system of interconnected computers that communicate with each other.",
+    "phonetic": "/kəmˈpjuːtər ˈnɛtwɜrk/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A computer network allows multiple devices to share data.",
+        "translation": "Mạng máy tính cho phép nhiều thiết bị chia sẻ dữ liệu."
+      }
+    ],
+    "vietnamese": "Mạng máy tính"
+  },
+  {
+    "word": "Node",
+    "meaning": "A connection point within a network that can send, receive, or forward data.",
+    "phonetic": "/noʊd/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Each node in a network has a unique address.",
+        "translation": "Mỗi nút mạng trong hệ thống có một địa chỉ duy nhất."
+      }
+    ],
+    "vietnamese": "Nút mạng"
+  },
+  {
+    "word": "Host",
+    "meaning": "A computer or device connected to a network that provides resources or services.",
+    "phonetic": "/hoʊst/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "The host manages requests from multiple clients.",
+        "translation": "Máy chủ quản lý các yêu cầu từ nhiều máy khách."
+      }
+    ],
+    "vietnamese": "Máy chủ"
+  },
+  {
+    "word": "Server",
+    "meaning": "A computer system that provides services, resources, or data to other computers on a network.",
+    "phonetic": "/ˈsɜrvər/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "The server stores all user data securely.",
+        "translation": "Máy chủ lưu trữ tất cả dữ liệu người dùng một cách an toàn."
+      }
+    ],
+    "vietnamese": "Máy chủ"
+  },
+  {
+    "word": "Client",
+    "meaning": "A computer or software that requests services or resources from a server.",
+    "phonetic": "/ˈklaɪənt/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "The client sends a request to the server for data.",
+        "translation": "Máy khách gửi yêu cầu đến máy chủ để lấy dữ liệu."
+      }
+    ],
+    "vietnamese": "Máy khách"
+  },
+  {
+    "word": "Protocol",
+    "meaning": "A set of rules that define how data is transmitted over a network.",
+    "phonetic": "/ˈproʊtəˌkɒl/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "The HTTP protocol is used to transfer web pages.",
+        "translation": "Giao thức HTTP được sử dụng để truyền tải trang web."
+      }
+    ],
+    "vietnamese": "Giao thức"
+  },
+  {
+    "word": "Data transmission",
+    "meaning": "The process of transferring data between devices over a network.",
+    "phonetic": "/ˈdeɪtə trænzˈmɪʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Wireless data transmission allows devices to communicate without cables.",
+        "translation": "Truyền dữ liệu không dây cho phép các thiết bị giao tiếp mà không cần dây cáp."
+      }
+    ],
+    "vietnamese": "Truyền dữ liệu"
+  },
+  {
+    "word": "Bandwidth",
+    "meaning": "The maximum rate of data transfer across a network.",
+    "phonetic": "/ˈbændˌwɪdθ/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Higher bandwidth allows for faster data transmission.",
+        "translation": "Băng thông cao hơn cho phép truyền dữ liệu nhanh hơn."
+      }
+    ],
+    "vietnamese": "Băng thông"
+  },
+  {
+    "word": "Latency",
+    "meaning": "The delay between sending and receiving data over a network.",
+    "phonetic": "/ˈleɪtənsi/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Low latency is important for real-time applications like video calls.",
+        "translation": "Độ trễ thấp rất quan trọng đối với các ứng dụng thời gian thực như cuộc gọi video."
+      }
+    ],
+    "vietnamese": "Độ trễ"
+  },
+  {
+    "word": "Throughput",
+    "meaning": "The actual amount of data successfully transmitted over a network in a given time.",
+    "phonetic": "/ˈθruːˌpʊt/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Network congestion can reduce throughput significantly.",
+        "translation": "Tắc nghẽn mạng có thể làm giảm lưu lượng truyền tải đáng kể."
+      }
+    ],
+    "vietnamese": "Lưu lượng truyền tải"
+  },
+  {
+    "word": "Packet",
+    "meaning": "A small unit of data transmitted over a network.",
+    "phonetic": "/ˈpækɪt/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Each packet contains a portion of the overall data being sent.",
+        "translation": "Mỗi gói tin chứa một phần dữ liệu tổng thể được gửi đi."
+      }
+    ],
+    "vietnamese": "Gói tin"
+  },
+  {
+    "word": "Frame",
+    "meaning": "A structured data unit in network communication that includes addressing and error-checking information.",
+    "phonetic": "/freɪm/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A frame carries packets across a network with additional control information.",
+        "translation": "Khung dữ liệu mang các gói tin qua mạng kèm theo thông tin kiểm soát bổ sung."
+      }
+    ],
+    "vietnamese": "Khung dữ liệu"
+  },
+  {
+    "word": "LAN (Local Area Network)",
+    "meaning": "A network that connects computers within a limited area such as an office, home, or school.",
+    "phonetic": "/læn/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A LAN allows employees to share files and printers easily.",
+        "translation": "Mạng cục bộ cho phép nhân viên chia sẻ tệp và máy in dễ dàng."
+      }
+    ],
+    "vietnamese": "Mạng cục bộ"
+  },
+  {
+    "word": "WAN (Wide Area Network)",
+    "meaning": "A network that covers a large geographical area, often consisting of multiple LANs.",
+    "phonetic": "/wæn/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "The internet is the largest example of a WAN.",
+        "translation": "Internet là ví dụ lớn nhất của mạng diện rộng."
+      }
+    ],
+    "vietnamese": "Mạng diện rộng"
+  },
+  {
+    "word": "MAN (Metropolitan Area Network)",
+    "meaning": "A network that covers a city or large campus, connecting multiple LANs.",
+    "phonetic": "/mæn/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A MAN connects different buildings in a city for seamless communication.",
+        "translation": "Mạng đô thị kết nối các tòa nhà trong một thành phố để giao tiếp liền mạch."
+      }
+    ],
+    "vietnamese": "Mạng đô thị"
+  },
+  {
+    "word": "WLAN (Wireless Local Area Network)",
+    "meaning": "A wireless version of a LAN that allows devices to connect without cables.",
+    "phonetic": "/ˈwaɪərlɪs læn/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "WLANs use Wi-Fi technology to provide internet access.",
+        "translation": "Mạng không dây cục bộ sử dụng công nghệ Wi-Fi để cung cấp truy cập internet."
+      }
+    ],
+    "vietnamese": "Mạng không dây cục bộ"
+  },
+  {
+    "word": "VPN (Virtual Private Network)",
+    "meaning": "A secure network connection that encrypts data over the internet.",
+    "phonetic": "/ˌvɜr.tʃu.əl ˈpraɪ.vɪt ˈnɛt.wɜrk/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A VPN allows users to access private networks securely from anywhere.",
+        "translation": "Mạng riêng ảo cho phép người dùng truy cập mạng riêng một cách an toàn từ bất cứ đâu."
+      }
+    ],
+    "vietnamese": "Mạng riêng ảo"
+  },
+  {
+    "word": "PAN (Personal Area Network)",
+    "meaning": "A small network designed for personal devices like smartphones, tablets, and wearables.",
+    "phonetic": "/pæn/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A Bluetooth PAN connects a smartphone to wireless headphones.",
+        "translation": "Mạng cá nhân Bluetooth kết nối điện thoại thông minh với tai nghe không dây."
+      }
+    ],
+    "vietnamese": "Mạng cá nhân"
+  },
+  {
+    "word": "SAN (Storage Area Network)",
+    "meaning": "A specialized network for high-speed data storage and retrieval.",
+    "phonetic": "/sæn/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A SAN improves data access speed for large enterprises.",
+        "translation": "Mạng lưu trữ cải thiện tốc độ truy cập dữ liệu cho các doanh nghiệp lớn."
+      }
+    ],
+    "vietnamese": "Mạng lưu trữ"
+  },
+  {
+    "word": "TCP/IP (Transmission Control Protocol/Internet Protocol)",
+    "meaning": "A set of 67b2d9f9f25a4c444d4ed5ee protocols that define how data is sent and received over the internet.",
+    "phonetic": "/ˌtiː.siː.piː aɪˈpiː/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "The internet relies on TCP/IP for communication between devices.",
+        "translation": "Internet dựa vào giao thức TCP/IP để thiết bị giao tiếp với nhau."
+      }
+    ],
+    "vietnamese": "Giao thức điều khiển truyền tải/Giao thức Internet"
+  },
+  {
+    "word": "HTTP (HyperText Transfer Protocol)",
+    "meaning": "A protocol used to transfer web pages and resources over the internet.",
+    "phonetic": "/ˌeɪtʃ.tiː.tiːˈpiː/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Web browsers use HTTP to request and display web pages.",
+        "translation": "Trình duyệt web sử dụng giao thức HTTP để yêu cầu và hiển thị trang web."
+      }
+    ],
+    "vietnamese": "Giao thức truyền tải siêu văn bản"
+  },
+  {
+    "word": "HTTPS (HyperText Transfer Protocol Secure)",
+    "meaning": "A secure version of HTTP that encrypts data for safe communication over the web.",
+    "phonetic": "/ˌeɪtʃ.tiː.tiː.piːˈɛs/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Websites use HTTPS to protect user data from cyber threats.",
+        "translation": "Các trang web sử dụng HTTPS để bảo vệ dữ liệu người dùng khỏi các mối đe dọa mạng."
+      }
+    ],
+    "vietnamese": "Giao thức truyền tải siêu văn bản bảo mật"
+  },
+  {
+    "word": "FTP (File Transfer Protocol)",
+    "meaning": "A protocol used for transferring files over a network.",
+    "phonetic": "/ˌɛf.tiːˈpiː/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "FTP is commonly used to upload files to a web server.",
+        "translation": "FTP thường được sử dụng để tải tệp lên máy chủ web."
+      }
+    ],
+    "vietnamese": "Giao thức truyền tập tin"
+  },
+  {
+    "word": "DNS (Domain Name System)",
+    "meaning": "A system that translates human-readable domain names into IP addresses.",
+    "phonetic": "/ˌdiːɛnˈɛs/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "DNS allows users to access websites using domain names instead of IP addresses.",
+        "translation": "DNS cho phép người dùng truy cập trang web bằng tên miền thay vì địa chỉ IP."
+      }
+    ],
+    "vietnamese": "Hệ thống tên miền"
+  },
+  {
+    "word": "DHCP (Dynamic Host Configuration Protocol)",
+    "meaning": "A protocol that automatically assigns IP addresses to devices in a network.",
+    "phonetic": "/ˌdiːeɪtʃˈsiːpiː/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "DHCP simplifies network management by automatically assigning IP addresses.",
+        "translation": "DHCP đơn giản hóa việc quản lý mạng bằng cách tự động cấp phát địa chỉ IP."
+      }
+    ],
+    "vietnamese": "Giao thức cấu hình động máy chủ"
+  },
+  {
+    "word": "SMTP (Simple Mail Transfer Protocol)",
+    "meaning": "A protocol used for sending emails between mail servers.",
+    "phonetic": "/ˌɛs.ɛm.tiːˈpiː/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "SMTP is essential for email communication over the internet.",
+        "translation": "SMTP rất quan trọng để gửi email qua internet."
+      }
+    ],
+    "vietnamese": "Giao thức truyền tải thư điện tử"
+  },
+  {
+    "word": "POP3 (Post Office Protocol 3)",
+    "meaning": "A protocol used to retrieve emails from a mail server to a local client.",
+    "phonetic": "/pɒp θriː/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "POP3 downloads emails to a device and deletes them from the server.",
+        "translation": "POP3 tải email về thiết bị và xóa chúng khỏi máy chủ."
+      }
+    ],
+    "vietnamese": "Giao thức nhận email phiên bản 3"
+  },
+  {
+    "word": "IMAP (Internet Message Access Protocol)",
+    "meaning": "A protocol that allows users to access emails stored on a remote mail server.",
+    "phonetic": "/ˈaɪ.mæp/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "IMAP allows users to access their emails from multiple devices.",
+        "translation": "IMAP cho phép người dùng truy cập email từ nhiều thiết bị khác nhau."
+      }
+    ],
+    "vietnamese": "Giao thức truy cập tin nhắn Internet"
+  },
+  {
+    "word": "SSH (Secure Shell)",
+    "meaning": "A protocol used to securely connect to remote computers over an encrypted connection.",
+    "phonetic": "/ˌɛs.ɛsˈeɪtʃ/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "SSH allows secure remote administration of servers.",
+        "translation": "SSH cho phép quản trị từ xa máy chủ một cách an toàn."
+      }
+    ],
+    "vietnamese": "Giao thức kết nối bảo mật"
+  },
+  {
+    "word": "ICMP (Internet Control Message Protocol)",
+    "meaning": "A protocol used to send error messages and operational information in a network.",
+    "phonetic": "/ˌaɪ.siː.ɛmˈpiː/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "ICMP is used by the ping command to check network connectivity.",
+        "translation": "ICMP được sử dụng bởi lệnh ping để kiểm tra kết nối mạng."
+      }
+    ],
+    "vietnamese": "Giao thức điều khiển mạng Internet"
+  },
+  {
+    "word": "Router",
+    "meaning": "A device that directs network traffic between different networks.",
+    "phonetic": "/ˈraʊ.tər/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A router connects a home network to the internet.",
+        "translation": "Bộ định tuyến kết nối mạng gia đình với internet."
+      }
+    ],
+    "vietnamese": "Bộ định tuyến"
+  },
+  {
+    "word": "Switch",
+    "meaning": "A network device that connects multiple devices and manages data traffic efficiently.",
+    "phonetic": "/swɪtʃ/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A switch is used to connect multiple computers in a LAN.",
+        "translation": "Bộ chuyển mạch được sử dụng để kết nối nhiều máy tính trong mạng cục bộ."
+      }
+    ],
+    "vietnamese": "Bộ chuyển mạch"
+  },
+  {
+    "word": "Hub",
+    "meaning": "A basic network device that connects multiple devices but does not manage data traffic.",
+    "phonetic": "/hʌb/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A hub broadcasts data to all connected devices.",
+        "translation": "Bộ tập trung phát dữ liệu đến tất cả các thiết bị kết nối."
+      }
+    ],
+    "vietnamese": "Bộ tập trung"
+  },
+  {
+    "word": "Modem",
+    "meaning": "A device that converts digital data into signals for transmission over telephone lines or cable.",
+    "phonetic": "/ˈmoʊ.dəm/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A modem connects a home network to an internet service provider.",
+        "translation": "Bộ điều chế kết nối mạng gia đình với nhà cung cấp dịch vụ internet."
+      }
+    ],
+    "vietnamese": "Bộ điều chế"
+  },
+  {
+    "word": "Access Point (AP)",
+    "meaning": "A device that provides wireless connectivity to a wired network.",
+    "phonetic": "/ˈæk.sɛs pɔɪnt/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "An access point extends Wi-Fi coverage in large buildings.",
+        "translation": "Điểm truy cập mở rộng vùng phủ sóng Wi-Fi trong các tòa nhà lớn."
+      }
+    ],
+    "vietnamese": "Điểm truy cập"
+  },
+  {
+    "word": "Firewall",
+    "meaning": "A security system that monitors and controls incoming and outgoing network traffic.",
+    "phonetic": "/ˈfaɪr.wɔːl/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A firewall helps protect a network from cyber threats.",
+        "translation": "Tường lửa giúp bảo vệ mạng khỏi các mối đe dọa an ninh mạng."
+      }
+    ],
+    "vietnamese": "Tường lửa"
+  },
+  {
+    "word": "Repeater",
+    "meaning": "A network device that amplifies and retransmits signals to extend the range of a network.",
+    "phonetic": "/rɪˈpiː.tər/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A repeater is used to extend Wi-Fi coverage in large areas.",
+        "translation": "Bộ lặp được sử dụng để mở rộng vùng phủ sóng Wi-Fi trong các khu vực rộng lớn."
+      }
+    ],
+    "vietnamese": "Bộ lặp"
+  },
+  {
+    "word": "Load Balancer",
+    "meaning": "A device or software that distributes network traffic across multiple servers to ensure high availability and reliability.",
+    "phonetic": "/loʊd ˈbæ.lən.sɚ/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A load balancer helps distribute incoming traffic evenly among servers.",
+        "translation": "Bộ cân bằng tải giúp phân phối lưu lượng truy cập đồng đều giữa các máy chủ."
+      }
+    ],
+    "vietnamese": "Bộ cân bằng tải"
+  },
+  {
+    "word": "IP Address (Internet Protocol Address)",
+    "meaning": "A unique numerical identifier assigned to each device connected to a network.",
+    "phonetic": "/ˌaɪˈpiː əˈdrɛs/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Each device on the internet has a unique IP address.",
+        "translation": "Mỗi thiết bị trên internet đều có một địa chỉ IP duy nhất."
+      }
+    ],
+    "vietnamese": "Địa chỉ IP"
+  },
+  {
+    "word": "IPv4 (Internet Protocol Version 4)",
+    "meaning": "The fourth version of the Internet Protocol, which uses a 32-bit address scheme.",
+    "phonetic": "/ˌaɪ.piː.viː ˈfɔːr/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "IPv4 is the most widely used protocol for internet communication.",
+        "translation": "IPv4 là giao thức được sử dụng rộng rãi nhất cho truyền thông internet."
+      }
+    ],
+    "vietnamese": "Giao thức IP phiên bản 4"
+  },
+  {
+    "word": "IPv6 (Internet Protocol Version 6)",
+    "meaning": "The sixth version of the Internet Protocol, designed to replace IPv4 and provide a larger address space using a 128-bit address scheme.",
+    "phonetic": "/ˌaɪ.piː.viː ˈsɪks/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "IPv6 was developed to solve the address exhaustion problem of IPv4.",
+        "translation": "IPv6 được phát triển để giải quyết vấn đề cạn kiệt địa chỉ của IPv4."
+      }
+    ],
+    "vietnamese": "Giao thức IP phiên bản 6"
+  },
+  {
+    "word": "Subnet Mask",
+    "meaning": "A numerical mask that determines the network and host portions of an IP address.",
+    "phonetic": "/ˈsʌb.nɛt mæsk/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A subnet mask helps define network boundaries.",
+        "translation": "Mặt nạ mạng con giúp xác định ranh giới của mạng."
+      }
+    ],
+    "vietnamese": "Mặt nạ mạng con"
+  },
+  {
+    "word": "MAC Address (Media Access Control Address)",
+    "meaning": "A unique identifier assigned to a network interface controller (NIC) for communications on a network.",
+    "phonetic": "/ˌɛmˌeɪˈsiː ˈæd.rɛs/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Each network device has a unique MAC address.",
+        "translation": "Mỗi thiết bị mạng có một địa chỉ MAC duy nhất."
+      }
+    ],
+    "vietnamese": "Địa chỉ MAC"
+  },
+  {
+    "word": "NAT (Network Address Translation)",
+    "meaning": "A method of remapping one IP address space into another to improve security and reduce the number of public IP addresses required.",
+    "phonetic": "/næt/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "NAT helps multiple devices share a single public IP address.",
+        "translation": "Biên dịch địa chỉ mạng giúp nhiều thiết bị dùng chung một địa chỉ IP công cộng."
+      }
+    ],
+    "vietnamese": "Biên dịch địa chỉ mạng"
+  },
+  {
+    "word": "CIDR (Classless Inter-Domain Routing)",
+    "meaning": "A method for allocating IP addresses and IP routing that replaces the older class-based system.",
+    "phonetic": "/ˈsaɪ.dər/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "CIDR allows for more efficient allocation of IP addresses.",
+        "translation": "Định tuyến liên miền không phân lớp cho phép phân bổ địa chỉ IP hiệu quả hơn."
+      }
+    ],
+    "vietnamese": "Định tuyến liên miền không phân lớp"
+  },
+  {
+    "word": "Firewall",
+    "meaning": "A security system that monitors and controls incoming and outgoing network traffic.",
+    "phonetic": "/ˈfaɪr.wɔːl/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A firewall helps protect a network from cyber threats.",
+        "translation": "Tường lửa giúp bảo vệ mạng khỏi các mối đe dọa an ninh mạng."
+      }
+    ],
+    "vietnamese": "Tường lửa"
+  },
+  {
+    "word": "Encryption",
+    "meaning": "The process of converting data into a secure format that cannot be read without a decryption key.",
+    "phonetic": "/ɪnˈkrɪp.ʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Encryption ensures that sensitive data remains protected.",
+        "translation": "Mã hóa đảm bảo rằng dữ liệu nhạy cảm được bảo vệ."
+      }
+    ],
+    "vietnamese": "Mã hóa"
+  },
+  {
+    "word": "Decryption",
+    "meaning": "The process of converting encrypted data back into its original form.",
+    "phonetic": "/diːˈkrɪp.ʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Decryption is required to access encrypted messages.",
+        "translation": "Giải mã là cần thiết để truy cập các tin nhắn đã mã hóa."
+      }
+    ],
+    "vietnamese": "Giải mã"
+  },
+  {
+    "word": "Authentication",
+    "meaning": "The process of verifying the identity of a user or device before granting access to a system.",
+    "phonetic": "/ɔːˌθɛn.tɪˈkeɪ.ʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Two-factor authentication adds an extra layer of security.",
+        "translation": "Xác thực hai yếu tố thêm một lớp bảo mật bổ sung."
+      }
+    ],
+    "vietnamese": "Xác thực"
+  },
+  {
+    "word": "Authorization",
+    "meaning": "The process of granting or denying access rights to resources in a system.",
+    "phonetic": "/ˌɔː.θɚ.aɪˈzeɪ.ʃən/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Authorization determines what actions a user is allowed to perform.",
+        "translation": "Ủy quyền xác định những hành động mà người dùng được phép thực hiện."
+      }
+    ],
+    "vietnamese": "Ủy quyền"
+  },
+  {
+    "word": "Intrusion Detection System (IDS)",
+    "meaning": "A security system that monitors network traffic for suspicious activity and potential threats.",
+    "phonetic": "/ɪnˈtruːʒən dɪˈtɛkʃən ˈsɪstəm/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "The IDS detected unusual activity in the network.",
+        "translation": "Hệ thống phát hiện xâm nhập đã phát hiện hoạt động bất thường trong mạng."
+      }
+    ],
+    "vietnamese": "Hệ thống phát hiện xâm nhập"
+  },
+  {
+    "word": "Intrusion Prevention System (IPS)",
+    "meaning": "A security system that actively prevents detected threats from compromising the network.",
+    "phonetic": "/ɪnˈtruːʒən prɪˈvɛnʃən ˈsɪstəm/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "The IPS blocked a potential attack before it could reach the server.",
+        "translation": "Hệ thống ngăn chặn xâm nhập đã chặn một cuộc tấn công tiềm ẩn trước khi nó có thể xâm nhập vào máy chủ."
+      }
+    ],
+    "vietnamese": "Hệ thống ngăn chặn xâm nhập"
+  },
+  {
+    "word": "Malware",
+    "meaning": "Malicious software designed to damage, disrupt, or gain unauthorized access to a system.",
+    "phonetic": "/ˈmæl.wɛər/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Malware can compromise your personal data.",
+        "translation": "Phần mềm độc hại có thể xâm phạm dữ liệu cá nhân của bạn."
+      }
+    ],
+    "vietnamese": "Phần mềm độc hại"
+  },
+  {
+    "word": "Phishing",
+    "meaning": "A cyber attack that uses fraudulent emails or websites to trick individuals into revealing sensitive information.",
+    "phonetic": "/ˈfɪʃ.ɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "He received a phishing email pretending to be from his bank.",
+        "translation": "Anh ấy đã nhận được một email lừa đảo giả danh ngân hàng của mình."
+      }
+    ],
+    "vietnamese": "Lừa đảo qua mạng"
+  },
+  {
+    "word": "Denial of Service (DoS)",
+    "meaning": "A cyber attack that overwhelms a network or service with excessive traffic, rendering it unavailable.",
+    "phonetic": "/dɪˈnaɪ.əl əv ˈsɜːr.vɪs/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "The website was taken down by a DoS attack.",
+        "translation": "Trang web đã bị tấn công từ chối dịch vụ và ngừng hoạt động."
+      }
+    ],
+    "vietnamese": "Tấn công từ chối dịch vụ"
+  },
+  {
+    "word": "Man-in-the-Middle Attack (MITM)",
+    "meaning": "A cyber attack where an attacker intercepts and manipulates communication between two parties.",
+    "phonetic": "/mæn ɪn ðə ˈmɪd.əl əˈtæk/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A MITM attack can intercept your login credentials.",
+        "translation": "Một cuộc tấn công trung gian có thể chặn thông tin đăng nhập của bạn."
+      }
+    ],
+    "vietnamese": "Tấn công trung gian"
+  },
+  {
+    "word": "Load Balancing",
+    "meaning": "The process of distributing network traffic across multiple servers to ensure efficiency and reliability.",
+    "phonetic": "/loʊd ˈbæl.ən.sɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Load balancing improves website performance during high traffic periods.",
+        "translation": "Cân bằng tải giúp cải thiện hiệu suất trang web trong thời gian lưu lượng truy cập cao."
+      }
+    ],
+    "vietnamese": "Cân bằng tải"
+  },
+  {
+    "word": "Port",
+    "meaning": "A virtual endpoint for communication in a network, identified by a unique number.",
+    "phonetic": "/pɔːrt/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "The web server listens on port 80 for HTTP traffic.",
+        "translation": "Máy chủ web lắng nghe lưu lượng HTTP trên cổng 80."
+      }
+    ],
+    "vietnamese": "Cổng mạng"
+  },
+  {
+    "word": "Gateway",
+    "meaning": "A network device that connects two different networks and facilitates communication between them.",
+    "phonetic": "/ˈɡeɪt.weɪ/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A gateway connects the local network to the internet.",
+        "translation": "Cổng kết nối giúp kết nối mạng nội bộ với internet."
+      }
+    ],
+    "vietnamese": "Cổng kết nối"
+  },
+  {
+    "word": "Proxy Server",
+    "meaning": "An intermediary server that processes requests between a client and another server.",
+    "phonetic": "/ˈprɒk.si ˈsɜːr.vər/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "A proxy server can improve security and privacy.",
+        "translation": "Máy chủ proxy có thể cải thiện bảo mật và quyền riêng tư."
+      }
+    ],
+    "vietnamese": "Máy chủ proxy"
+  },
+  {
+    "word": "Cloud Computing",
+    "meaning": "The delivery of computing services over the internet, including storage, processing, and 67b2d9f9f25a4c444d4ed5ee.",
+    "phonetic": "/klaʊd kəmˈpjuː.tɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Many businesses use cloud computing for data storage.",
+        "translation": "Nhiều doanh nghiệp sử dụng điện toán đám mây để lưu trữ dữ liệu."
+      }
+    ],
+    "vietnamese": "Điện toán đám mây"
+  },
+  {
+    "word": "Edge Computing",
+    "meaning": "A distributed computing model where processing is performed closer to data sources.",
+    "phonetic": "/ɛdʒ kəmˈpjuː.tɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Edge computing reduces latency in IoT applications.",
+        "translation": "Điện toán biên giúp giảm độ trễ trong các ứng dụng IoT."
+      }
+    ],
+    "vietnamese": "Điện toán biên"
+  },
+  {
+    "word": "Content Delivery Network (CDN)",
+    "meaning": "A network of servers that delivers content efficiently based on user location.",
+    "phonetic": "/ˈkɒn.tɛnt dɪˈlɪv.ər.i ˈnɛt.wɜːrk/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "CDNs help websites load faster worldwide.",
+        "translation": "Mạng phân phối nội dung giúp trang web tải nhanh hơn trên toàn thế giới."
+      }
+    ],
+    "vietnamese": "Mạng phân phối nội dung"
+  },
+  {
+    "word": "Packet Switching",
+    "meaning": "A 67b2d9f9f25a4c444d4ed5ee method where data is divided into packets and transmitted independently.",
+    "phonetic": "/ˈpæk.ɪt ˈswɪtʃ.ɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "The internet uses packet switching to transfer data efficiently.",
+        "translation": "Internet sử dụng chuyển mạch gói để truyền dữ liệu hiệu quả."
+      }
+    ],
+    "vietnamese": "Chuyển mạch gói"
+  },
+  {
+    "word": "Circuit Switching",
+    "meaning": "A 67b2d9f9f25a4c444d4ed5ee method where a dedicated communication path is established before data transfer.",
+    "phonetic": "/ˈsɜː.kɪt ˈswɪtʃ.ɪŋ/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "Traditional telephone networks use circuit switching.",
+        "translation": "Mạng điện thoại truyền thống sử dụng chuyển mạch kênh."
+      }
+    ],
+    "vietnamese": "Chuyển mạch kênh"
+  },
+  {
+    "word": "Peer-to-Peer (P2P)",
+    "meaning": "A decentralized network model where devices communicate directly with each other.",
+    "phonetic": "/pɪər tuː pɪər/",
+    "type": ["noun"],
+    "topic_id": "67b2d9f9f25a4c444d4ed5ee",
+    "examples": [
+      {
+        "sentence": "P2P networks are used for file sharing.",
+        "translation": "Mạng ngang hàng được sử dụng để chia sẻ tập tin."
+      }
+    ],
+    "vietnamese": "Mạng ngang hàng"
+  }
+]

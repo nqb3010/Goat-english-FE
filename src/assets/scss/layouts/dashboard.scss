@@ -1,0 +1,192 @@
+@use '../base';
+
+.dashboard-main {
+  background-image: url('https://app.memrise.com/_next/static/images/680c02e3cbdcf0367c00cef96e3ea77d.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+  overflow: auto;
+  width: 100%;
+  background-color: rgb(255, 252, 243);
+}
+
+.dashboard-content {
+  padding: 8px 32px 48px;
+  margin-top: 65px;
+  min-height: 100vh;
+  @include base.breakpoint(sm) {
+    padding-bottom: 20px;
+    margin-bottom: 150px;
+    padding: 8px 12px 48px;
+  }
+
+  .header-content {
+    .title {
+      font-size: 3rem;
+      font-weight: 700;
+      gap: 1.2rem;
+      @include base.breakpoint(sm) {
+        font-size: 2rem;
+      }
+    }
+
+    .title-number {
+      background-color: rgb(255, 187, 0);
+      border-radius: 50%;
+      border: calc(0.125rem) solid rgb(204, 150, 0);
+      box-shadow: rgb(204, 210, 222) 0px calc(0.1rem) 0px 0px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      width: 40px;
+      line-height: calc(1.5rem);
+    }
+  }
+
+  .body-content {
+    border-radius: 1.2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.75rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.125rem 0.25rem 0px;
+    overflow: hidden;
+
+    .title {
+      padding: 16px 24px;
+      color: #fff;
+      background-color: base.$color-primary;
+      font-weight: 700;
+      font-size: 2.4rem;
+      @include base.breakpoint(sm) {
+        font-size: 1.8rem;
+      }
+    }
+
+    .list-card {
+      padding: 24px 16px 32px;
+      @include base.breakpoint(md) {
+        flex-direction: column;
+      }
+    }
+
+    .card-item {
+      padding: 1.6rem 2.4rem;
+      border-radius: 8px;
+      cursor: pointer;
+      @include base.breakpoint(sm) {
+        padding: 1rem 1.2rem;
+      }
+
+      .text-hide {
+        display: none;
+      }
+
+      &.active {
+        .text-hide {
+          display: block;
+        }
+      }
+
+      &.active.e3fff7 {
+        background-color: #e3fff7;
+      }
+
+      &.active.fff5f5 {
+        background-color: #fff5f5;
+      }
+
+      &.active.e9fbff {
+        background-color: #e9fbff;
+      }
+    }
+  }
+
+  .bottom-content {
+    position: fixed;
+    bottom: 0;
+    left: 255px;
+    right: 0;
+    @include base.breakpoint(lg) {
+      left: 0;
+    }
+
+    .content {
+      width: 720px;
+      margin: 0 auto;
+      @include base.breakpoint(md) {
+        width: 90%;
+      }
+
+      .swiper-slide {
+        position: relative;
+        padding: 25px 60px;
+        border-top-left-radius: 0.75rem;
+        border-top-right-radius: 0.75rem;
+        background-color: #293749;
+        min-height: 13rem;
+        overflow: hidden;
+
+        &::before {
+          display: block;
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+        }
+
+        &.c00a778::before {
+          border-top: 0.8rem solid #00a778;
+        }
+
+        &.ce46962::before {
+          border-top: 0.8rem solid #e46962;
+        }
+
+        &.c009fbb::before {
+          border-top: 0.8rem solid #009fbb;
+        }
+      }
+
+      .swiper-button-prev:after,
+      .swiper-button-next:after {
+        color: #fff;
+        font-size: 2rem;
+      }
+
+      .swiper-pagination-bullet {
+        background-color: rgb(255, 187, 0);
+      }
+
+      .btn {
+        border: none;
+        min-height: 5rem;
+        padding: 0px 2rem;
+        border-radius: 1.6rem;
+        font-size: 1.6rem;
+        font-weight: 700;
+        text-decoration: none;
+        background: rgb(255, 187, 0);
+        color: rgb(0, 17, 34);
+        box-shadow: rgb(204, 150, 0) 0px 0.25rem 0px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        width: fit-content;
+        @include base.breakpoint(md) {
+          margin-left: auto;
+        }
+        @include base.breakpoint(sm) {
+          width: 100%;
+          justify-content: center;
+          min-height: 3.5rem;
+        }
+
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,245 @@
+@use '../base';
+
+#lesson {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding-bottom: 140px;
+  height: 100vh;
+
+  .progress-success {
+    border-radius: 12px;
+    height: 16px;
+  }
+
+  .lesson-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .content-lesson {
+    margin-top: 15px;
+    overflow: visible;
+    width: 600px;
+  }
+
+  .lesson-detail {
+    display: flex;
+    flex-direction: column;
+    min-height: 450px;
+  }
+
+  .question-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 30px;
+    font-size: 2rem;
+    line-height: 45px;
+
+    .gach-duoi {
+      display: block;
+      width: 55px;
+      border-bottom: 3px solid #afafaf;
+    }
+
+    .text {
+      position: relative;
+      cursor: pointer;
+
+      &.translates::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 7px;
+        border-bottom: 3px dotted #afafaf;
+      }
+
+      &:hover .list-translate_word {
+        display: block;
+      }
+
+      .list-translate_word {
+        display: none;
+        position: absolute;
+        left: 50%;
+        top: 50px;
+        transform: translateX(-50%);
+        border-radius: 16px;
+        background-color: #eeeded;
+        border: 2px solid #ccc;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: -10px;
+          left: 50%;
+          transform: translateX(-50%);
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-bottom: 10px solid #ccc;
+        }
+
+        .translate_word {
+          padding: 2px 10px;
+          text-wrap: nowrap;
+          border-bottom: 2px solid #ccc;
+          text-align: center;
+
+          &:last-child {
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }
+
+  // type nhập từ còn thiếu
+  .question_type__01 .question-options input {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .question_type__01 .question-options input:focus {
+    border-bottom-color: #00d390;
+  }
+
+  .question_type__02 .btn-type__2 {
+    font-weight: 600;
+    border: 2px solid #ccc;
+  }
+
+  .question_type__02 .btn-type__2.active {
+    color: #1899d6;
+    background-color: #ddf4ff;
+    border: 2px solid #84d8ff;
+  }
+
+  .question-options {
+    margin: auto 0;
+  }
+
+  .lesson-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 2px solid #e5e5e5;
+    background-color: #fff;
+
+    .btn-check {
+      color: #fff;
+      background-color: #58cc02;
+
+      &.disabled {
+        color: #777;
+        background-color: #e5e5e5;
+        pointer-events: none;
+      }
+    }
+  }
+}
+
+#lesson-v2 {
+  .lesson-body {
+    margin-bottom: 70px;
+  }
+
+  .btn-primary-custom {
+    @include base.breakpoint(md) {
+      margin: auto 0;
+      width: 50%;
+    }
+    @include base.breakpoint(sm) {
+      width: 100%;
+    }
+  }
+
+  .left {
+    @include base.breakpoint(md) {
+      width: 100%;
+    }
+
+    .text-type {
+      @include base.breakpoint(sm) {
+        font-size: 1.8rem;
+      }
+    }
+
+    .text-question {
+      line-height: 4rem;
+      @include base.breakpoint(sm) {
+        font-size: 2.2rem;
+        padding: 0;
+        line-height: 2.8rem;
+      }
+    }
+
+    .input-answer {
+      @include base.breakpoint(sm) {
+        font-size: 1.8rem;
+        padding: 1rem;
+        height: auto;
+      }
+    }
+  }
+
+  .right {
+    background-color: #fff;
+    @include base.breakpoint(md) {
+      position: fixed;
+      width: auto;
+      height: 70px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0 1.2rem;
+    }
+  }
+
+  .btn-options {
+    @include base.breakpoint(sm) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      position: relative;
+      border: 2px solid #bcc2cf;
+      box-shadow: #bcc2cf 0px 4px 0px;
+      @include base.breakpoint(sm) {
+        font-size: 1.6rem;
+        min-height: 4rem;
+      }
+
+      &:hover {
+        top: -3px;
+      }
+    }
+    .btn.active {
+      background-color: #c2c2c2;
+
+      &:hover {
+        top: 0;
+      }
+    }
+
+    .btn span {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      left: 10px;
+      color: #fff;
+      width: 24px;
+      height: 24px;
+      background-color: #313033;
+      border-radius: 6px;
+    }
+
+    .btn .text {
+      margin-left: 30px;
+    }
+  }
+}

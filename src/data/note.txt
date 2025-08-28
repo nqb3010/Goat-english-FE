@@ -1,0 +1,121 @@
+Loại bài tập: example
+1. Ghép thành câu hoàn chỉnh - 07:
+{
+  "_id": "680dfd344446082190f0056b",
+  "type": "67b73d85f5413b7b57caee95",
+  "level": "67b73dc0f5413b7b57caee97",
+  "question": "Ben rất mệt",
+  "options": [],
+  "multiple_correct": false,
+  "correct_answer": "Ben is very tired",
+  "audio": "",
+  "explain_answer": "Ben is very tired",
+  "explain_answer_vn": "Ben rất mệt"
+}
+2. Điền chỗ trống - 01:
+{
+  "_id": "680e03f62ecea8f1ea0802bb",
+  "type": "67b73cfff5413b7b57caee89",
+  "level": "67b73dc0f5413b7b57caee97",
+  "question": "I enjoy ___ the radio, but my brother doesn't ____ it.",
+  "options": [
+    {
+      "_id": "0",
+      "ma_dap_an": "A",
+      "noi_dung": "listening to"
+    },
+    {
+      "_id": "1",
+      "ma_dap_an": "B",
+      "noi_dung": "listen to"
+    }
+  ],
+  "multiple_correct": false,
+  "correct_answer": "listen to",
+  "audio": "",
+  "explain_answer": "I enjoy listening the radio, but my brother doesn't to it.",
+  "explain_answer_vn": "Nghĩa là: Tôi thích nghe đài, nhưng anh trai tôi không nghe."
+}
+2. Điền chỗ trống - 01 v2:
+{
+  "_id": "680e03f62ecea8f1ea0802bb",
+  "type": "67b73cfff5413b7b57caee89",
+  "level": "67b73dc0f5413b7b57caee97",
+  "question": "I enjoy ___ the radio, but my brother doesn't ____ it.",
+  "options": [],
+  "multiple_correct": false,
+  "correct_answer": "listen to",
+  "audio": "",
+  "explain_answer": "I enjoy listening the radio, but my brother doesn't to it.",
+  "explain_answer_vn": "Nghĩa là: Tôi thích nghe đài, nhưng anh trai tôi không nghe."
+}
+3. Chọn đáp án đúng - 02:
+{
+  "_id": "680e05022ecea8f1ea080308",
+  "type": "67b73d0ef5413b7b57caee8b",
+  "level": "67b73db3f5413b7b57caee95",
+  "question": "Nghĩa của từ: Tired",
+  "options": [
+    {
+      "_id": "0",
+      "ma_dap_an": "A",
+      "noi_dung": "Mệt"
+    },
+    {
+      "_id": "1",
+      "ma_dap_an": "B",
+      "noi_dung": "Mệt mỏi"
+    },
+    {
+      "_id": "2",
+      "ma_dap_an": "C",
+      "noi_dung": "Chán nản"
+    },
+    {
+      "_id": "3",
+      "ma_dap_an": "D",
+      "noi_dung": "Thờ ơ"
+    }
+  ],
+  "multiple_correct": false,
+  "correct_answer": "Mệt",
+  "audio": "",
+  "explain_answer": "Tired"
+}
+4. Nghe và ghép thành câu đúng - 03:
+{
+    "_id": "680e05b82ecea8f1ea080363",
+    "type": "67b73d18f5413b7b57caee8d",
+    "level": "67b73dc0f5413b7b57caee97",
+    "question": "Ghép thành câu có nghĩa",
+    "options": [ ],
+    "multiple_correct": false,
+    "correct_answer": "My name is Hai",
+    "audio": "",
+    "explain_answer": "My name is Hai",
+    "explain_answer_vn": "Tên của tôi là Hải"
+}
+5. Nghe và chọn đáp án đúng - 08:
+{
+    "_id": ObjectId("680e07c22ecea8f1ea080514"),
+    "type": ObjectId("67f649d432f7eea330079621"),
+    "level": ObjectId("67b73db3f5413b7b57caee95"),
+    "question": "nghe",
+    "options": [
+        {
+            "_id": "0",
+            "ma_dap_an": "A",
+            "noi_dung": "ONE"
+        },
+        {
+            "_id": "1",
+            "ma_dap_an": "B",
+            "noi_dung": "TWO"
+        }
+    ],
+    "multiple_correct": false,
+    "correct_answer": "TWO",
+    "audio": "nghe",
+    "explain_answer": "nghe eng",
+    "explain_answer_vn": "nghe vie"
+}

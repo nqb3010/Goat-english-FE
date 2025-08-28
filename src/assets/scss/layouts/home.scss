@@ -1,0 +1,55 @@
+@use '../base';
+
+.home-body {
+  height: 100vh;
+  // @include base.breakpoint(md) {
+  //   flex-direction: column;
+  // }
+
+  .banner .img {
+    width: 493px;
+    height: 445px;
+    @include base.breakpoint(md) {
+      width: 300px;
+      height: 300px;
+    }
+  }
+
+  .block-text {
+    width: 45%;
+    text-align: center;
+    @include base.breakpoint(md) {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .title {
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 24px;
+      line-height: 32px;
+      @include base.breakpoint(md) {
+        font-size: 2rem;
+        line-height: 28px;
+      }
+    }
+
+    .btn-default-custom,
+    .btn-primary-custom {
+      display: flex;
+      min-width: 300px;
+      padding: 22px 8px;
+      border-radius: 8px;
+      margin: 12px auto;
+      font-weight: 600;
+      @include base.breakpoint(md) {
+        padding: 16px 8px;
+        font-size: 1.4rem;
+      }
+    }
+
+    .btn-default-custom {
+      color: #1cb0f6;
+    }
+  }
+}

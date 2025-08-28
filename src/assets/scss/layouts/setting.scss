@@ -1,0 +1,98 @@
+@use '../base';
+
+#setting {
+  min-height: 100vh;
+  padding-top: 65px;
+  background-color: #fcfaf2;
+
+  .header-v2 {
+    left: 0;
+    color: #fff;
+    background-color: #2b3648;
+
+    .dropdown-header {
+      color: #333;
+    }
+
+    &.sidebar-collapsed {
+      left: 0;
+    }
+
+    &.sidebar-open {
+      left: 255px;
+      .actions-right {
+        display: none;
+      }
+    }
+
+    &.sidebar-open.sidebar-collapsed {
+      left: 90px;
+      .actions-right {
+        display: flex;
+      }
+    }
+  }
+
+  .header-v2 > div {
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+
+  .setting-container {
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+
+  .btn-tab {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #2c3445;
+    background-color: #fff;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #d4e3e9;
+      border-color: #d4e3e9;
+    }
+
+    &.active {
+      background-color: #b9d7e3;
+    }
+  }
+
+  .body-content {
+    .input {
+      font-size: 2rem;
+      height: 35px;
+      width: 100%;
+      border-radius: 8px;
+      @include base.breakpoint(sm) {
+        font-size: 1.6rem;
+        height: 30px;
+      }
+    }
+
+    .validator ~ .validator-hint {
+      display: none;
+    }
+
+    .validator:has(:user-invalid) ~ .validator-hint {
+      display: block;
+    }
+
+    .btn-next {
+      font-size: 1.8rem;
+      color: #fff;
+      @include base.breakpoint(sm) {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}

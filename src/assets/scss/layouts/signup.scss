@@ -1,0 +1,142 @@
+@use '../base';
+
+.signup-body {
+  height: 100vh;
+  padding-top: 85px;
+  padding-bottom: 110px;
+
+  .main-signup {
+    height: 100%;
+    overflow-x: auto;
+  }
+
+  .steps-custom {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+
+    .step {
+      padding: 2px;
+      width: 100%;
+      border-radius: 4px;
+      background-color: #ccc;
+
+      &.done {
+        background-color: base.$color-primary;
+      }
+    }
+  }
+
+  .step-content {
+    margin-top: 50px;
+
+    .title-lv1 {
+      font-size: 3rem;
+      line-height: 40px;
+    }
+
+    .title-lv2 {
+      margin-top: 12px;
+      font-size: 1.7rem;
+      font-weight: 700;
+    }
+
+    .list-card {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: auto;
+      margin-top: 30px;
+    }
+
+    .card-item {
+      border-radius: 16px;
+      border-style: solid;
+      border-width: 2px 2px 4px;
+      cursor: pointer;
+      display: inline-block;
+      max-width: 180px;
+      min-height: 180px;
+      min-width: 160px;
+      padding: 12px 12px 24px;
+      text-align: center;
+      background-color: #fff;
+      border-color: rgb(229, 229, 229);
+      line-height: 20px;
+
+      &.active,
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
+
+    .img-step-2 {
+      width: 470px;
+      height: 275px;
+      margin: 0 auto;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .list-actions {
+      margin-top: 20px;
+      row-gap: 20px;
+    }
+
+    .btn-action-signup {
+      &:hover,
+      &.active {
+        filter: brightness(0.9);
+      }
+    }
+
+    .signup-input__with-icon {
+      position: relative;
+      width: 350px;
+      margin: 12px auto;
+      @include base.breakpoint(sm) {
+        width: 100%;
+      }
+    }
+
+    .signup-input {
+      display: block;
+      box-sizing: border-box;
+      width: 100%;
+      height: 50px;
+      padding: 14px 40px 14px 20px;
+      border-radius: 12px;
+      border: solid 2px #d8d8d8;
+      background-color: base.$color-white;
+      font-size: 1.8rem;
+      color: base.$color-dark;
+      outline: none;
+    }
+
+    .signup-icon {
+      position: absolute;
+      top: 14px;
+      right: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .footer-signup {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #e5e5e5;
+
+    .footer-block {
+      height: 100px;
+    }
+
+    .btn-next {
+      font-size: 1.8rem;
+      padding: 20px;
+      min-width: 200px;
+    }
+  }
+}

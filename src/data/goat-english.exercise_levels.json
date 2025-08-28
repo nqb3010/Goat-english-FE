@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "67b73db3f5413b7b57caee95"
+  },
+  "ma_muc": "01",
+  "ten_muc": "Dễ",
+  "createdAt": {
+    "$date": "2025-02-20T14:35:31.357Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T14:35:31.357Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b73dc0f5413b7b57caee97"
+  },
+  "ma_muc": "02",
+  "ten_muc": "Trung bình",
+  "createdAt": {
+    "$date": "2025-02-20T14:35:44.938Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T14:35:44.938Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b73dc9f5413b7b57caee99"
+  },
+  "ma_muc": "03",
+  "ten_muc": "Khó",
+  "createdAt": {
+    "$date": "2025-02-20T14:35:53.760Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T14:35:53.760Z"
+  },
+  "__v": 0
+}]
