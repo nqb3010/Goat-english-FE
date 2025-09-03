@@ -10,6 +10,7 @@ const init = async () => {
 };
 const layout = useLayoutStore();
 onMounted(() => {
+  layout.show();
   init();
 });
 </script>
