@@ -5,8 +5,8 @@ import { provide, watch } from 'vue'
 import { toast } from 'vue3-toastify'
 import api from '@/utils'
 
-const URL_API = 'https://api.shopdemo.live'
-// const URL_API = 'http://localhost:3000'
+// const URL_API = 'https://api.shopdemo.live'
+const URL_API = 'http://10.3.17.202:3000'
 
 const route = useRoute()
 const layout = useLayoutStore()
@@ -127,7 +127,7 @@ provide('sleep', sleep)
       <RouterLink to="/" class="logo flex items-center">
         <!-- <img src="./components/icons/logo.svg" class="img" />
         <span class="text">GoatEnglish</span> -->
-        <h2 class="text-logo">GOAT</h2>
+        <h2 class="text-logo">ENGLISH</h2>
       </RouterLink>
       <div
         class="language-page flex items-center text-[#afafaf] font-bold w-[40%] justify-end uppercase text-[13px] cursor-pointer leading-8"

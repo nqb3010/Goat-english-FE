@@ -168,12 +168,95 @@ onMounted(() => {
         <Button
           :item="{
             text: 'Tạo tài khoản mới',
-            style: 'font-size: 1.8rem; background-color: rgb(66, 183, 42); width: 70%',
+            style: 'font-size: 1.8rem; width: 70%',
             href: '/signup',
           }"
-          class="btn-next btn-primary-custom text-white py-8 mt-8 rounded-lg font-bold sm:btn-sm md:btn-md lg:btn-lg"
+          class="btn-next btn-secondary-custom text-white py-6 mt-4 rounded-lg font-bold sm:btn-sm md:btn-md lg:btn-lg"
         />
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+.btn-primary-custom {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary-custom:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(30, 41, 59, 0.25);
+}
+
+.btn-primary-custom::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.btn-primary-custom:hover::before {
+  left: 100%;
+}
+
+.btn-secondary-custom {
+  background: linear-gradient(135deg, #42b883 0%, #369870 100%) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-secondary-custom:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(66, 184, 131, 0.25);
+}
+
+.btn-secondary-custom::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.btn-secondary-custom:hover::before {
+  left: 100%;
+}
+
+/* Reduce bottom spacing */
+.signin-input__with-icon:last-child {
+  margin-bottom: 0.5rem !important;
+}
+
+.signin-input__with-icon {
+  margin-bottom: 1rem;
+}
+
+/* Optimize login page height */
+.login-content {
+  padding-bottom: 1rem !important;
+}
+
+#login.page-container {
+  min-height: calc(100vh - 4rem) !important;
+  padding-bottom: 1rem !important;
+}
+</style>

@@ -205,7 +205,7 @@ onMounted(() => {
       </ul>
       <div v-if="stepCurr === 1" class="step-content">
         <h1 class="title-lv1 text-center font-bold">Chọn chủ đề bạn muốn học...</h1>
-        <div class="list-card">
+        <div class="topics-slider-container">
           <!-- loading -->
           <div v-if="loadingUI" class="flex justify-center">
             <span
@@ -214,20 +214,22 @@ onMounted(() => {
             ></span>
           </div>
           <template v-else>
-            <div
-              class="card-item"
-              v-for="topic in topics"
-              :key="topic._id"
-              :class="{ active: topic._id === dataStep.topic }"
-              @click="handleSelectAction(topic._id, 'topic')"
-            >
-              <div class="flex justify-center w-[150px] h-[150px]">
-                <img class="w-full h-full rounded-xl object-cover" :src="topic.image" />
+            <div class="topics-slider">
+              <div
+                class="card-item"
+                v-for="topic in topics"
+                :key="topic._id"
+                :class="{ active: topic._id === dataStep.topic }"
+                @click="handleSelectAction(topic._id, 'topic')"
+              >
+                <div class="card-image">
+                  <img class="topic-img" :src="topic.image" />
+                </div>
+                <h2 class="title-lv2">{{ topic.name }}</h2>
+                <p class="topic-description">
+                  {{ topic.description }}
+                </p>
               </div>
-              <h2 class="title-lv2">{{ topic.name }}</h2>
-              <p class="mt-4 font-bold text-[#777] line-clamp-3">
-                {{ topic.description }}
-              </p>
             </div>
           </template>
         </div>
@@ -407,3 +409,249 @@ onMounted(() => {
     </div>
   </div>
 </template>
+
+<style scoped>
+/* Topic slider container */
+.topics-slider-container {
+  width: 100%;
+  overflow: hidden;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.topics-slider {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.topics-slider::-webkit-scrollbar {
+  height: 6px;
+}
+
+.topics-slider::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 3px;
+}
+
+.topics-slider::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.topics-slider::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 250px;
+  max-width: 250px;
+  padding: 1.5rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 16px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.card-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-color: #cbd5e1;
+}
+
+.card-item.active {
+  border-color: #1e293b;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(30, 41, 59, 0.15);
+}
+
+.card-image {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f8fafc;
+}
+
+.topic-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.card-item .title-lv2 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+  line-height: 1.3;
+}
+
+.topic-description {
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  color: #64748b;
+  line-height: 1.5;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .topics-slider-container {
+    padding: 0.5rem 0;
+  }
+  
+  .topics-slider {
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    justify-content: flex-start;
+    padding-left: calc(50vw - 100px);
+  }
+  
+  .card-item {
+    min-width: 200px;
+    max-width: 200px;
+    padding: 1rem;
+  }
+  
+  .card-image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .card-item .title-lv2 {
+    font-size: 1.1rem;
+    margin-top: 0.75rem;
+  }
+  
+  .topic-description {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .topics-slider {
+    gap: 0.75rem;
+    padding: 0.5rem;
+    padding-left: calc(50vw - 80px);
+  }
+  
+  .card-item {
+    min-width: 160px;
+    max-width: 160px;
+    padding: 0.75rem;
+  }
+  
+  .card-image {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .card-item .title-lv2 {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .topic-description {
+    font-size: 0.75rem;
+    line-height: 1.4;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+  }
+}
+
+/* Desktop centering */
+@media (min-width: 769px) {
+  .topics-slider {
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: visible;
+  }
+  
+  .topics-slider::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Button styles matching Home.vue */
+.btn-primary-custom {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary-custom:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(30, 41, 59, 0.25);
+}
+
+.btn-primary-custom::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.btn-primary-custom:hover::before {
+  left: 100%;
+}
+
+.btn-action-signup {
+  background: white !important;
+  color: #1e293b !important;
+  border: 2px solid #e2e8f0 !important;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-action-signup:hover {
+  border-color: #1e293b !important;
+  background: #f8fafc !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(30, 41, 59, 0.15);
+}
+
+.btn-action-signup.active {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%) !important;
+  color: white !important;
+  border-color: #1e293b !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(30, 41, 59, 0.25);
+}
+</style>

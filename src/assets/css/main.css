@@ -123,15 +123,16 @@ body {
   src: url("https://assets.codepen.io/9632/RocherColorGX.woff2");
 }
 .text-logo {
-  font-family: "Rocher", sans-serif;
-  font-size: 3.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
-  background: linear-gradient(45deg, #6a0dad, #ffcc00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
+ font-family: "Rocher", sans-serif;
+ font-size: 3.5rem;
+ font-weight: bold;
+ text-transform: uppercase;
+ text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+ background: linear-gradient(135deg, #ffd700 0%, #ffaa00 25%, #ff6b35 50%, #2980b9 100%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ background-clip: text;
+ display: inline-block;
 }
 @media (max-width: 767.98px) {
   .text-logo {
