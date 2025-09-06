@@ -383,9 +383,9 @@ onMounted(() => {
                     line-height: 2.2rem;
                   "
                 >
-                  {{ example?.sentence }}
+                  {{ example?.en }}
                   <br />
-                  {{ example?.translation }}
+                  {{ example?.vi }}
                 </span>
               </div>
             </div>

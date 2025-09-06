@@ -194,6 +194,13 @@ onMounted(() => {
 
 <template>
   <div class="signup-body page-container">
+    <!-- Animated Background -->
+    <div class="animated-bg">
+      <div class="bg-circle circle-1"></div>
+      <div class="bg-circle circle-2"></div>
+      <div class="bg-circle circle-3"></div>
+    </div>
+    
     <div class="main-signup">
       <ul class="steps-custom mb-10 w-full">
         <li
@@ -232,6 +239,17 @@ onMounted(() => {
               </div>
             </div>
           </template>
+        </div>
+        
+        <!-- Nút tiếp tục cho step 1 -->
+        <div class="continue-button-container">
+          <Button
+            :item="{ text: 'Tiếp tục' }"
+            :loading="loading"
+            class="btn-next btn-primary-custom text-white rounded-lg font-bold sm:btn-sm md:btn-md lg:btn-lg"
+            :disabled="isNext === false"
+            @click="handleNext()"
+          />
         </div>
       </div>
       <!-- <div v-else-if="stepCurr === 2" class="step-content">
@@ -330,6 +348,17 @@ onMounted(() => {
             class="signup-icon signup-icon__email"
           />
         </div>
+        
+        <!-- Nút tiếp tục cho step 2 -->
+        <div class="continue-button-container">
+          <Button
+            :item="{ text: 'Tiếp tục' }"
+            :loading="loading"
+            class="btn-next btn-primary-custom text-white rounded-lg font-bold sm:btn-sm md:btn-md lg:btn-lg"
+            :disabled="isNext === false"
+            @click="handleNext()"
+          />
+        </div>
       </div>
       <div v-if="stepCurr === 3" class="step-content">
         <h1 class="title-lv1 text-center font-bold mb-10">Đăng ký tài khoản</h1>
@@ -396,21 +425,88 @@ onMounted(() => {
         </div>
       </div>
     </div>
-    <div v-if="stepCurr !== 3" class="footer-signup">
-      <div class="footer-block page-container flex items-center justify-end">
-        <Button
-          :item="{ text: 'Tiếp tục' }"
-          :loading="loading"
-          class="btn-next btn-primary-custom text-white rounded-lg font-bold sm:btn-sm md:btn-md lg:btn-lg"
-          :disabled="isNext === false"
-          @click="handleNext()"
-        />
-      </div>
-    </div>
   </div>
 </template>
 
 <style scoped>
+/* Signup page background matching Home.vue */
+.signup-body.page-container {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+/* Animated Background */
+.animated-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.bg-circle {
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(45deg, rgba(59, 130, 246, 0.05), rgba(139, 92, 246, 0.05));
+  animation: float 8s ease-in-out infinite;
+}
+
+.circle-1 {
+  width: 400px;
+  height: 400px;
+  top: -200px;
+  right: -200px;
+  animation-delay: 0s;
+}
+
+.circle-2 {
+  width: 300px;
+  height: 300px;
+  bottom: -150px;
+  left: -150px;
+  animation-delay: 3s;
+}
+
+.circle-3 {
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  animation: floatCenter 8s ease-in-out infinite;
+  animation-delay: 6s;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-30px) scale(1.1);
+  }
+}
+
+@keyframes floatCenter {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) translateY(0px) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-30px) scale(1.1);
+  }
+}
+
+.main-signup {
+  position: relative;
+  z-index: 1;
+  padding: 3rem 0 4rem 0;
+  min-height: calc(100vh - 2rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 /* Topic slider container */
 .topics-slider-container {
   width: 100%;
@@ -524,13 +620,15 @@ onMounted(() => {
 @media (max-width: 768px) {
   .topics-slider-container {
     padding: 0.5rem 0;
+    margin-top: 0;
   }
   
   .topics-slider {
     gap: 1rem;
     padding: 0.5rem 1rem;
     justify-content: flex-start;
-    padding-left: calc(50vw - 100px);
+    align-items: flex-start;
+    padding-left: 1rem;
   }
   
   .card-item {
@@ -653,5 +751,129 @@ onMounted(() => {
   border-color: #1e293b !important;
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(30, 41, 59, 0.25);
+}
+
+/* Continue button container styling */
+.continue-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.continue-button-container .btn-next {
+  min-width: 150px;
+  padding: 0.75rem 2rem;
+  position: relative;
+  z-index: 11;
+}
+
+/* Desktop small / Tablet adjustments */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .main-signup {
+    padding-bottom: 6rem;
+  }
+  
+  .continue-button-container {
+    margin-top: 2.5rem;
+    padding: 1.5rem 0;
+    /* background: rgba(248, 250, 252, 0.95); */
+    /* border-radius: 12px; */
+    /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); */
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .main-signup {
+    min-height: 100vh;
+    padding: 1rem 0 2rem 0;
+    justify-content: flex-start;
+  }
+  
+  .continue-button-container {
+    margin-top: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    /* background: rgba(248, 250, 252, 0.98);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); */
+    position: relative;
+    z-index: 20;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .step-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 1rem;
+  }
+  
+  .title-lv1 {
+    font-size: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  
+  /* Mobile circles */
+  .circle-1 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .circle-2 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .circle-3 {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-signup {
+    padding: 0.5rem 0 2rem 0;
+  }
+  
+  .continue-button-container {
+    margin-top: 1.5rem;
+    padding: 1.25rem 1rem;
+    justify-content: center;
+    /* background: rgba(248, 250, 252, 0.98);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); */
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .step-content {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .title-lv1 {
+    font-size: 1.25rem !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .topics-slider {
+    justify-content: flex-start;
+    padding: 0.25rem 0.5rem;
+    padding-left: 0.5rem;
+  }
+  
+  .card-item {
+    min-width: 180px;
+    max-width: 180px;
+    padding: 0.75rem;
+  }
 }
 </style>

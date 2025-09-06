@@ -1,6 +1,6 @@
 <script setup>
 import { useLayoutStore } from "@/stores/layout";
-import { onMounted, reactive, ref, inject } from "vue";
+import { onMounted, reactive, ref, inject, nextTick } from "vue";
 import Button from "../components/Button.vue";
 import { toast } from "vue3-toastify";
 import axios from "axios";
@@ -25,13 +25,36 @@ const init = async () => {
   }
 };
 
+const handleKeyup = async (event) => {
+  if (event.key === 'Enter') {
+    // Delay nhỏ để đảm bảo v-model đã cập nhật
+    setTimeout(() => {
+      handleLogin();
+    }, 10);
+  }
+};
+
 const handleLogin = async () => {
+  // Đợi nextTick để đảm bảo v-model đã cập nhật
+  await nextTick();
+  
+  // Validation trước khi gửi request
+  if (!data.username || !data.password) {
+    toast.error("Vui lòng nhập đầy đủ username và password");
+    return;
+  }
+
+  if (data.username.trim() === "" || data.password.trim() === "") {
+    toast.error("Username và password không được để trống");
+    return;
+  }
+
   const toastId = toast.loading("Đang xử lý...");
   try {
     loading.value = true;
     const res = await axios.post(`${URL_API}/api/auth/login`, {
-      username: data.username,
-      password: data.password,
+      username: data.username.trim(),
+      password: data.password.trim(),
     });
     const dataRes = res.data;
     // send success
@@ -80,6 +103,13 @@ onMounted(() => {
 
 <template>
   <div id="login" class="page-container">
+    <!-- Animated Background -->
+    <div class="animated-bg">
+      <div class="bg-circle circle-1"></div>
+      <div class="bg-circle circle-2"></div>
+      <div class="bg-circle circle-3"></div>
+    </div>
+    
     <div class="login-content">
       <h1 class="title-lv1 text-center font-bold mb-10">Đăng nhập</h1>
       <div class="signin-input__with-icon">
@@ -89,6 +119,7 @@ onMounted(() => {
           style="padding: 14px 20px"
           placeholder="Username"
           v-model.trim="data.username"
+          @keyup="handleKeyup"
         />
         <img
           src="../components/icons/close.svg"
@@ -102,6 +133,7 @@ onMounted(() => {
           class="signin-input"
           placeholder="Password"
           v-model.trim="data.password"
+          @keyup="handleKeyup"
         />
         <span
           v-if="showPassword"
@@ -258,5 +290,79 @@ onMounted(() => {
 #login.page-container {
   min-height: calc(100vh - 4rem) !important;
   padding-bottom: 1rem !important;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Animated Background matching Home.vue */
+.animated-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.bg-circle {
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(45deg, rgba(59, 130, 246, 0.05), rgba(139, 92, 246, 0.05));
+  animation: float 8s ease-in-out infinite;
+}
+
+.circle-1 {
+  width: 400px;
+  height: 400px;
+  top: -200px;
+  right: -200px;
+  animation-delay: 0s;
+}
+
+.circle-2 {
+  width: 300px;
+  height: 300px;
+  bottom: -150px;
+  left: -150px;
+  animation-delay: 3s;
+}
+
+.circle-3 {
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-delay: 6s;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-30px) scale(1.1);
+  }
+}
+
+/* Fix for circle-3 animation */
+.circle-3 {
+  animation: floatCenter 8s ease-in-out infinite;
+  animation-delay: 6s;
+}
+
+@keyframes floatCenter {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) translateY(0px) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-30px) scale(1.1);
+  }
+}
+
+.login-content {
+  position: relative;
+  z-index: 1;
 }
 </style>
