@@ -99,10 +99,12 @@ const handleKeydown = (event) => {
 }
 
 const closeFlashcard = () => {
-  const result = confirm('Xác nhận thoát flashcard?')
-  if (result) {
-    location.href = '/dashboard'
-  }
+  // Sử dụng modal như trong LessonV2.vue
+  document.getElementById('my_modal_5').showModal()
+}
+
+const handleCloseLesson = () => {
+  location.href = '/dashboard'
 }
 
 onMounted(() => {
@@ -421,6 +423,28 @@ onUnmounted(() => {
       <p><kbd class="bg-white/20 px-1 rounded">Space</kbd> Lật bài</p>
       <p><kbd class="bg-white/20 px-1 rounded">←→</kbd> Điều hướng</p>
     </div>
+
+    <!-- Modal thoát flashcard -->
+    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle text-[15px]">
+      <div class="modal-box">
+        <h3 class="font-bold">Xác nhận thoát!</h3>
+        <p class="mt-4 leading-8">
+          Nếu bạn thoát, tất cả tiến trình của bạn sẽ không được lưu lại.
+        </p>
+        <div class="modal-action">
+          <form method="dialog">
+            <button class="btn btn-ghost" style="font-size: 14px">Đóng</button>
+            <button
+              class="btn btn-soft btn-success ms-5"
+              style="font-size: 14px"
+              @click="handleCloseLesson"
+            >
+              Đồng ý
+            </button>
+          </form>
+        </div>
+      </div>
+    </dialog>
   </div>
 </template>
 
@@ -504,10 +528,11 @@ onUnmounted(() => {
   position: relative;
   z-index: 1;
   color: #1f2937; /* Đảm bảo text có màu tối */
+  padding-top: 20px; /* Tăng padding để tạo khoảng trắng với header */
 }
 
 .content-lesson {
-  margin-top: 15px;
+  margin-top: 40px;
   overflow: visible;
   width: 600px;
   position: relative;
@@ -790,6 +815,11 @@ kbd {
   .content-lesson {
     width: 100%;
     max-width: 400px;
+    margin-top: 60px; /* Tăng margin cho mobile */
+  }
+
+  .lesson-body {
+    padding-top: 30px; /* Tăng padding cho mobile */
   }
 
   .flashcard-container {
