@@ -20,7 +20,7 @@ const { user } = defineProps(["user"]);
             ></path>
           </g>
         </svg> -->
-        <h2 class="text-logo">GOAT</h2>
+        <h2 class="text-logo">ENGLISH</h2>
       </RouterLink>
       <RouterLink to="/dashboard" class="flex items-center gap-4 back-home font-bold">
         <span class="icon">

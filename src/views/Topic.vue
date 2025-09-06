@@ -99,7 +99,7 @@ onMounted(() => {
               <div class="topic-item flex">
                 <img class="topic-item__img object-cover" :src="user?.topic?.image" />
                 <div class="px-5 py-8 flex flex-col flex-1 justify-between gap-2">
-                  <p class="text-[20px] font-bold">{{ user?.topic?.name }}</p>
+                  <p class="text-[15px] font-bold">{{ user?.topic?.name }}</p>
                   <p
                     class="line-clamp-2 leading-8 cursor-pointer"
                     @click="toggleClamp($event, 'line-clamp-2')"
@@ -139,7 +139,7 @@ onMounted(() => {
                 <div v-if="topic._id !== user?.topic_id" :key="topic._id" class="topic-item flex">
                   <img class="topic-item__img object-cover" :src="topic.image" />
                   <div class="px-5 py-8 flex flex-col flex-1 gap-4">
-                    <p class="text-[20px] font-bold">{{ topic.name }}</p>
+                    <p class="text-[15px] font-bold">{{ topic.name }}</p>
                     <p
                       class="line-clamp-2 leading-8 cursor-pointer"
                       @click="toggleClamp($event, 'line-clamp-2')"

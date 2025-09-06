@@ -412,17 +412,17 @@ onMounted(() => {
                         </svg>
                       </span>
                       <div class="ms-0 sm:ms-4">
-                        <p class="text-[1.8rem] sm:text-[2rem] font-bold">
+                        <p class="text-[1.5rem] sm:text-[1.5rem] font-bold">
                           Thực hiện bài học
                         </p>
-                        <p class="text-[16px] mt-4 leading-8">
+                        <p class="text-[14px] mt-4 leading-8">
                           <span class="hidden sm:block"
                             >Chủ đề:
                             <span>{{ dataProgress?.lesson_id?.title }}</span></span
                           >
                         </p>
                         <p
-                          class="text-[15px] text-[#a8aeba] mt-4 line-clamp-2 leading-8 hidden sm:block"
+                          class="text-[12px] text-[#a8aeba] mt-4 line-clamp-2 leading-8 hidden sm:block"
                           @click="toggleClamp($event, 'line-clamp-2')"
                         >
                           Mô tả: {{ dataProgress?.lesson_id?.description }}
@@ -456,10 +456,10 @@ onMounted(() => {
                         </svg>
                       </span>
                       <div class="ms-0 sm:ms-4">
-                        <p class="text-[1.8rem] sm:text-[2rem] font-bold">
+                        <p class="text-[1.5rem] sm:text-[1.5rem] font-bold">
                           Ôn tập lỗi sai cũ
                         </p>
-                        <p class="text-[14px] text-[#a8aeba] mt-4"></p>
+                        <p class="text-[12px] text-[#a8aeba] mt-4"></p>
                       </div>
                     </div>
                     <button class="btn" @click="handleGetOldMistake">Bắt đầu</button>
