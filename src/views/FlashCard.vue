@@ -119,28 +119,35 @@ onUnmounted(() => {
 
 <template>
   <div id="flashcard">
-    <!-- Animated Background giống Home.vue -->
-    <div class="animated-bg">
-      <div class="bg-circle circle-1"></div>
-      <div class="bg-circle circle-2"></div>
-      <div class="bg-circle circle-3"></div>
-    </div>
+    <!-- Background full width -->
+    <div class="flashcard-bg"></div>
+    
+    <!-- Main content container -->
+    <div class="flashcard-container-wrapper">
+      <!-- Animated Background giống Home.vue -->
+      <div class="animated-bg">
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
+        <div class="bg-circle circle-3"></div>
+      </div>
 
-    <!-- Header giống Lesson với màu đúng -->
-    <div class="lesson-header py-8 px-16" style="background: oklch(76% 0.177 163.223)">
-      <div class="flex justify-between items-center gap-12">
-        <span @click="closeFlashcard" class="cursor-pointer hover:scale-110 transition-transform">
+      <!-- Header với background full width -->
+      <div class="lesson-header-wrapper">
+        <div class="lesson-header-bg"></div>
+        <div class="lesson-header-content py-8 px-16">
+          <div class="flex justify-between items-center gap-12">
+            <span @click="closeFlashcard" class="cursor-pointer hover:scale-110 transition-transform">
           <svg
+            viewBox="0 0 24 24"
             width="24"
             height="24"
-            viewBox="0 0 24 24"
             fill="none"
-            stroke="white"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <path d="m15 18-6-6 6-6" />
+            <path
+              d="m4.231 13.171 4.923 5.143c.317.35.944.382 1.311.077.368-.306.405-.888.064-1.22l-3.557-3.714h12.105c.51 0 .923-.384.923-.857s-.413-.857-.923-.857H6.972l3.557-3.714c.34-.332.294-.913-.073-1.22-.368-.305-.986-.275-1.302.077l-4.923 5.142c-.32.417-.295.79 0 1.143Z"
+              fill="currentColor"
+            ></path>
           </svg>
         </span>
 
@@ -181,10 +188,11 @@ onUnmounted(() => {
               class="w-6 h-6 filter brightness-0 invert"
           /></span>
         </div>
-      </div>
-    </div>
+        </div><!-- End flex justify-between items-center gap-12 -->
+        </div><!-- End lesson-header-content -->
+      </div><!-- End lesson-header-wrapper -->
 
-    <!-- Body -->
+      <!-- Body -->
     <div class="lesson-body px-16">
       <div class="content-lesson">
         <div class="lesson-detail">
@@ -395,18 +403,39 @@ onUnmounted(() => {
         </div>
       </div>
     </dialog>
-  </div>
+    </div><!-- End flashcard-container-wrapper -->
+  </div><!-- End flashcard -->
 </template>
 
 <style scoped>
 #flashcard {
-  margin: 0 auto;
-  max-width: 1080px;
-  padding-bottom: 140px;
-  height: 100vh;
-  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  width: 100vw;
+  min-height: 100vh;
   position: relative;
   overflow: hidden;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+/* Background full width */
+.flashcard-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  z-index: 0;
+}
+
+/* Main content container */
+.flashcard-container-wrapper {
+  position: relative;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-bottom: 140px;
+  min-height: 100vh;
+  z-index: 1;
   color: #1f2937; /* Màu chữ tối để thấy trên background sáng */
 }
 
@@ -468,6 +497,33 @@ onUnmounted(() => {
 .progress-success {
   border-radius: 12px;
   height: 16px;
+}
+
+/* Header với background full width */
+.lesson-header-wrapper {
+  position: relative;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  z-index: 2;
+}
+
+.lesson-header-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: oklch(76% 0.177 163.223);
+  z-index: 0;
+}
+
+.lesson-header-content {
+  position: relative;
+  max-width: 1080px;
+  margin: 0 auto;
+  z-index: 1;
+  color: white;
 }
 
 .lesson-body {
@@ -756,8 +812,7 @@ kbd {
 
 /* Responsive */
 @media (max-width: 768px) {
-  #flashcard {
-    max-width: 100%;
+  .flashcard-container-wrapper {
     padding-left: 1rem;
     padding-right: 1rem;
   }

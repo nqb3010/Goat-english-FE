@@ -161,9 +161,10 @@ async function sendMessage() {
 
   streamingReply.value = "";
   isStreaming.value = true;
-
+  const user_id = localStorage.getItem("user") ? JSON.parse(localStorage.getItem("user"))._id : null;
   const url = new URL(`${URL_API}/api/chatbot`);
   url.searchParams.append("message", userMessage);
+  url.searchParams.append("user_id", user_id);
 
   eventSource = new EventSource(url.toString());
 

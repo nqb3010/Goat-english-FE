@@ -193,7 +193,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="signup-body page-container">
+  <div class="signup-body">
     <!-- Animated Background -->
     <div class="animated-bg">
       <div class="bg-circle circle-1"></div>
@@ -201,7 +201,7 @@ onMounted(() => {
       <div class="bg-circle circle-3"></div>
     </div>
     
-    <div class="main-signup">
+    <div class="main-signup page-container">
       <ul class="steps-custom mb-10 w-full">
         <li
           v-for="step in stepNumb"
@@ -430,11 +430,15 @@ onMounted(() => {
 
 <style scoped>
 /* Signup page background matching Home.vue */
-.signup-body.page-container {
+.signup-body {
   background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
   position: relative;
   overflow: hidden;
   min-height: 100vh;
+  width: 100vw; /* Full viewport width */
+  margin-left: calc(-50vw + 50%); /* Center trong container */
+  padding-top: 85px;
+  padding-bottom: 110px;
 }
 
 /* Animated Background */
@@ -500,7 +504,7 @@ onMounted(() => {
 .main-signup {
   position: relative;
   z-index: 1;
-  padding: 3rem 0 4rem 0;
+  padding: 3rem 2rem 4rem 2rem; /* Thêm padding ngang */
   min-height: calc(100vh - 2rem);
   display: flex;
   flex-direction: column;

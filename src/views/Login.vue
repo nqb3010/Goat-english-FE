@@ -102,7 +102,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div id="login" class="page-container">
+  <div id="login">
     <!-- Animated Background -->
     <div class="animated-bg">
       <div class="bg-circle circle-1"></div>
@@ -110,7 +110,7 @@ onMounted(() => {
       <div class="bg-circle circle-3"></div>
     </div>
     
-    <div class="login-content">
+    <div class="login-content page-container">
       <h1 class="title-lv1 text-center font-bold mb-10">Đăng nhập</h1>
       <div class="signin-input__with-icon">
         <input
@@ -285,14 +285,20 @@ onMounted(() => {
 /* Optimize login page height */
 .login-content {
   padding-bottom: 1rem !important;
+  position: relative;
+  z-index: 1;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-#login.page-container {
+#login {
   min-height: calc(100vh - 4rem) !important;
   padding-bottom: 1rem !important;
   background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
   position: relative;
   overflow: hidden;
+  width: 100vw; /* Full viewport width */
+  margin-left: calc(-50vw + 50%); /* Center trong container */
 }
 
 /* Animated Background matching Home.vue */

@@ -19,7 +19,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="home-body page-container flex items-center min-h-screen">
+  <div class="home-body flex items-center min-h-screen">
     <!-- Animated Background -->
     <div class="animated-bg">
       <div class="bg-circle circle-1"></div>
@@ -27,7 +27,7 @@ onMounted(() => {
       <div class="bg-circle circle-3"></div>
     </div>
 
-    <div class="main-container">
+    <div class="main-container page-container">
       <!-- Left Side - Image -->
       <div class="image-section">
         <div class="image-wrapper">
@@ -143,8 +143,10 @@ onMounted(() => {
 .home-body {
   background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
   position: relative;
-  padding: 2rem 1rem;
+  padding: 2rem 0; /* Bỏ padding ngang để full width */
   overflow: hidden;
+  width: 100vw; /* Full viewport width */
+  margin-left: calc(-50vw + 50%); /* Center trong container */
 }
 
 /* Animated Background */
@@ -208,6 +210,7 @@ onMounted(() => {
   position: relative;
   z-index: 1;
   align-items: center;
+  padding: 0 2rem; /* Thêm padding ngang cho content */
 }
 
 /* Left Side - Image */
