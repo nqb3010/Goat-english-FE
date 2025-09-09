@@ -23,7 +23,15 @@ onMounted(() => {
     <!-- Animated Background -->
     <div class="animated-bg">
       <div class="bg-circle circle-1"></div>
-      <div class="bg-circle circle-2"></div>
+      <div class="b  .main-title {
+    font-size: 2.25rem;
+  }
+
+  .description {
+    font-size: 1.15rem;
+  }
+
+  .stats-grid {circle-2"></div>
       <div class="bg-circle circle-3"></div>
     </div>
 
@@ -123,9 +131,11 @@ onMounted(() => {
             :item="{ text: 'Bắt đầu Ngay !', href: '/signup' }"
             class="btn-primary-custom uppercase"
           />
-          <div class="login-link">
-            <router-link to="/login" class="link-underline">Đã có tài khoản? Đăng nhập</router-link>
-          </div>
+        </div>
+        
+        <!-- Login Link -->
+        <div class="login-link-wrapper">
+          <router-link to="/login" class="login-link">Đã có tài khoản? Đăng nhập</router-link>
         </div>
 
         <!-- Security Note -->
@@ -440,8 +450,30 @@ onMounted(() => {
 /* Action Buttons */
 .action-buttons {
   display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login Link */
+.login-link-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.login-link {
+  color: #475569;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  transition: all 0.3s ease;
+}
+
+.login-link:hover {
+  color: #1e293b;
+  text-decoration-thickness: 2px;
 }
 
 .btn-primary-custom {
@@ -456,6 +488,10 @@ onMounted(() => {
   position: relative;
   overflow: hidden;
   min-width: 200px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-primary-custom:hover {
@@ -512,23 +548,6 @@ onMounted(() => {
   font-size: 1rem;
 }
 
-/* Login Link */
-.login-link {
-  margin-top: 1rem;
-  text-align: center;
-}
-
-.link-underline {
-  color: #64748b;
-  font-size: 0.9rem;
-  text-decoration: underline;
-  transition: color 0.3s ease;
-}
-
-.link-underline:hover {
-  color: #1e293b;
-}
-
 /* Responsive Design */
 @media (max-width: 1024px) {
   .main-container {
@@ -572,7 +591,7 @@ onMounted(() => {
   }
 
   .description {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .stats-grid {
@@ -593,19 +612,27 @@ onMounted(() => {
   }
 
   .action-buttons {
-    flex-direction: column;
+    justify-content: center;
     width: 100%;
-    gap: 1rem;
-    align-items: center;
   }
 
   .btn-primary-custom {
-    width: auto;
+    width: 100%;
     min-width: 160px;
     max-width: 300px;
-    padding: 0.75rem 1.5rem;
-    font-size: 0.9rem;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    height: 50px;
+    margin: 0 auto;
+  }
+
+  .login-link-wrapper {
     justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .login-link {
+    font-size: 1.05rem;
   }
 
   .content-section {
@@ -627,7 +654,7 @@ onMounted(() => {
   }
 
   .description {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .stats-grid {
