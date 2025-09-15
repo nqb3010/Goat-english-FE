@@ -281,9 +281,9 @@ onUnmounted(() => {
                         :key="index"
                         class="bg-gray-50 rounded-lg p-4 mb-3 last:mb-0"
                       >
-                        <p class="text-gray-700 italic mb-2">{{ example.en }}</p>
-                        <p v-if="example.vi" class="text-gray-600 text-sm">
-                          {{ example.vi }}
+                        <p class="text-gray-700 italic mb-2">{{ example.sentence }}</p>
+                        <p v-if="example.translation" class="text-gray-600 text-sm">
+                          {{ example.translation }}
                         </p>
                       </div>
                     </div>
