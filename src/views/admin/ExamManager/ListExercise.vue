@@ -159,7 +159,7 @@ const handleClickAddExercise = () => {
 }
 
 const handleDeleteExercise = (exercise_id) => {
-  const result = confirm('Xác nhận xóa bài tập')
+  const result = confirm('Xác nhận xóa câu hỏi')
   if (result) {
     emit('deleteExercise', exercise_id)
   }
@@ -175,7 +175,7 @@ onMounted(async () => {
 <template>
   <div class="col-span-12 form-group">
     <label class="form-label flex justify-between items-center">
-      <span>Danh sách bài tập</span>
+      <span>Danh sách câu hỏi thi</span>
       <button
         @click.prevent="handleClickAddExercise"
         type="button"
@@ -197,8 +197,8 @@ onMounted(async () => {
             <th class="text-center">STT</th>
             <th>Câu hỏi</th>
             <th>Đáp án</th>
-            <th>Loại bài tập</th>
-            <th>Cấp độ bài tập</th>
+            <th>Loại câu hỏi</th>
+            <th>Cấp độ câu hỏi</th>
             <th class="text-center">Thao tác</th>
           </tr>
         </thead>
@@ -250,7 +250,7 @@ onMounted(async () => {
   <div v-if="showModelExercise" class="modal-bg">
     <div class="modal-content" style="width: 60%; max-width: 900px; max-height: 80vh;">
       <div class="header">
-        <h5 class="modal-title">Tạo bài tập</h5>
+        <h5 class="modal-title">Tạo câu hỏi thi</h5>
         <div @click.prevent="showModelExercise = false" class="icon-close">
           <i class="bi bi-x"></i>
         </div>
@@ -267,12 +267,12 @@ onMounted(async () => {
             />
           </div>
           <div class="form-group col-span-6">
-            <label class="form-label">Loại bài tập</label>
+            <label class="form-label">Loại câu hỏi</label>
             <select
               v-model="exerciseObj.type"
               class="select select-neutral form-control w-full border-[#dee2e6]"
             >
-              <option disabled selected value="null">Loại bài tập</option>
+              <option disabled selected value="null">Loại câu hỏi</option>
               <option v-for="type in types" :key="type?._id" :value="type?._id">
                 {{ type?.ten_muc }}
               </option>
@@ -485,7 +485,7 @@ onMounted(async () => {
           type="button"
           class="btn btn-outline-primary"
         >
-          Lưu bài tập
+          Lưu câu hỏi
         </button>
       </div>
     </div>

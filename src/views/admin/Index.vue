@@ -158,6 +158,19 @@ onMounted(async () => {
               <span>Quản lý từ vựng</span>
             </router-link>
           </li>
+          <li>
+            <router-link
+              to="/admin/exam"
+              title="Quản lý đề thi"
+              class="sidebar-link"
+              :class="{ active: route.name === 'ExamAdmin' }"
+            >
+              <span>
+                <i class="bi bi-journal-text"></i>
+              </span>
+              <span>Quản lý đề thi</span>
+            </router-link>
+          </li>
           <!-- <li>
             <a page="quan-ly-kho-sach" title="Quản lý kho sách" class="sidebar-link">
               <span>

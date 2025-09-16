@@ -109,6 +109,11 @@ const router = createRouter({
           component: () => import("@/views/admin/VocabularyManager/Index.vue"),
         },
         {
+          path: "exam",
+          name: "ExamAdmin",
+          component: () => import("@/views/admin/ExamManager/Index.vue"),
+        },
+        {
           path: "report",
           name: "ReportAdmin",
           component: () => import("@/views/admin/Report.vue"),
