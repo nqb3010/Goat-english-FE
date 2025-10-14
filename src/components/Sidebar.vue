@@ -1,53 +1,47 @@
 <script setup>
-import { onMounted, ref } from "vue";
-import { RouterLink } from "vue-router";
-import { useRoute } from "vue-router";
-import { useLayoutStore } from "@/stores/layout";
-import Chatbot from "@/views/Chatbot.vue";
-const { className } = defineProps(["className"]);
+import { onMounted, ref } from 'vue'
+import { RouterLink } from 'vue-router'
+import { useRoute } from 'vue-router'
+import { useLayoutStore } from '@/stores/layout'
+import Chatbot from '@/views/Chatbot.vue'
+const { className } = defineProps(['className'])
 
-const route = useRoute();
-const layout = useLayoutStore();
+const route = useRoute()
+const layout = useLayoutStore()
 
-const isSidebarCollapsed = ref(false);
+const isSidebarCollapsed = ref(false)
 
 const toggleSidebar = () => {
-  isSidebarCollapsed.value = !isSidebarCollapsed.value;
+  isSidebarCollapsed.value = !isSidebarCollapsed.value
   // save the sidebar state in local storage
   if (isSidebarCollapsed.value) {
-    localStorage.setItem("sidebarState", "collapsed");
+    localStorage.setItem('sidebarState', 'collapsed')
   } else {
-    localStorage.removeItem("sidebarState");
+    localStorage.removeItem('sidebarState')
   }
-  layout.isCollapsed = isSidebarCollapsed.value;
-};
+  layout.isCollapsed = isSidebarCollapsed.value
+}
 
 onMounted(() => {
   // check the sidebar state in local storage
-  const sidebarState = localStorage.getItem("sidebarState");
-  if (sidebarState === "collapsed") {
-    isSidebarCollapsed.value = true;
+  const sidebarState = localStorage.getItem('sidebarState')
+  if (sidebarState === 'collapsed') {
+    isSidebarCollapsed.value = true
   } else {
-    isSidebarCollapsed.value = false;
+    isSidebarCollapsed.value = false
   }
-  layout.isCollapsed = isSidebarCollapsed.value;
-});
+  layout.isCollapsed = isSidebarCollapsed.value
+})
 </script>
 
 <template>
   <div
     class="sidebar bg-white"
-    :class="[
-      className,
-      isSidebarCollapsed ? 'collapsed' : '',
-      layout.showSidebar ? 'show' : '',
-    ]"
+    :class="[className, isSidebarCollapsed ? 'collapsed' : '', layout.showSidebar ? 'show' : '']"
   >
     <div class="relative h-full">
       <router-link to="/dashboard" class="logo">
-        <p
-          class="font-bold text-logo text-logo__expanded text-[#fff] bg-[#2c3e50] p-5 rounded-3xl"
-        >
+        <p class="font-bold text-logo text-logo__expanded text-[#fff] bg-[#2c3e50] p-5 rounded-3xl">
           ENGLISH
         </p>
         <p
@@ -177,6 +171,31 @@ onMounted(() => {
           <span class="tab-item__link--text">Chatbot</span>
         </router-link>
       </div> -->
+      <div class="tab-item" :class="{ active: route.name === 'Exam' }">
+        <router-link to="/exam" class="tab-item__link">
+          <span class="tab-item__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-journal-text"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"
+              />
+              <path
+                d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"
+              />
+              <path
+                d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"
+              />
+            </svg>
+          </span>
+          <span class="tab-item__link--text">Bài Thi</span>
+        </router-link>
+      </div>
       <button class="sidebar-collapse" title="Thu gọn" @click="toggleSidebar">
         <span class="icon">
           <svg

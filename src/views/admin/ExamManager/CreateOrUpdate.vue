@@ -12,13 +12,14 @@ const route = useRoute();
 const URL_API = inject("URL_API");
 const handleErrorAPI = inject("handleErrorAPI");
 const isCreate = computed(() => (route.query._id != "null" ? false : true));
-
+const { topics } = defineProps(['topics'])
 const examObj = reactive({
   _id: null,
   name: "",
   description: "",
   image: "",
   total_questions: 0,
+  topic_id: null,
   duration: 0,
   exercises: [],
   status: "draft",
@@ -74,6 +75,7 @@ const getExamById = async (exam_id) => {
     examObj.name = data?.name;
     examObj.description = data?.description;
     examObj.image = data?.image || "";
+    examObj.topic_id = data?.topic_id || null;
     examObj.total_questions = data?.total_questions || 0;
     examObj.duration = data?.duration || 0;
     examObj.exercises = data?.exercises;
@@ -212,6 +214,18 @@ onMounted(() => {
           </select>
         </div>
         
+        <div class="col-span-6">
+          <label class="form-label">Chủ đề</label>
+          <select
+            v-model="examObj.topic_id"
+            class="select select-neutral form-control w-full border-[#dee2e6]"
+          >
+            <option disabled selected value="">Chủ đề</option>
+            <option v-for="topic in topics" :key="topic?._id" :value="topic?._id">
+              {{ topic.name }}
+            </option>
+          </select>
+        </div>
         <div class="col-span-12 form-group">
           <label class="form-label">Mô tả bài thi</label>
           <textarea

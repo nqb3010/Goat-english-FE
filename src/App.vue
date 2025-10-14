@@ -244,7 +244,7 @@ provide('sleep', sleep)
           </div>
           <!-- Contact Info -->
           <div class="footer-contact">
-            <h3 class="footer-section-title">Liên hệ</h3>
+            <h3 class="footer-section-title">Thông tin</h3>
             <div class="contact-info">
               <div class="contact-item">
                 <div class="contact-icon">

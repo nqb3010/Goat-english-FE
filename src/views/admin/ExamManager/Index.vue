@@ -84,7 +84,7 @@ const handleFilterByTopic = async () => {
   try {
     updateQueryParams({ topic_id: filter.topic_id })
     if (!filter.topic_id) return
-    const res = await api.get(`${URL_API}/api/progress/topic/${filter.topic_id}`)
+    const res = await api.get(`${URL_API}/api/exam/topic/${filter.topic_id}`)
     // send success
     if (res?.status !== 200) {
       toast.error(res?.data?.message)
@@ -182,6 +182,18 @@ onMounted(() => {
             accept=".xlsx, .xls, .csv"
           />
         </button>
+      </div>
+      <div class="flex justify-end">
+        <select
+          @change="handleFilterByTopic"
+          v-model="filter.topic_id"
+          class="select select-neutral border-[#dee2e6]"
+        >
+          <option selected value="">Chủ đề</option>
+          <option v-for="topic in topics" :key="topic?._id" :value="topic._id">
+            {{ topic.name }}
+          </option>
+        </select>
       </div>
     </div>
     <table class="table table-hover">

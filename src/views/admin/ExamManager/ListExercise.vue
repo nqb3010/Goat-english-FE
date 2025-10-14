@@ -16,10 +16,13 @@ const showModelExercise = ref(false)
 const types = ref([])
 const levels = ref([])
 
+// ID cố định cho type "Chọn đáp án đúng"
+const FIXED_TYPE_ID = '68ba466c3c2600005c005083'
+
 const exerciseObj = reactive({
   _id: '',
   question: '',
-  type: null,
+  type: FIXED_TYPE_ID, // Set mặc định là "Chọn đáp án đúng"
   level: null,
   options: [],
   audio: '',
@@ -149,7 +152,10 @@ const handleClickAddExercise = () => {
   showModelExercise.value = true
   exerciseObj._id = ''
   exerciseObj.question = ''
-  exerciseObj.type = null
+  
+  // Set cứng type là "Chọn đáp án đúng"
+  exerciseObj.type = FIXED_TYPE_ID
+  
   exerciseObj.level = null
   exerciseObj.options = []
   exerciseObj.audio = ''
@@ -168,7 +174,14 @@ const handleDeleteExercise = (exercise_id) => {
 onMounted(async () => {
   types.value = await getTypes()
   levels.value = await getLevels()
+  
+  // Set lại type sau khi load xong data để đảm bảo match
+  exerciseObj.type = FIXED_TYPE_ID
+  
   console.log('exercises', exercises)
+  console.log('Fixed type ID:', FIXED_TYPE_ID)
+  console.log('All types:', types.value)
+  console.log('Current exerciseObj.type:', exerciseObj.type)
 })
 </script>
 
@@ -268,15 +281,23 @@ onMounted(async () => {
           </div>
           <div class="form-group col-span-6">
             <label class="form-label">Loại câu hỏi</label>
-            <select
-              v-model="exerciseObj.type"
-              class="select select-neutral form-control w-full border-[#dee2e6]"
-            >
-              <option disabled selected value="null">Loại câu hỏi</option>
+            <input
+              type="text"
+              class="form-control"
+              value="Chọn đáp án đúng"
+              disabled
+              readonly
+              style="background-color: #f5f5f5; cursor: not-allowed;"
+            />
+            <!-- Hidden select to store the value -->
+            <select v-model="exerciseObj.type" style="display: none;">
               <option v-for="type in types" :key="type?._id" :value="type?._id">
                 {{ type?.ten_muc }}
               </option>
             </select>
+            <small class="text-muted" style="font-size: 12px; color: #6c757d; margin-top: 4px; display: block;">
+              Đề thi chỉ hỗ trợ dạng "Chọn đáp án đúng"
+            </small>
           </div>
           <div class="form-group col-span-6">
             <label class="form-label">Cấp độ</label>
@@ -337,6 +358,7 @@ onMounted(async () => {
             </div>
           </template>
           <template v-else>
+            <!-- Chỉ hiển thị "Danh sách đáp án" khi type là "Chọn đáp án đúng" (ma_muc = '02') -->
             <template v-if="typeActive?.ma_muc === '01' || typeActive?.ma_muc === '08'">
               <div class="form-group col-span-12">
                 <label class="form-label">Đáp án đúng</label>
@@ -348,6 +370,8 @@ onMounted(async () => {
                 />
               </div>
             </template>
+            <!-- Hiển thị danh sách đáp án cho type "Chọn đáp án đúng" (ma_muc = '02' hoặc _id = '68ba466c3c2600005c005083') -->
+            <template v-if="typeActive?.ma_muc === '02' || exerciseObj.type === '68ba466c3c2600005c005083'">
             <div class="col-span-12 form-group">
               <label class="form-label flex justify-between items-center">
                 <span>Danh sách đáp án</span>
@@ -460,6 +484,7 @@ onMounted(async () => {
                 </table>
               </div>
             </div>
+            </template>
           </template>
           <div class="col-span-12 form-group">
             <label class="form-label">Giải thích đáp án</label>

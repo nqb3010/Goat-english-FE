@@ -130,7 +130,7 @@ onMounted(async () => {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    background-color: #e5e7eb;
+                    background-color: #ccc;
                     margin-right: 12px;
                   "
                 >

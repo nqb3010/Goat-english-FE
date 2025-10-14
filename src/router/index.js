@@ -69,6 +69,18 @@ const router = createRouter({
       component: () => import("@/views/FlashCard.vue")
     },
     {
+      path: '/exam',
+      name: 'Exam',
+      props: true,
+      component: () => import("@/views/Exam.vue")
+    },
+    {
+      path: '/exam/:id',
+      name: 'ExamDetail',
+      props: true,
+      component: () => import("@/views/ExamV2.vue")
+    },
+    {
       path: '/admin',
       name: 'Admin',
       component: () => import("@/views/admin/Index.vue"),
