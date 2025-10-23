@@ -141,10 +141,14 @@ const checkAnswer = (question) => {
   if (!showResult.value) return null
   
   const userAnswerId = userAnswers.value[question._id]
-  const correctAnswerId = question.correct_answer // String ID như "0", "1", "2", "3"
-  
   if (!userAnswerId) return 'unanswered'
-  if (userAnswerId === correctAnswerId) return 'correct'
+  
+  // Tìm option mà user đã chọn
+  const selectedOption = question.options?.find(opt => opt._id === userAnswerId)
+  const correctAnswer = question.correct_answer
+  
+  // So sánh noi_dung của option với correct_answer
+  if (selectedOption?.noi_dung === correctAnswer) return 'correct'
   return 'incorrect'
 }
 
@@ -154,9 +158,14 @@ const calculateScore = () => {
   
   questions.value.forEach(question => {
     const userAnswerId = userAnswers.value[question._id]
-    const correctAnswerId = question.correct_answer // String ID
+    if (!userAnswerId) return
     
-    if (userAnswerId === correctAnswerId) {
+    // Tìm option mà user đã chọn
+    const selectedOption = question.options?.find(opt => opt._id === userAnswerId)
+    const correctAnswer = question.correct_answer
+    
+    // So sánh noi_dung với correct_answer
+    if (selectedOption?.noi_dung === correctAnswer) {
       correctCount++
     }
   })
@@ -186,58 +195,102 @@ const submitExam = async () => {
     clearInterval(timerInterval.value)
   }
   
-  const toastId = toast.loading('Đang chấm bài...')
+  const toastId = toast.loading('Đang nộp bài...')
   
   try {
     doneSubmit.value = true
-    showResult.value = true
     
+    // Tính điểm dựa trên đáp án đúng từ API (local)
     const score = calculateScore()
     
+    // Chuẩn bị data để lưu
     const data = {
       user_id: user.value?._id,
       exam_id: exam.value?._id,
-      topic_id: exam.value?.topic,
+      topic_id: exam.value?.topic_id,
       score: score.percentage,
       total_questions: score.total,
       correct_answers: score.correct,
       time_spent: (exam.value?.duration * 60) - timeRemaining.value,
-      detail: questions.value.map(q => ({
-        question_id: q._id,
-        user_answer: userAnswers.value[q._id] || null,
-        is_correct: checkAnswer(q) === 'correct'
-      })),
+      detail: questions.value.map(q => {
+        const userAnswerId = userAnswers.value[q._id]
+        const selectedOption = q.options?.find(opt => opt._id === userAnswerId)
+        
+        return {
+          exercise_id: q._id,
+          question: q.question || q.title || '',
+          correct_answer: q.correct_answer,
+          user_answer: selectedOption?.noi_dung || null,
+          correct: selectedOption?.noi_dung === q.correct_answer
+        }
+      }),
       completed_at: new Date().toISOString()
     }
     
-    const res = await api.post(`${URL_API}/api/exam/submit`, { data })
+    console.log('Submitting exam data:', data)
     
-    if (res?.status !== 200) {
+    // Gọi API lưu kết quả
+    const res = await api.post(`${URL_API}/api/user/submit-exam`, { data })
+    
+    console.log('API Response:', res?.data)
+    console.log('API Status Code:', res?.data?.status)
+    console.log('API Message:', res?.data?.message)
+    
+    const message = res?.data?.message || ''
+    const hasData = res?.data?.data // Nếu có data object thì là thành công
+    const statusCode = res?.data?.status // Nếu có status thì là lỗi
+    
+    // Kiểm tra trạng thái API response
+    if (hasData) {
+      // Lưu thành công - hiển thị kết quả
+      showResult.value = true
+      
       toast.update(toastId, {
-        render: res?.data?.message || 'Có lỗi xảy ra khi nộp bài',
+        render: message || `Hoàn thành! Điểm: ${score.correct}/${score.total} (${score.percentage}%)`,
+        type: 'success',
+        isLoading: false,
+        autoClose: 5000,
+      })
+    } else if (statusCode === 400 && (message.includes('đã làm') || message.includes('already'))) {
+      // Bài thi đã làm rồi - vẫn hiển thị kết quả
+      toast.update(toastId, {
+        render: `${message}. Đang hiển thị kết quả...`,
+        type: 'info',
+        isLoading: false,
+        autoClose: 3000,
+      })
+      showResult.value = true
+    } else {
+      // Lỗi - không hiển thị kết quả
+      toast.update(toastId, {
+        render: message || 'Lưu kết quả thất bại',
         type: 'error',
         isLoading: false,
         autoClose: 3000,
       })
       doneSubmit.value = false
-      showResult.value = false
       return
     }
     
+    // Scroll to top để xem kết quả
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+    
+  } catch (error) {
+    console.error('Error submitting exam:', error)
+    
+    // Vẫn hiển thị kết quả dù lưu thất bại
+    const score = calculateScore()
+    showResult.value = true
+    
     toast.update(toastId, {
-      render: `Chấm bài thành công! Điểm: ${score.correct}/${score.total} (${score.percentage}%)`,
-      type: 'success',
+      render: `Chấm bài thành công! Điểm: ${score.correct}/${score.total} (${score.percentage}%). Lưu kết quả thất bại.`,
+      type: 'warning',
       isLoading: false,
       autoClose: 5000,
     })
     
     // Scroll to top để xem kết quả
     window.scrollTo({ top: 0, behavior: 'smooth' })
-    
-  } catch (error) {
-    handleErrorAPI(error, toastId)
-    doneSubmit.value = false
-    showResult.value = false
   }
 }
 
@@ -391,8 +444,8 @@ onUnmounted(() => {
         <!-- Student Info Section -->
         <div class="student-info">
           <div class="info-row">
-            <span class="info-label">Tài khoản:</span>
-            <span class="info-value">{{ user?.username || '___________________________' }}</span>
+            <span class="info-label">Họ và tên:</span>
+            <span class="info-value">{{ user?.fullname || '___________________________' }}</span>
           </div>
           <div class="info-row">
             <span class="info-label">Đề thi:</span>
@@ -428,8 +481,8 @@ onUnmounted(() => {
                 class="answer-option"
                 :class="{
                   'answer-selected': userAnswers[question._id] === option._id,
-                  'answer-correct': showResult && option._id === question.correct_answer,
-                  'answer-incorrect': showResult && userAnswers[question._id] === option._id && option._id !== question.correct_answer,
+                  'answer-correct': showResult && option.noi_dung === question.correct_answer,
+                  'answer-incorrect': showResult && userAnswers[question._id] === option._id && option.noi_dung !== question.correct_answer,
                   'answer-disabled': showResult
                 }"
               >
@@ -446,12 +499,12 @@ onUnmounted(() => {
                 <span class="answer-text">{{ option.noi_dung }}</span>
                 
                 <!-- Result Icons -->
-                <span v-if="showResult && option._id === question.correct_answer" class="answer-icon answer-icon-correct">
+                <span v-if="showResult && option.noi_dung === question.correct_answer" class="answer-icon answer-icon-correct">
                   <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                   </svg>
                 </span>
-                <span v-else-if="showResult && userAnswers[question._id] === option._id && option._id !== question.correct_answer" class="answer-icon answer-icon-incorrect">
+                <span v-else-if="showResult && userAnswers[question._id] === option._id && option.noi_dung !== question.correct_answer" class="answer-icon answer-icon-incorrect">
                   <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
                   </svg>

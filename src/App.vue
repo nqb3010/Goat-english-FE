@@ -6,7 +6,7 @@ import { toast } from 'vue3-toastify'
 import api from '@/utils'
 
 const URL_API = 'http://localhost:3000'
-//  const URL_API = 'https://api.shopdemo.live'
+  // const URL_API = 'https://api.enlishforbeginer.xyz'
 // const URL_API = 'http://10.3.17.202:3000'
 
 const route = useRoute()
@@ -97,6 +97,10 @@ const getInfoUser = async () => {
       score: res?.data?.data?.score,
     }
     localStorage.setItem('user', JSON.stringify(user))
+    
+    // Trigger event để các component khác biết localStorage đã thay đổi
+    window.dispatchEvent(new Event('localStorageUpdate'))
+    
     // nếu chưa học chủ đề nào
     if (!user?.topic) {
       toast.info('Vui lòng chọn một chủ đề để bắt đầu học')

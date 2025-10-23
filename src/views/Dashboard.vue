@@ -30,6 +30,13 @@ const loadingGetOldMistake = ref(true);
 
 const loadingUI = ref(false);
 
+// Popup update info
+const showUpdateInfoModal = ref(false);
+const updateInfo = ref({
+  fullname: '',
+  age: ''
+});
+
 watch(pickSelectAll, (value) => {
   if (value) {
     pickSelect.value = dataOldMistake.value;
@@ -82,6 +89,10 @@ const init = async () => {
   loadingUI.value = true;
   try {
     user.value = await getInfoUser();
+    
+    // Kiểm tra fullName và age trong localStorage
+    checkUserInfo();
+    
     // Lấy dữ liệu bài học hiện tại
     await getLessonCurrent();
     if (user.value) {
@@ -92,6 +103,62 @@ const init = async () => {
           await checkStreak();
         }
       }
+    }
+  } catch (error) {
+    handleErrorAPI(error);
+  } finally {
+    loadingUI.value = false;
+  }
+};
+
+const checkUserInfo = () => {
+  const userLocal = localStorage.getItem('user');
+  if (userLocal) {
+    const userData = JSON.parse(userLocal);
+    const hasFullname = userData.fullname && String(userData.fullname).trim() !== '';
+    const hasAge = userData.age && String(userData.age).trim() !== '';
+    
+    if (!hasFullname || !hasAge) {
+      showUpdateInfoModal.value = true;
+      updateInfo.value.fullname = userData.fullname || '';
+      updateInfo.value.age = userData.age ? String(userData.age) : '';
+    }
+  }
+};
+
+const handleUpdateInfo = async () => {
+  try {
+    if (!updateInfo.value.fullname || !updateInfo.value.age) {
+      toast.error('Vui lòng điền đầy đủ thông tin');
+      return;
+    }
+    
+    loadingUI.value = true;
+    
+    // Cập nhật thông tin user qua API
+    const res = await api.put(`${URL_API}/api/user/update-infor`, {
+      user_id: user.value._id,
+      fullname: updateInfo.value.fullname,
+      age: updateInfo.value.age
+    });
+    
+    if (res?.status === 200) {
+      // Cập nhật localStorage
+      const userLocal = JSON.parse(localStorage.getItem('user'));
+      userLocal.fullname = updateInfo.value.fullname;
+      userLocal.age = updateInfo.value.age;
+      localStorage.setItem('user', JSON.stringify(userLocal));
+      
+      // Trigger event để các component khác biết localStorage đã thay đổi
+      window.dispatchEvent(new Event('localStorageUpdate'));
+      
+      // Cập nhật user ref
+      user.value = userLocal;
+      
+      toast.success('Cập nhật thông tin thành công');
+      showUpdateInfoModal.value = false;
+    } else {
+      toast.error(res?.data?.message || 'Cập nhật thất bại');
     }
   } catch (error) {
     handleErrorAPI(error);
@@ -174,6 +241,47 @@ onMounted(() => {
 });
 </script>
 <template>
+  <!-- Update Info Modal -->
+  <div v-if="showUpdateInfoModal" class="modal-overlay">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h2 class="modal-title">Cập nhật thông tin cá nhân</h2>
+        <p class="modal-subtitle">Vui lòng hoàn thiện thông tin để tiếp tục</p>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="fullname" class="form-label">Họ và tên *</label>
+          <input
+            id="fullname"
+            v-model="updateInfo.fullname"
+            type="text"
+            class="form-input"
+            placeholder="Nhập họ và tên"
+          />
+        </div>
+        <div class="form-group">
+          <label for="age" class="form-label">Tuổi *</label>
+          <input
+            id="age"
+            v-model="updateInfo.age"
+            type="text"
+            class="form-input"
+            placeholder="Nhập tuổi"
+          />
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button
+          @click="handleUpdateInfo"
+          class="btn-update"
+          :disabled="loadingUI"
+        >
+          {{ loadingUI ? 'Đang cập nhật...' : 'Cập nhật' }}
+        </button>
+      </div>
+    </div>
+  </div>
+
   <LessonOldMistake
     v-if="isShowComponentMistake"
     :exercises="pickSelect"
@@ -598,3 +706,122 @@ onMounted(() => {
     </div>
   </div>
 </template>
+
+<style scoped>
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal-container {
+  background: white;
+  border-radius: 16px;
+  max-width: 500px;
+  width: 90%;
+  padding: 32px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: modalFadeIn 0.3s ease-out;
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modal-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.modal-subtitle {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.form-input {
+  padding: 12px 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s;
+  outline: none;
+}
+
+.form-input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.form-input::placeholder {
+  color: #9ca3af;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-update {
+  padding: 12px 32px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  min-width: 150px;
+}
+
+.btn-update:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+}
+
+.btn-update:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+</style>

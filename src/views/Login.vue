@@ -68,9 +68,9 @@ const handleLogin = async () => {
       // luu token
       localStorage.setItem("token", dataRes?.data?.token);
       let urlTarget = "/dashboard";
-      if (dataRes?.data?.role === "admin") {
-        urlTarget = "/admin/dashboard";
-      }
+      // if (dataRes?.data?.role === "admin") {
+      //   urlTarget = "/admin/dashboard";
+      // }
       // redirect
       setTimeout(() => {
         location.href = urlTarget;

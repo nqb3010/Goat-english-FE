@@ -104,10 +104,29 @@ onMounted(() => {
         <template v-else>
           <!-- Header Section -->
           <div class="exam-row">
-            <p class="title">Danh sách đề thi</p>
-            <p v-if="topicInfo" class="subtitle">
-              <!-- Chủ đề: <span class="font-semibold">{{ topicInfo.name }}</span> -->
-            </p>
+            <div class="flex justify-between items-start">
+              <div>
+                <p class="title">Danh sách đề thi</p>
+                <p v-if="topicInfo" class="subtitle">
+                  <!-- Chủ đề: <span class="font-semibold">{{ topicInfo.name }}</span> -->
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Actions Section -->
+          <div class="exam-row" style="margin-top: -20px; margin-bottom: 20px;">
+            <div class="flex justify-end">
+              <button 
+                @click="router.push('/exam-history')"
+                class="btn-history"
+              >
+                <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+                Lịch sử thi
+              </button>
+            </div>
           </div>
 
           <!-- Empty State -->
@@ -217,6 +236,7 @@ onMounted(() => {
 
 .exam-content {
   padding: 40px 80px;
+  padding-top: 100px; /* Space for fixed header */
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -339,6 +359,31 @@ onMounted(() => {
 .btn-exam--disabled:hover {
   transform: none;
   box-shadow: none;
+}
+
+.btn-history {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-history:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+.btn-icon {
+  width: 18px;
+  height: 18px;
 }
 
 .empty-state {

@@ -209,6 +209,20 @@ onMounted(async () => {
               <span>Báo cáo thống kê</span>
             </router-link>
           </li>
+          
+          <li>
+            <a 
+              href="/dashboard"
+              title="Về trang người dùng"
+              class="sidebar-link"
+            >
+              <span>
+                <i class="bi bi-arrow-left-circle"></i>
+              </span>
+              <span>Về trang người dùng</span>
+            </a>
+          </li>
+          
           <li>
             <a href="/admin/logout" title="Thoát" @click.prevent="handleLogout">
               <span>
